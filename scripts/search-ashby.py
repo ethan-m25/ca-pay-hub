@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """
 ca-pay-hub/scripts/search-ashby.py
-Ashby job board scraper — CA edition.
+Ashby job board scraper — California edition.
 
-CA Labor Code §432.3, effective January 1, 2023.
+CA Labor Code §432.3: employers with 15+ employees must post salary range.
+Effective January 1, 2023.
 
 Strategy:
-  1. Fetch https://jobs.ashbyhq.com/{slug} — boards with embedded JSON (server-rendered)
-  2. Parse jobPostings array; filter CA locations
-  3. Salary from compensationTierSummary or individual job page fallback
+  1. POST to Ashby's public GraphQL API — works for all Ashby customers
+  2. Filter CA locations; extract salary from compensationTierSummary or fallback
+  3. Auto-inject high-yield discovered slugs into SEED_SLUGS
 
 Run: python3 ~/ca-pay-hub/scripts/search-ashby.py
 """
@@ -24,7 +25,7 @@ import urllib.error
 
 sys.path.insert(0, os.path.dirname(__file__))
 from _common import (
-    make_logger, acquire_lock, load_existing_keys,
+    make_logger, acquire_lock, exa_search, load_existing_keys,
     write_job, TODAY, OUTPUT_FILE,
 )
 
@@ -35,30 +36,60 @@ log = make_logger(LOG_FILE)
 
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/122.0.0.0 Safari/537.36"
 
+# Verified Ashby customers with CA presence (GQL-confirmed, returning > 0 postings)
 SEED_SLUGS = [
     ("notion", "Notion"),
-    ("loom", "Loom"),
-    ("retool", "Retool"),
-    ("airtable", "Airtable"),
-    ("mercury", "Mercury"),
     ("vanta", "Vanta"),
-    ("descript", "Descript"),
     ("replit", "Replit"),
-    ("sourcegraph", "Sourcegraph"),
-    ("vercel", "Vercel"),
     ("posthog", "PostHog"),
-    ("superhuman", "Superhuman"),
-    ("scale", "Scale AI"),
-    ("navan", "Navan"),
-    ("ironclad", "Ironclad"),
-    ("pilot", "Pilot"),
-    ("gusto", "Gusto"),
-    ("chime", "Chime"),
-    ("checkr", "Checkr"),
-    ("modern-health", "Modern Health"),
+    ("persona", "Persona"),
+    ("benchling", "Benchling"),
+    ("deel", "Deel"),
+    ("ramp", "Ramp"),
+    ("moderntreasury", "Modern Treasury"),
+    ("folio", "Folio"),
+    ("headway", "Headway"),
 ]
 
-STATE_TERMS = ["california", "san francisco", "los angeles", "san jose", "palo alto", "mountain view", "bay area", "silicon valley", ", ca", "remote"]
+DISCOVERY_QUERIES = [
+    'site:jobs.ashbyhq.com "San Francisco" OR "California" salary 2026',
+    'site:jobs.ashbyhq.com "Los Angeles" OR "San Jose" salary range 2026',
+    'site:jobs.ashbyhq.com "Bay Area" OR "Silicon Valley" engineer salary 2026',
+    'site:jobs.ashbyhq.com California fintech OR healthtech salary 2026',
+]
+
+CA_TERMS = [
+    "california", "san francisco", "los angeles", "san jose", "san diego",
+    "oakland", "berkeley", "palo alto", "mountain view", "menlo park",
+    "redwood city", "santa clara", "sunnyvale", "cupertino", "sacramento",
+    "fresno", "long beach", "anaheim", ", ca", "ca,", "bay area",
+    "silicon valley", "remote",
+]
+
+_NON_CA_TERMS = [
+    "new york", "nyc", ", ny,", "seattle", ", wa,", "washington, dc",
+    "chicago", "boston", "austin", "texas", ", tx,",
+    "florida", ", fl,", "toronto", "london",
+]
+
+ASHBY_GQL_URL = "https://jobs.ashbyhq.com/api/non-user-graphql"
+ASHBY_SLUG_RE = re.compile(r'https?://jobs\.ashbyhq\.com/([a-zA-Z0-9._-]+)', re.IGNORECASE)
+_SKIP_SLUGS = {'api', 'search', 'home'}
+
+GQL_QUERY = """
+query ApiJobBoardWithTeams($organizationHostedJobsPageName: String!) {
+  jobBoard: jobBoardWithTeams(
+    organizationHostedJobsPageName: $organizationHostedJobsPageName
+  ) {
+    jobPostings {
+      id
+      title
+      locationName
+      compensationTierSummary
+    }
+  }
+}
+"""
 
 SALARY_RE = [
     re.compile(r'\$\s*([\d,]+(?:\.\d+)?)\s*[kK]?\s*[-–—]\s*\$\s*([\d,]+(?:\.\d+)?)\s*[kK]?', re.IGNORECASE),
@@ -66,13 +97,38 @@ SALARY_RE = [
 ]
 
 
-def _fetch(url):
+def _gql_fetch(slug):
+    payload = json.dumps({
+        "operationName": "ApiJobBoardWithTeams",
+        "query": GQL_QUERY,
+        "variables": {"organizationHostedJobsPageName": slug},
+    }).encode()
+    req = urllib.request.Request(
+        ASHBY_GQL_URL,
+        data=payload,
+        headers={
+            "User-Agent": UA,
+            "Content-Type": "application/json",
+            "x-requested-with": "XMLHttpRequest",
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            data = json.loads(r.read().decode())
+            board = (data.get("data") or {}).get("jobBoard") or {}
+            return board.get("jobPostings") or []
+    except Exception as e:
+        log(f"  GQL error ({slug}): {e}")
+        return None
+
+
+def _fetch_html(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     try:
         with urllib.request.urlopen(req, timeout=15) as r:
             return r.read().decode("utf-8", errors="ignore")
-    except Exception as e:
-        log(f"  fetch error ({url}): {e}")
+    except Exception:
         return None
 
 
@@ -84,16 +140,12 @@ def _parse_salary(summary):
     m = re.search(r'\$([\d,.]+)\s*[kK]?\s*[-–—]\s*\$([\d,.]+)\s*[kK]?', summary)
     if m:
         try:
-            def parse_num(s, ctx):
-                s = s.replace(",", "")
-                v = float(s)
-                if "k" in ctx.lower() and v < 1000:
-                    v *= 1000
-                return int(v)
+            def _pn(s, is_k):
+                v = float(s.replace(",", ""))
+                return int(v * 1000) if is_k and v < 1000 else int(v)
             k = "k" in summary[m.start():m.end()].lower()
-            vmin = parse_num(m.group(1), "k" if k else "")
-            vmax = parse_num(m.group(2), "k" if k else "")
-            if 30000 <= vmin <= 2000000 and vmin < vmax:
+            vmin, vmax = _pn(m.group(1), k), _pn(m.group(2), k)
+            if 30_000 <= vmin <= 2_000_000 and vmin < vmax:
                 return vmin, vmax
         except Exception:
             pass
@@ -108,73 +160,76 @@ def _parse_salary_text(text):
         if not m:
             continue
         try:
-            raw_min = m.group(1).replace(",", "")
-            raw_max = m.group(2).replace(",", "")
             k = "k" in m.group(0).lower()
-            vmin = int(float(raw_min) * (1000 if k and float(raw_min) < 1000 else 1))
-            vmax = int(float(raw_max) * (1000 if k and float(raw_max) < 1000 else 1))
-            if 30000 <= vmin <= 2000000 and vmin < vmax:
+            def _pn(s):
+                v = float(s.replace(",", ""))
+                return int(v * 1000) if k and v < 1000 else int(v)
+            vmin, vmax = _pn(m.group(1)), _pn(m.group(2))
+            if 30_000 <= vmin <= 2_000_000 and vmin < vmax:
                 return vmin, vmax
         except Exception:
             continue
     return None
 
 
-def _is_state(location_str):
+def _fetch_job_salary(slug, job_id):
+    html = _fetch_html(f"https://jobs.ashbyhq.com/{slug}/{job_id}")
+    if not html:
+        return None
+    plain = html_mod.unescape(re.sub(r'<[^>]+>', ' ', html))
+    return _parse_salary_text(re.sub(r'\s+', ' ', plain))
+
+
+def _is_ca(location_str, is_remote=False):
     loc = (location_str or "").lower()
-    return any(t in loc for t in STATE_TERMS)
+    if any(t in loc for t in _NON_CA_TERMS):
+        return False
+    if any(t in loc for t in CA_TERMS):
+        return True
+    if is_remote:
+        return True
+    return False
 
 
-def _parse_location(location_str):
+def _parse_location(location_str, is_remote=False):
     loc = (location_str or "").lower()
     city_map = {
         "san francisco": "San Francisco, CA", "los angeles": "Los Angeles, CA",
+        "san jose": "San Jose, CA", "san diego": "San Diego, CA",
+        "oakland": "Oakland, CA", "berkeley": "Berkeley, CA",
         "palo alto": "Palo Alto, CA", "mountain view": "Mountain View, CA",
-        "san jose": "San Jose, CA", "santa clara": "Santa Clara, CA",
-        "sunnyvale": "Sunnyvale, CA", "oakland": "Oakland, CA",
-        "san diego": "San Diego, CA", "irvine": "Irvine, CA",
-        "santa monica": "Santa Monica, CA",
+        "menlo park": "Menlo Park, CA", "redwood city": "Redwood City, CA",
+        "santa clara": "Santa Clara, CA", "sunnyvale": "Sunnyvale, CA",
+        "cupertino": "Cupertino, CA", "sacramento": "Sacramento, CA",
     }
     for k, v in city_map.items():
         if k in loc:
             return v
-    if "remote" in loc:
+    if "remote" in loc or is_remote:
         return "Remote (CA)"
     return "California, CA"
 
 
-def _parse_jobs_from_html(html):
-    idx = html.find('jobPostings":[')
-    if idx == -1:
-        return None
-    chunk = html[idx + len('jobPostings":['):]
-    depth, i = 1, 0
-    while i < len(chunk) and depth > 0:
-        if chunk[i] == '[': depth += 1
-        elif chunk[i] == ']': depth -= 1
-        i += 1
-    try:
-        return json.loads('[' + chunk[:i])
-    except json.JSONDecodeError:
-        return None
-
-
-def _fetch_job_salary(slug, job_id):
-    url = f"https://jobs.ashbyhq.com/{slug}/{job_id}"
-    html = _fetch(url)
-    if not html:
-        return None
-    idx = html.find('"descriptionHtml"')
-    if idx != -1:
-        chunk = html[idx + len('"descriptionHtml"') + 1:]
-        if chunk.startswith('"'):
-            end = chunk.find('",\n') if '",\n' in chunk[:5000] else chunk.find('"', 1)
-            desc_raw = chunk[1:end]
-            desc_text = re.sub(r'<[^>]+>', ' ', html_mod.unescape(
-                desc_raw.replace('\\n', '\n').replace('\\"', '"')))
-            return _parse_salary_text(html_mod.unescape(re.sub(r'\s+', ' ', desc_text)))
-    plain = html_mod.unescape(re.sub(r'<[^>]+>', ' ', html))
-    return _parse_salary_text(re.sub(r'\s+', ' ', plain))
+def discover_slugs(seed_set):
+    discovered = set()
+    for i, query in enumerate(DISCOVERY_QUERIES, 1):
+        log(f"  Discovery Exa [{i}/{len(DISCOVERY_QUERIES)}]: {query[:60]}...")
+        resp = exa_search(query, num_results=10, log=log)
+        if not resp:
+            continue
+        new = 0
+        for r in resp.get("results", []):
+            m = ASHBY_SLUG_RE.search(r.get("url", ""))
+            if not m:
+                continue
+            slug = m.group(1).lower().split("/")[0]
+            if slug in _SKIP_SLUGS or slug in seed_set or len(slug) < 2:
+                continue
+            discovered.add(slug)
+            new += 1
+        log(f"    → {new} new slugs")
+        time.sleep(1.5)
+    return discovered
 
 
 def main():
@@ -184,36 +239,43 @@ def main():
     log("=== CA Ashby scraper started ===")
     log(f"Output: {OUTPUT_FILE}")
 
+    seed_set = {s for s, _ in SEED_SLUGS}
+    log(f"Running Exa discovery ({len(DISCOVERY_QUERIES)} queries)...")
+    extra_slugs = discover_slugs(seed_set)
+    log(f"  {len(SEED_SLUGS)} seed + {len(extra_slugs)} discovered = "
+        f"{len(SEED_SLUGS) + len(extra_slugs)} total slugs")
+
     existing_keys = load_existing_keys()
     seen_keys = set(existing_keys)
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
+    all_slugs = list(SEED_SLUGS) + [(s, s.replace("-", " ").title()) for s in sorted(extra_slugs)]
+
     total_found = 0
-    skipped_spa = 0
+    api_failures = 0
+    discovered_slug_yield = {}
 
-    for slug, company_display in SEED_SLUGS:
-        url = f"https://jobs.ashbyhq.com/{slug}"
-        html = _fetch(url)
-        if not html:
-            log(f"── {slug}: fetch failed")
-            continue
-
-        jobs = _parse_jobs_from_html(html)
+    for slug, company_display in all_slugs:
+        jobs = _gql_fetch(slug)
         if jobs is None:
-            log(f"── {slug}: JS-rendered SPA — skipping")
-            skipped_spa += 1
+            api_failures += 1
+            time.sleep(2)
+            continue
+        if not jobs:
+            log(f"── {company_display} ({slug}): no postings")
             time.sleep(1)
             continue
 
-        log(f"\n── {company_display} ({slug}): {len(jobs)} jobs ──")
-        state_count = 0
+        log(f"\n── {company_display} ({slug}): {len(jobs)} postings ──")
+        ca_count = 0
         found_this = 0
 
         for job in jobs:
             loc_name = job.get("locationName", "") or ""
-            if not _is_state(loc_name):
+            is_remote = bool(job.get("isRemote"))
+            if not _is_ca(loc_name, is_remote):
                 continue
-            state_count += 1
+            ca_count += 1
 
             title = (job.get("title") or "").strip()
             if not title:
@@ -245,7 +307,7 @@ def main():
                 "company":         company_display,
                 "min":             vmin,
                 "max":             vmax,
-                "location":        _parse_location(loc_name),
+                "location":        _parse_location(loc_name, is_remote),
                 "source_url":      f"https://jobs.ashbyhq.com/{slug}/{job.get('id', '')}",
                 "posted":          posted,
                 "source_platform": "ashby",
@@ -257,10 +319,37 @@ def main():
             found_this += 1
             log(f"  FOUND: {title[:50]} | ${vmin:,}–${vmax:,} [{loc_name}]")
 
-        log(f"  CA: {state_count} | New w/ salary: {found_this}")
+        log(f"  CA: {ca_count} | New w/ salary: {found_this}")
+        if slug in extra_slugs:
+            discovered_slug_yield[slug] = found_this
         time.sleep(2)
 
-    log(f"\n=== CA Ashby scraper complete: {total_found} new jobs (skipped_spa={skipped_spa}) ===")
+    log(f"\n=== CA Ashby scraper complete: {total_found} new jobs (api_failures={api_failures}) ===")
+
+    newly_qualified = {
+        s: c for s, c in discovered_slug_yield.items()
+        if s not in seed_set and c >= 1
+    }
+    if newly_qualified:
+        log(f"\nAuto-injecting {len(newly_qualified)} high-yield slug(s) into SEED_SLUGS:")
+        script_path = os.path.abspath(__file__)
+        try:
+            source = open(script_path).read()
+            new_lines = []
+            for slug, count in sorted(newly_qualified.items(), key=lambda x: -x[1]):
+                display = slug.replace("-", " ").title()
+                entry = f'    ("{slug}", "{display}"),'
+                if entry[:20] in source:
+                    continue
+                log(f"  + {slug} ({count} CA+salary jobs)")
+                new_lines.append(f'{entry}  # auto-discovered {TODAY}')
+            if new_lines:
+                marker = ']\n\nDISCOVERY_QUERIES'
+                source = source.replace(marker, "\n" + "\n".join(new_lines) + "\n" + marker)
+                open(script_path, "w").write(source)
+        except Exception as e:
+            log(f"  Auto-inject error: {e}")
+
     return 0
 
 

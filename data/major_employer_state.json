@@ -1,0 +1,75 @@
+{
+  "last_checked": "2026-05-20",
+  "employers": {
+    "Apple": {
+      "count": 0,
+      "first_seen": null,
+      "checked": "2026-05-20"
+    },
+    "Google": {
+      "count": 1452,
+      "first_seen": "2026-05-20",
+      "checked": "2026-05-20"
+    },
+    "Meta": {
+      "count": 0,
+      "first_seen": null,
+      "checked": "2026-05-20"
+    },
+    "Netflix": {
+      "count": 0,
+      "first_seen": null,
+      "checked": "2026-05-20"
+    },
+    "Salesforce": {
+      "count": 38,
+      "first_seen": "2026-05-20",
+      "checked": "2026-05-20"
+    },
+    "Wells Fargo": {
+      "count": 0,
+      "first_seen": null,
+      "checked": "2026-05-20"
+    },
+    "Chevron": {
+      "count": 0,
+      "first_seen": null,
+      "checked": "2026-05-20"
+    },
+    "Disney": {
+      "count": 38,
+      "first_seen": "2026-05-20",
+      "checked": "2026-05-20"
+    },
+    "HPE": {
+      "count": 0,
+      "first_seen": null,
+      "checked": "2026-05-20"
+    },
+    "Intuit": {
+      "count": 0,
+      "first_seen": null,
+      "checked": "2026-05-20"
+    },
+    "Lyft": {
+      "count": 47,
+      "first_seen": "2026-05-20",
+      "checked": "2026-05-20"
+    },
+    "Airbnb": {
+      "count": 0,
+      "first_seen": null,
+      "checked": "2026-05-20"
+    },
+    "Stripe": {
+      "count": 3,
+      "first_seen": "2026-05-20",
+      "checked": "2026-05-20"
+    },
+    "Intel": {
+      "count": 0,
+      "first_seen": null,
+      "checked": "2026-05-20"
+    }
+  }
+}

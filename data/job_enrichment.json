@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-05-21T00:45:55.138871+00:00",
-    "total_jobs": 2203,
-    "enriched": 81
+    "built_at": "2026-05-21T09:03:11.810327+00:00",
+    "total_jobs": 2255,
+    "enriched": 95
   },
   "jobs": {
     "applied-scientist--p-lyft-65682582": {
@@ -824,6 +824,29 @@
       "red_flags": [],
       "work_mode_derived": "onsite"
     },
+    "media-engineer--soci-vercel-65682584": {
+      "summary": "Owns and grows Vercel's presence across social platforms like X, TikTok, Instagram, and LinkedIn by creating high-quality content at a high cadence and testing trends to improve developer engagement.",
+      "key_skills": [
+        "media",
+        "social",
+        "content",
+        "engagement",
+        "ai",
+        "automation",
+        "scripting",
+        "workflow"
+      ],
+      "core_skills": [
+        "social_media_strategy",
+        "content_creation",
+        "data_driven_decision_making",
+        "ai_tool_integration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
     "senior-software-engi-vercel-65682584": {
       "summary": "Builds and operates systems to protect developers and projects from abuse at internet scale by analyzing threat actor behavior, detecting abuse patterns, and implementing LLM-driven mitigations.",
       "key_skills": [
@@ -1015,6 +1038,29 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
+    "senior-implementatio-mercury-65682584": {
+      "summary": "Implementation Manager leads high-value customer implementations and training sessions to accelerate time-to-value and build operational confidence for founders using Mercury's financial stack.",
+      "key_skills": [
+        "implementation",
+        "customer",
+        "onboarding",
+        "fintech",
+        "saaS",
+        "financial",
+        "workflow",
+        "process"
+      ],
+      "core_skills": [
+        "prioritization",
+        "decision-making",
+        "customer-education",
+        "data-analysis"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
     "senior-it-analyst-mercury-65682584": {
       "summary": "Provides day-to-day IT support to employees and contractors via a support queue, serving as a primary point of contact for IT operations while ensuring secure system maintenance and compliance.",
       "key_skills": [
@@ -1152,6 +1198,29 @@
       "role_type": "manager",
       "red_flags": [],
       "work_mode_derived": "onsite"
+    },
+    "gtm-recruiter--amer-notion-07841682": {
+      "summary": "The GTM Recruiter partners with leaders across GTM teams to own end-to-end recruiting from sourcing to close, while designing scalable hiring processes and driving diversity initiatives.",
+      "key_skills": [
+        "recruiting",
+        "sales",
+        "sourcing",
+        "closing",
+        "talent_mapping",
+        "market_research",
+        "diversity",
+        "inclusive_hiring"
+      ],
+      "core_skills": [
+        "full_cycle_recruiting",
+        "data_driven_decisions",
+        "operational_rigor",
+        "inclusive_talent_strategy"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
     },
     "head-of-commercial-l-notion-07841682": {
       "summary": "Head of Commercial Legal leads and scales Notion's global commercial legal function, managing cross-regional teams to handle complex enterprise deals, AI regulations, and privacy compliance while partnering with sales and product teams.",
@@ -1764,6 +1833,29 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "principal--prescribe-headway-07841684": {
+      "summary": "Spearheads clinical quality monitoring initiatives and leads ongoing professional practice evaluation programs for mental health providers to ensure safety, efficiency, and effectiveness of care delivery.",
+      "key_skills": [
+        "clinical quality",
+        "chart review",
+        "quality monitoring",
+        "clinical documentation",
+        "professional practice evaluation",
+        "healthcare compliance",
+        "behavioral health",
+        "mental health"
+      ],
+      "core_skills": [
+        "clinical oversight",
+        "quality frameworks",
+        "chart review workflows",
+        "strategic thinking"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
     "senior-revenue-accou-headway-07841685": {
       "summary": "Senior Revenue Accountant ensures accurate and compliant revenue accounting for a fast-growing company by managing ASC 606 revenue recognition, month-end close activities, and building scalable revenue processes while collaborating with cross-functional teams.",
       "key_skills": [
@@ -1807,6 +1899,209 @@
       ],
       "seniority_signal": "mid",
       "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "partner-sales-manage-amplitude-93986462": {
+      "summary": "Partner Sales Manager builds partner-sourced revenue pipelines in North America by aligning with sales leadership, co-creating partner strategies, and ensuring partner success through cross-functional collaboration.",
+      "key_skills": [
+        "partner sales",
+        "channel management",
+        "partner development",
+        "revenue pipeline",
+        "data-driven decision making",
+        "problem solving",
+        "process design",
+        "entrepreneurial mindset"
+      ],
+      "core_skills": [
+        "partner sales",
+        "channel management",
+        "revenue pipeline",
+        "data-driven decision making"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-manager--smal-brex-93986462": {
+      "summary": "Senior Manager builds channel partnerships with law firms, banks, lenders, and credit marketplaces to drive small business growth and client referrals for Brex.",
+      "key_skills": [
+        "partnerships",
+        "sales",
+        "channel",
+        "small_business",
+        "finance",
+        "marketplace",
+        "credit",
+        "lenders"
+      ],
+      "core_skills": [
+        "sales",
+        "channel",
+        "small_business",
+        "finance"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "solutions-engineer---vanta-80384831": {
+      "summary": "Solutions Engineer leads technical discussions with customers to ensure seamless adoption of Vanta's security solutions, develops deep product understanding, and drives technical evaluations for pre-sales engagements.",
+      "key_skills": [
+        "solutions engineering",
+        "cloud platforms",
+        "scripting languages",
+        "project management",
+        "cybersecurity"
+      ],
+      "core_skills": [
+        "technical discussion",
+        "customer relationship",
+        "product capabilities"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "marketing-operations-asana-66802259": {
+      "summary": "Owns regional inbound pipeline performance, provides data-driven insights to US Marketing and Sales leadership, and acts as the connective tissue between global initiatives and the US field.",
+      "key_skills": [
+        "marketing operations",
+        "strategy",
+        "data analysis",
+        "sales funnel",
+        "conversion optimization",
+        "gtm strategy",
+        "sfdc",
+        "tableau"
+      ],
+      "core_skills": [
+        "data analysis",
+        "cross-functional leadership",
+        "sales funnel optimization",
+        "gtm strategy"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-marketing-ope-asana-66802259": {
+      "summary": "Owns systems, data flows, and operational foundations connecting product engagement to audience activation, lifecycle enablement, lead management, and business insight for Asana's growth engine.",
+      "key_skills": [
+        "marketing operations",
+        "growth ops",
+        "product-led growth",
+        "cdp",
+        "crm",
+        "lifecycle marketing",
+        "pql workflows",
+        "segmentation"
+      ],
+      "core_skills": [
+        "systems thinking",
+        "cross-functional collaboration",
+        "data-driven decision making",
+        "process optimization"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "customer-account-man-lattice-66802259": {
+      "summary": "Works with AI to create new ways to work",
+      "key_skills": [
+        "ai",
+        "people"
+      ],
+      "core_skills": [
+        "ai"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-customer-supp-lattice-66802259": {
+      "summary": "Works with AI to create new ways to work",
+      "key_skills": [
+        "ai",
+        "people"
+      ],
+      "core_skills": [
+        "ai"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-relationship--mercury-66802259": {
+      "summary": "Steward a portfolio of accounting firms and deepen how they use Mercury by building trust with firm principals, mapping client networks, and executing structured success calls to drive product adoption and identify friction points.",
+      "key_skills": [
+        "customer success",
+        "accounting",
+        "fintech",
+        "product adoption",
+        "relationship management",
+        "client portfolio",
+        "bookkeeping",
+        "accounting partner"
+      ],
+      "core_skills": [
+        "accounting",
+        "fintech",
+        "customer success",
+        "relationship management"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "team-lead--product-a-persona-66802259": {
+      "summary": "Senior Fraud Product Analyst owns high-impact analytics work to detect, understand, and combat fraud across Persona's platform while managing a team of fraud analysts.",
+      "key_skills": [
+        "fraud",
+        "analytics",
+        "data",
+        "sql",
+        "product",
+        "risk",
+        "identity",
+        "verification"
+      ],
+      "core_skills": [
+        "sql",
+        "data",
+        "fraud",
+        "analytics"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "sales-compensation-a-benchling-66802259": {
+      "summary": "Coordinates end-to-end sales compensation planning, commission reconciliation, and payments using CaptivateIQ while ensuring accurate and competitive compensation programs for sales teams.",
+      "key_skills": [
+        "ai",
+        "data",
+        "science",
+        "biotech",
+        "revenue"
+      ],
+      "core_skills": [
+        "compensation",
+        "revenue_operations"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
     }

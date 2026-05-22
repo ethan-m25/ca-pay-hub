@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-05-21T09:03:11.810327+00:00",
-    "total_jobs": 2255,
-    "enriched": 95
+    "built_at": "2026-05-22T08:57:56.629051+00:00",
+    "total_jobs": 2335,
+    "enriched": 110
   },
   "jobs": {
     "applied-scientist--p-lyft-65682582": {
@@ -2104,6 +2104,327 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "product-manager--age-google-89682908": {
+      "summary": "Product Manager who drives user acquisition and long-term maintenance through agentic growth and retention initiatives, working cross-functionally to guide products from conception to launch.",
+      "key_skills": [
+        "product management",
+        "agentic growth",
+        "retention",
+        "ai/ml",
+        "data-driven",
+        "user experience",
+        "cross-functional collaboration",
+        "google cloud"
+      ],
+      "core_skills": [
+        "product management",
+        "ai/ml",
+        "data-driven",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-staff-enginee-google-89682909": {
+      "summary": "Leads a team of engineering analysts to develop model mitigations and safety architectures for AI systems, collaborating with cross-functional stakeholders to ensure user safety and model reliability.",
+      "key_skills": [
+        "ai",
+        "machine_learning",
+        "data_science",
+        "sql",
+        "python",
+        "prompt_engineering",
+        "fine_tuning",
+        "llm"
+      ],
+      "core_skills": [
+        "technical_leadership",
+        "cross_functional_alignment",
+        "model_safety",
+        "safety_mitigations"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "product-manager-ii---google-89682909": {
+      "summary": "Drives product strategy and sets product priorities by partnering with engineering and cross-functional teams to define and deliver cloud services.",
+      "key_skills": [
+        "product management",
+        "cloud services",
+        "google workspace",
+        "ai"
+      ],
+      "core_skills": [
+        "product strategy",
+        "go-to-market"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "sales-specialist-iii-google-89682909": {
+      "summary": "Sales Specialist III drives progress, solves problems, and mentors junior team members with deeper expertise in cloud sales.",
+      "key_skills": [
+        "sales",
+        "cloud",
+        "oracle",
+        "google"
+      ],
+      "core_skills": [
+        "sales",
+        "consultative",
+        "business",
+        "development"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-account-manag-google-89682909": {
+      "summary": "Senior Account Manager drives progress, solves problems, and mentors junior team members while leveraging expertise in advertising, online media, and Google's advertising solutions to deliver strategic outcomes for customers.",
+      "key_skills": [
+        "account management",
+        "sales",
+        "business development",
+        "online media",
+        "customer success",
+        "consultative sales",
+        "advertising solutions",
+        "google cloud"
+      ],
+      "core_skills": [
+        "consultative sales",
+        "customer success",
+        "advertising solutions",
+        "google cloud"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "staff-software-engin-google-89682909": {
+      "summary": "Designs, develops, and maintains scalable infrastructure components while addressing ambiguous technical issues and influencing architectural decisions across teams.",
+      "key_skills": [
+        "java",
+        "javascript",
+        "dart",
+        "micro-frontend",
+        "software_design",
+        "software_architecture",
+        "testing",
+        "product_launch"
+      ],
+      "core_skills": [
+        "team_leading",
+        "infrastructure_migrations",
+        "production_stability"
+      ],
+      "seniority_signal": "staff",
+      "role_type": "lead",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-software-deve-google-89682909": {
+      "summary": "Senior Software Developer works on computer vision and XR projects, managing project priorities, deadlines, and deliverables while designing, developing, testing, deploying, and maintaining software solutions.",
+      "key_skills": [
+        "computer vision",
+        "xr",
+        "software development",
+        "c++",
+        "python",
+        "machine learning",
+        "augmented reality",
+        "ar"
+      ],
+      "core_skills": [
+        "computer vision",
+        "software development",
+        "c++",
+        "python"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "hardware-engineer-google-89682909": {
+      "summary": "Hardware Engineer analyzes hardware and electrical systems to identify flaws, debug key issues, and suggest corrective solutions while optimizing complex components, circuits, and systems to meet performance, power, and cost requirements.",
+      "key_skills": [
+        "hardware",
+        "electrical",
+        "pcb",
+        "signal_integrity",
+        "high_speed_routing",
+        "systems_architecture",
+        "troubleshooting",
+        "debugging"
+      ],
+      "core_skills": [
+        "hardware_engineering",
+        "electrical_design"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-engineer--m-google-89682909": {
+      "summary": "Software engineer working on mobile iOS mapping applications using Objective-C and iOS SDKs.",
+      "key_skills": [
+        "mobile",
+        "ios",
+        "maps",
+        "software",
+        "engineering",
+        "objective-c",
+        "data",
+        "structures"
+      ],
+      "core_skills": [
+        "ios",
+        "objective-c",
+        "mobile",
+        "maps"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "program-management---google-89682909": {
+      "summary": "Owns outcomes and decision making for finance transformation programs, solving ambiguous problems and influencing stakeholders through cross-functional project leadership.",
+      "key_skills": [
+        "program management",
+        "finance solutions",
+        "transformation"
+      ],
+      "core_skills": [
+        "strategic decision making",
+        "problem solving"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-product-manag-google-89682909": {
+      "summary": "Technical Account Manager at Google Cloud Consulting handles customer relationships and cloud infrastructure solutions.",
+      "key_skills": [
+        "technical account manager",
+        "google cloud",
+        "customer engineering",
+        "solutions engineering",
+        "software engineering",
+        "program management",
+        "ai",
+        "machine learning"
+      ],
+      "core_skills": [
+        "google cloud",
+        "ai",
+        "machine learning"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "software-engineer--g-google-89682909": {
+      "summary": "Software engineer develops next-generation technologies that change how billions of users connect, explore, and interact with information and one another.",
+      "key_skills": [
+        "c++",
+        "full stack",
+        "javascript",
+        "python",
+        "golang",
+        "typescript",
+        "html",
+        "css"
+      ],
+      "core_skills": [
+        "c++",
+        "full stack",
+        "javascript",
+        "python"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "software-engineer--a-google-89682910": {
+      "summary": "Builds beautiful ad creatives for every user at every query to drive performance and user value using AI/ML techniques",
+      "key_skills": [
+        "ai/ml",
+        "generative ai",
+        "creative intelligence",
+        "machine learning",
+        "deep learning",
+        "reinforcement learning",
+        "large-scale data processing",
+        "distributed systems"
+      ],
+      "core_skills": [
+        "python",
+        "pytorch",
+        "tensorflow",
+        "jax"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "key-account-executiv-google-89682910": {
+      "summary": "Key Account Executive for Retail and CPG sector at Google Cloud, managing enterprise accounts and cloud solutions.",
+      "key_skills": [
+        "cloud",
+        "sales",
+        "account",
+        "executive",
+        "retail",
+        "cpg"
+      ],
+      "core_skills": [
+        "sales",
+        "account",
+        "management"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "engineering-manager--google-89682910": {
+      "summary": "Owning outcomes and decision making, solving ambiguous problems, and influencing stakeholders with deep expertise in domain",
+      "key_skills": [
+        "c++",
+        "distributed systems",
+        "cloud computing",
+        "big data analytics",
+        "ai",
+        "machine learning",
+        "data analytics",
+        "artificial intelligence"
+      ],
+      "core_skills": [
+        "technical leadership",
+        "distributed computing",
+        "big data analytics",
+        "cloud computing"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
     }
   }
 }

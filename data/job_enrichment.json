@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-05-22T08:57:56.629051+00:00",
-    "total_jobs": 2335,
-    "enriched": 110
+    "built_at": "2026-05-23T09:00:28.005499+00:00",
+    "total_jobs": 2401,
+    "enriched": 125
   },
   "jobs": {
     "applied-scientist--p-lyft-65682582": {
@@ -2423,6 +2423,323 @@
       ],
       "seniority_signal": "senior",
       "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "field-sales-represen-google-89682910": {
+      "summary": "Field Sales Representative works with NASA to sell cloud solutions and enterprise software in the federal government sector.",
+      "key_skills": [
+        "field sales",
+        "federal civilian",
+        "nasa",
+        "google public sector"
+      ],
+      "core_skills": [
+        "sales",
+        "federal government"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-technical-pro-google-89682910": {
+      "summary": "Senior Technical Program Manager leads complex AI data projects from start to finish, managing cross-functional teams, planning requirements, identifying risks, and ensuring data quality for AI model development.",
+      "key_skills": [
+        "technical program management",
+        "ai data",
+        "machine learning",
+        "sql",
+        "data visualization",
+        "data labeling",
+        "human-in-the-loop",
+        "data quality assurance"
+      ],
+      "core_skills": [
+        "program management",
+        "cross-functional collaboration",
+        "risk management",
+        "stakeholder communication"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "cloud-ai-senior-tech-google-89682910": {
+      "summary": "Owning outcomes and decision making, solving ambiguous problems, and influencing stakeholders while managing AI model training, testing, evaluation, and LLM release cycles.",
+      "key_skills": [
+        "cloud",
+        "ai",
+        "program",
+        "manager",
+        "technical"
+      ],
+      "core_skills": [
+        "program_management",
+        "ai_model_training"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "staff-product-data-s-google-89682910": {
+      "summary": "Provides technical consulting and cloud solutions for enterprise clients",
+      "key_skills": [
+        "data",
+        "ai",
+        "cloud",
+        "consulting",
+        "technical",
+        "account",
+        "manager",
+        "sales"
+      ],
+      "core_skills": [
+        "cloud",
+        "ai",
+        "technical",
+        "consulting"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-power-enginee-google-89682910": {
+      "summary": "Designs and builds power solutions for large-scale point of load applications including ASICs, FPGAs, and processors in Google's data centers.",
+      "key_skills": [
+        "power engineering",
+        "power converter design",
+        "dc/dc converter",
+        "board bring up",
+        "debugging",
+        "power system design",
+        "power electronics",
+        "power conversion"
+      ],
+      "core_skills": [
+        "power converter modeling",
+        "power simulation"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-opto-mechanic-google-89682910": {
+      "summary": "Designs and develops next-generation opto-mechanical systems for Google Pixel hardware, ensuring manufacturability and precision alignment for optical components.",
+      "key_skills": [
+        "opto-mechanical engineering",
+        "precision alignment",
+        "design for manufacturability",
+        "design for assembly",
+        "optical systems",
+        "tolerance analysis",
+        "coefficient of thermal expansion",
+        "multidisciplinary stop analysis"
+      ],
+      "core_skills": [
+        "opto-mechanical design",
+        "precision optical systems"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "strategic-partner-de-google-89682910": {
+      "summary": "Owning outcomes and decision making for strategic partnerships in education technology, solving ambiguous problems and influencing stakeholders across higher education and C-level executives.",
+      "key_skills": [
+        "strategic partner development",
+        "google for education",
+        "education technology",
+        "partnerships",
+        "business development",
+        "management consulting",
+        "investment banking",
+        "higher education"
+      ],
+      "core_skills": [
+        "strategic planning",
+        "stakeholder influence",
+        "cross-functional collaboration",
+        "agreement management"
+      ],
+      "seniority_signal": "principal",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "revenue-accounting-p-google-89682910": {
+      "summary": "Manages cross-functional finance and accounting projects, identifies process improvements, and ensures financial systems scale with Google's growth.",
+      "key_skills": [
+        "revenue accounting",
+        "pdpa controllership",
+        "project management",
+        "finance"
+      ],
+      "core_skills": [
+        "project management",
+        "finance",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-data-center-m-google-89682910": {
+      "summary": "Senior Data Center Mechanical Engineer commissions and optimizes mechanical systems in data centers, ensuring compliance with standards and improving efficiency through cooling and control strategies.",
+      "key_skills": [
+        "data center",
+        "mechanical engineering",
+        "commissioning",
+        "building management systems",
+        "plc programming",
+        "scada architecture",
+        "industrial controls",
+        "cooling optimization"
+      ],
+      "core_skills": [
+        "data center design",
+        "project management",
+        "technical troubleshooting",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-account-execu-google-89682910": {
+      "summary": "Drives sales and business development for mobile apps using Google's advertising solutions, focusing on video advertising and CTV strategies.",
+      "key_skills": [
+        "mobile apps",
+        "sales",
+        "digital advertising",
+        "ad solutions",
+        "video advertising",
+        "ctv",
+        "ai-powered"
+      ],
+      "core_skills": [
+        "sales",
+        "digital advertising",
+        "ad solutions"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "software-engineer--n-google-89682910": {
+      "summary": "Designs, builds, and deploys software solutions to automate network management tasks for planetary-scale distributed systems with billions of users.",
+      "key_skills": [
+        "networking",
+        "distributed systems",
+        "software engineering",
+        "system design",
+        "multithreaded programming",
+        "distributed infrastructure",
+        "api design",
+        "authentication"
+      ],
+      "core_skills": [
+        "distributed systems",
+        "software engineering",
+        "system design",
+        "networking"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "finance-manager--sup-google-89682910": {
+      "summary": "Financial Analysts ensure that Google makes sound financial decisions by modeling business scenarios and tracking performance metrics to support strategic company decisions.",
+      "key_skills": [
+        "finance",
+        "supply_chain",
+        "devices",
+        "services",
+        "google_cloud"
+      ],
+      "core_skills": [
+        "financial_planning",
+        "budgeting",
+        "forecasting",
+        "variance_analysis"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-hardware-syst-google-89682911": {
+      "summary": "Senior Hardware Systems Design Engineer works on ML/AI hardware systems projects to craft solutions for current and future data: center deployments, collaborating with product teams, ASIC/FPGA, software, verification, and manufacturing teams to ensure manufacturability and system functionality.",
+      "key_skills": [
+        "hardware systems design",
+        "board design",
+        "pcb design",
+        "circuit design",
+        "fpga/cpld design",
+        "signal integrity",
+        "thermal engineering",
+        "mechanical engineering"
+      ],
+      "core_skills": [
+        "hardware design",
+        "data center engineering",
+        "system integration",
+        "technical leadership"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "display-mechanical-e-google-89682911": {
+      "summary": "Conducts mechanical analysis and validation for display modules in smartphone and wearable products, leveraging expertise in simulation tools and material science to ensure product reliability and performance.",
+      "key_skills": [
+        "mechanical engineering",
+        "display design",
+        "simulation analysis",
+        "solid mechanics",
+        "material science",
+        "foldable displays",
+        "thermal analysis",
+        "fea tools"
+      ],
+      "core_skills": [
+        "mechanical design",
+        "simulation analysis",
+        "solid mechanics",
+        "material science"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "asic-formal-verifica-google-89682911": {
+      "summary": "ASIC Formal Verification Engineer verifies digital designs with a focus on TPU architecture and AI/ML-driven systems integration for Google Cloud's data center accelerators.",
+      "key_skills": [
+        "systemverilog",
+        "verilog",
+        "formal_verification",
+        "asic",
+        "tpu",
+        "ai_ml"
+      ],
+      "core_skills": [
+        "formal_verification",
+        "asic_design",
+        "tpu_architecture"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "onsite"
     }

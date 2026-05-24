@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-05-23T09:00:28.005499+00:00",
-    "total_jobs": 2401,
-    "enriched": 125
+    "built_at": "2026-05-24T08:56:55.220703+00:00",
+    "total_jobs": 2402,
+    "enriched": 141
   },
   "jobs": {
     "applied-scientist--p-lyft-65682582": {
@@ -2739,6 +2739,367 @@
         "tpu_architecture"
       ],
       "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-signal-and-po-google-89682911": {
+      "summary": "Senior Signal and Power Integrity Engineer works on chip package design with signal and power integrity simulation and characterization at chip, package, and system levels.",
+      "key_skills": [
+        "signal integrity",
+        "power integrity",
+        "hfss",
+        "ads",
+        "sigrity",
+        "siwave",
+        "hbm",
+        "d2d",
+        "ethernet",
+        "pcie",
+        "2.5d",
+        "3d",
+        "silicon interposer",
+        "silicon bridge",
+        "3d die stacking",
+        "post si test",
+        "memory",
+        "high speed serdes",
+        "matlab",
+        "python",
+        "c++"
+      ],
+      "core_skills": [
+        "signal integrity",
+        "power integrity",
+        "hfss",
+        "ads",
+        "sigrity",
+        "siwave"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-packaging-des-google-89682911": {
+      "summary": "Senior Packaging Design Engineer designs and optimizes chip package substrates for mobile SOC applications using advanced packaging technologies like FCCSP, PoP, and 2.5D/3D integration.",
+      "key_skills": [
+        "packaging design",
+        "cadence apd",
+        "mentorship",
+        "chip package substrate",
+        "dfm",
+        "package tape-outs",
+        "mobile soc",
+        "fcssp"
+      ],
+      "core_skills": [
+        "cadence apd",
+        "dfm",
+        "package tape-outs",
+        "mobile soc"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "aircraft-captain-and-google-89682911": {
+      "summary": "Drives progress, solves problems, and mentors junior team members with deeper expertise in relevant areas.",
+      "key_skills": [
+        "aircraft",
+        "captain",
+        "project",
+        "management"
+      ],
+      "core_skills": [
+        "aviation",
+        "project_management"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "staff-applied-ai-age-google-89682911": {
+      "summary": "Develops and implements AI solutions for strategic customer challenges using generative AI and machine learning technologies.",
+      "key_skills": [
+        "applied ai",
+        "ai agent",
+        "generative ai",
+        "google cloud",
+        "machine learning",
+        "prompt engineering",
+        "data structures",
+        "algorithms"
+      ],
+      "core_skills": [
+        "prompt engineering",
+        "generative ai",
+        "machine learning",
+        "google cloud"
+      ],
+      "seniority_signal": "staff",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "power-purchase-agree-google-89682911": {
+      "summary": "Advises on financial reports required by governmental regulations, reviews and analyzes financial reports, and collaborates with cross-functional teams to identify transaction structures for favorable accounting outcomes.",
+      "key_skills": [
+        "power purchase agreement",
+        "accounting",
+        "renewable energy credits",
+        "energy service agreements",
+        "gaap",
+        "consolidation",
+        "derivatives",
+        "hedging",
+        "lease accounting",
+        "guarantee accounting"
+      ],
+      "core_skills": [
+        "accounting",
+        "financial reporting",
+        "cross-functional collaboration",
+        "problem-solving"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "staff-ios-creative-t-google-89682911": {
+      "summary": "Staff iOS Creative Technologist, Search works on front end development, bridging UX best practices and production execution to create industry-leading products for global audiences.",
+      "key_skills": [
+        "ios",
+        "creative",
+        "technologist",
+        "search",
+        "swift",
+        "ux",
+        "design",
+        "prototyping"
+      ],
+      "core_skills": [
+        "ios",
+        "swift",
+        "ux",
+        "design"
+      ],
+      "seniority_signal": "staff",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "customer-engineer-ii-google-89682911": {
+      "summary": "Customer Engineer III works with technical sales teams to differentiate Google Cloud solutions for customers, focusing on cloud architecture, infrastructure, and machine learning applications.",
+      "key_skills": [
+        "cloud engineering",
+        "customer engineering",
+        "technical solutions",
+        "cloud architecture",
+        "machine learning",
+        "infrastructure",
+        "virtualization",
+        "containerization"
+      ],
+      "core_skills": [
+        "cloud engineering",
+        "customer engineering",
+        "technical solutions",
+        "cloud architecture"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "global-strategy-and--google-89682911": {
+      "summary": "Drives product activation strategies for YouTube's creator and partner ecosystems while collaborating with product teams to shape market feedback and prioritize features.",
+      "key_skills": [
+        "youtube business",
+        "global strategy",
+        "operations",
+        "product activation",
+        "creator economy",
+        "advertisers",
+        "music",
+        "media"
+      ],
+      "core_skills": [
+        "strategic planning",
+        "cross-functional collaboration",
+        "executive stakeholder engagement",
+        "product roadmap development"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-account-execu-google-89682911": {
+      "summary": "Drives Google Marketing Platforms adoption by connecting business needs with tech solutions, acting as a partner/consultant to customers and supporting the sales process with focus on customer business objectives, media impact, and digital maturity.",
+      "key_skills": [
+        "google marketing platforms",
+        "sales",
+        "customer success",
+        "advertising",
+        "ai",
+        "consultative sales",
+        "business development",
+        "it"
+      ],
+      "core_skills": [
+        "sales",
+        "customer success",
+        "advertising",
+        "ai"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "semiconductor-produc-google-89682911": {
+      "summary": "Semiconductor Product Operations Engineer works on post-wafer processing and sub-assembly builds for Google's Raxium display group.",
+      "key_skills": [
+        "semiconductor",
+        "product",
+        "operations",
+        "engineer",
+        "raxium",
+        "google"
+      ],
+      "core_skills": [
+        "semiconductor manufacturing",
+        "post-wafer processing",
+        "dicing",
+        "sub-assembly builds"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "technical-success-ac-google-89682911": {
+      "summary": "Serves as a strategic technical leader aligned with Google Cloud’s most critical customers, driving sustained platform health and technical excellence.",
+      "key_skills": [
+        "cloud",
+        "technical",
+        "account",
+        "management",
+        "success"
+      ],
+      "core_skills": [
+        "cloud",
+        "technical",
+        "account",
+        "management"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "director--power-and--google-89682911": {
+      "summary": "Drives sales team to meet growth targets while ensuring client satisfaction in Google Cloud's Power and Energy sector.",
+      "key_skills": [
+        "power",
+        "energy",
+        "sales",
+        "director"
+      ],
+      "core_skills": [
+        "sales",
+        "leadership",
+        "cloud",
+        "strategy"
+      ],
+      "seniority_signal": "director",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-hardware-oper-google-89682912": {
+      "summary": "Owns the physical health and operation of the growing robotic fleet through deep-dive repairs and preventative maintenance to develop a scalable global maintenance system.",
+      "key_skills": [
+        "hardware",
+        "robotics",
+        "operations",
+        "repair",
+        "maintenance",
+        "mechanical",
+        "electrical",
+        "assembly"
+      ],
+      "core_skills": [
+        "hardware_operations",
+        "robotic_maintenance"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "lead",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-engineering-google-89682912": {
+      "summary": "Provides technical consulting and cloud solutions for enterprise clients",
+      "key_skills": [
+        "data",
+        "ai",
+        "cloud",
+        "consulting",
+        "technical",
+        "account",
+        "manager",
+        "sales"
+      ],
+      "core_skills": [
+        "cloud",
+        "ai",
+        "technical",
+        "account"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-software-engi-google-89682912": {
+      "summary": "Develops next-generation embedded software for wearable devices, focusing on co-processor interactions and sensor stacks.",
+      "key_skills": [
+        "embedded systems",
+        "firmware",
+        "software engineering"
+      ],
+      "core_skills": [
+        "c++",
+        "rtos"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "ux-engineer--robot-i-google-89682912": {
+      "summary": "UX Engineer designs and implements user interfaces for robotics and AI systems, focusing on user trust and system transparency in human-in-the-loop workflows.",
+      "key_skills": [
+        "web development",
+        "full-stack development",
+        "typescript",
+        "angular",
+        "python",
+        "c++",
+        "go",
+        "user interface design"
+      ],
+      "core_skills": [
+        "robotics",
+        "ai systems",
+        "user trust",
+        "system transparency"
+      ],
+      "seniority_signal": "senior",
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "onsite"

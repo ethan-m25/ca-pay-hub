@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-05-24T08:56:55.220703+00:00",
-    "total_jobs": 2402,
-    "enriched": 141
+    "built_at": "2026-05-25T08:58:35.918945+00:00",
+    "total_jobs": 2412,
+    "enriched": 154
   },
   "jobs": {
     "applied-scientist--p-lyft-65682582": {
@@ -2938,6 +2938,24 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
+    "technical-solutions--google-89682911": {
+      "summary": "Provides technical solutions consulting services for ad products to customers, implementing and optimizing ad campaigns and media solutions.",
+      "key_skills": [
+        "technical solutions",
+        "consulting",
+        "ads",
+        "sellside",
+        "gtech"
+      ],
+      "core_skills": [
+        "project management",
+        "web technologies"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
     "senior-account-execu-google-89682911": {
       "summary": "Drives Google Marketing Platforms adoption by connecting business needs with tech solutions, acting as a partner/consultant to customers and supporting the sales process with focus on customer business objectives, media impact, and digital maturity.",
       "key_skills": [
@@ -3103,6 +3121,255 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "onsite"
+    },
+    "senior-machine-learn-google-89682912": {
+      "summary": "Senior Machine Learning Engineer focuses on optimizing AI model performance at scale, implementing performance analysis, and improving model efficiency across Google's infrastructure.",
+      "key_skills": [
+        "machine learning",
+        "performance optimization",
+        "ai models",
+        "data analysis",
+        "large-scale systems",
+        "software engineering",
+        "model design",
+        "performance analysis"
+      ],
+      "core_skills": [
+        "machine learning",
+        "performance optimization",
+        "ai models",
+        "data analysis"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "learning-impact-spec-google-89682912": {
+      "summary": "Manages customer engineering practices for Google Cloud, focusing on AI and machine learning solutions.",
+      "key_skills": [
+        "cloud",
+        "ai",
+        "machine learning",
+        "data",
+        "engineering",
+        "software",
+        "ai consultant",
+        "technical"
+      ],
+      "core_skills": [
+        "cloud",
+        "ai",
+        "machine learning",
+        "data"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "open-engineering-car-google-89682912": {
+      "summary": "Manages engineering teams and delivers cloud solutions for AI and machine learning applications",
+      "key_skills": [
+        "ai",
+        "cloud",
+        "engineering",
+        "machine_learning",
+        "data",
+        "software",
+        "data_scientist",
+        "security"
+      ],
+      "core_skills": [
+        "cloud",
+        "ai",
+        "engineering"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "thermal-manufacturin-google-89682912": {
+      "summary": "Manages customer engineering practices for Google Cloud, focusing on AI and machine learning solutions.",
+      "key_skills": [
+        "cloud",
+        "ai",
+        "machine learning",
+        "data",
+        "engineering",
+        "software",
+        "ai consultant",
+        "technical"
+      ],
+      "core_skills": [
+        "cloud",
+        "ai",
+        "machine learning",
+        "data"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "subscriptions-and-sp-google-89682912": {
+      "summary": "Drives growth of YouTube Primetime Channels offering and sports and media consumption through product strategy and operations.",
+      "key_skills": [
+        "subscriptions",
+        "sports",
+        "youtube",
+        "product",
+        "stratops"
+      ],
+      "core_skills": [
+        "strategy",
+        "operations"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "asic-design-verifica-google-89682912": {
+      "summary": "Owns outcomes and decision making, solving ambiguous problems and influencing stakeholders while driving cutting-edge TPU technology for AI/ML applications.",
+      "key_skills": [
+        "asic",
+        "verification",
+        "uvm",
+        "systemverilog",
+        "testbench",
+        "testcases",
+        "testenvironments"
+      ],
+      "core_skills": [
+        "uvm",
+        "systemverilog",
+        "testbench",
+        "testcases"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "strategic-partner-ma-google-89682912": {
+      "summary": "Drives strategic partnerships and technical hardware integration for Android ecosystem, leading cross-functional teams to develop multi-device accessibility solutions.",
+      "key_skills": [
+        "strategic partner",
+        "android",
+        "better together",
+        "google cloud",
+        "business development",
+        "partnerships",
+        "agreements",
+        "technical hardware specifications"
+      ],
+      "core_skills": [
+        "strategic planning",
+        "cross-functional collaboration",
+        "stakeholder management",
+        "business case development"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "research-engineer--g-google-89682912": {
+      "summary": "Researches and implements generative AI solutions for virtual try-on applications.",
+      "key_skills": [
+        "research",
+        "generative_ai",
+        "virtual_try_on"
+      ],
+      "core_skills": [
+        "software_engineering",
+        "ml_design",
+        "model_deployment",
+        "model_evaluation"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "pillar-strategy-lead-google-89682913": {
+      "summary": "Serves as primary strategic partner to leaders within Google's Trust and Safety pillars, architecting strategy for assigned pillars and leading AI transformation initiatives.",
+      "key_skills": [
+        "strategy",
+        "trust",
+        "safety",
+        "ai",
+        "transformation",
+        "operations"
+      ],
+      "core_skills": [
+        "strategic",
+        "leadership",
+        "problem-solving",
+        "stakeholder-influence"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "staff-software-engin-google-89682913": {
+      "summary": "Staff Software Engineer works on App Ads Quality projects to improve ad quality and deliver engineering innovations for Google's App Ads business.",
+      "key_skills": [
+        "ai",
+        "ml",
+        "software_engineering",
+        "ads",
+        "quality"
+      ],
+      "core_skills": [
+        "software_engineering",
+        "ml",
+        "ai",
+        "ads"
+      ],
+      "seniority_signal": "staff",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "product-manager-ii---google-89682913": {
+      "summary": "Product manager who works cross-functionally to guide YouTube Search products from conception to launch by connecting technical and business needs, focusing on improving user experiences for specific verticals like Shopping and Sports through AI capabilities.",
+      "key_skills": [
+        "product management",
+        "search",
+        "youtube",
+        "verticals",
+        "ai"
+      ],
+      "core_skills": [
+        "cross-functional collaboration",
+        "product development",
+        "user experience",
+        "search optimization"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-product-manag-google-89682913": {
+      "summary": "Senior Product Manager responsible for guiding products from conception to launch by connecting technical and business worlds, focusing on storage capacity and business optimization.",
+      "key_skills": [
+        "product management",
+        "storage capacity",
+        "business optimization"
+      ],
+      "core_skills": [
+        "product management",
+        "technical expertise"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
     }
   }
 }

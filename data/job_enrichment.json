@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-05-25T08:58:35.918945+00:00",
-    "total_jobs": 2412,
-    "enriched": 154
+    "built_at": "2026-05-26T08:59:53.168499+00:00",
+    "total_jobs": 2467,
+    "enriched": 172
   },
   "jobs": {
     "applied-scientist--p-lyft-65682582": {
@@ -3365,6 +3365,355 @@
       "core_skills": [
         "product management",
         "technical expertise"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "group-product-manage-google-89682913": {
+      "summary": "Owes outcomes and decision making, solving ambiguous problems and influencing stakeholders; deep expertise in GPU architecture and graphics APIs.",
+      "key_skills": [
+        "gpu",
+        "graphics",
+        "tensor",
+        "soc",
+        "mobile",
+        "gaming",
+        "ai"
+      ],
+      "core_skills": [
+        "product_management",
+        "technical_expertise",
+        "cross_functional",
+        "stakeholder_influence"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "enforcement-detectio-google-89682913": {
+      "summary": "Enforcement Detection Analyst identifies and mitigates platform abuse using data analysis and LLMs to ensure YouTube's safety.",
+      "key_skills": [
+        "enforcement",
+        "detection",
+        "analyst",
+        "youtube",
+        "trust",
+        "safety"
+      ],
+      "core_skills": [
+        "data_analysis",
+        "project_management",
+        "llm",
+        "machine_learning"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "product-manager--xr--google-89682913": {
+      "summary": "Product Manager who drives cross-functional product development from conception to launch, focusing on XR and geospatial services.",
+      "key_skills": [
+        "product management",
+        "xr developer",
+        "perception",
+        "geospatial services"
+      ],
+      "core_skills": [
+        "product management",
+        "technical leadership"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-ux-quantitati-google-89682913": {
+      "summary": "Conducts quantitative user experience research to analyze user behavior and improve product design through empirical methods like logs analysis, survey research, and statistical modeling.",
+      "key_skills": [
+        "quantitative research",
+        "ux research",
+        "user behavior analysis",
+        "data analysis",
+        "statistical modeling",
+        "python",
+        "r",
+        "matlab"
+      ],
+      "core_skills": [
+        "user research",
+        "statistical analysis",
+        "data manipulation",
+        "programming"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-customer-and--google-89682913": {
+      "summary": "Drives global adoption of next-generation communication technologies by transforming traditional business-to-consumer and consumer-to-business communication into a conversational platform for businesses to connect with customers directly in the native carrier messaging app.",
+      "key_skills": [
+        "customer",
+        "partner",
+        "solutions",
+        "engineer",
+        "business",
+        "messaging"
+      ],
+      "core_skills": [
+        "customer",
+        "solutions",
+        "engineer"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-ux-design-man-google-89682913": {
+      "summary": "Owning outcomes and decision making, solving ambiguous problems, and influencing stakeholders while driving user-centric product strategy and ecosystem-level UX design.",
+      "key_skills": [
+        "ux design",
+        "sales intelligence",
+        "google ads"
+      ],
+      "core_skills": [
+        "leadership",
+        "strategic planning"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "channel-sales-manage-google-89682913": {
+      "summary": "Channel Sales Manager works with security partners to drive growth through strategic channel partnerships and co-selling.",
+      "key_skills": [
+        "channel sales",
+        "security",
+        "google cloud"
+      ],
+      "core_skills": [
+        "strategic planning",
+        "partner management"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-hardware-engi-google-89682913": {
+      "summary": "Owning outcomes and decision making, solving ambiguous problems, and influencing stakeholders while deepening expertise in hardware systems design and AI infrastructure.",
+      "key_skills": [
+        "hardware",
+        "engineering",
+        "manager",
+        "innovation",
+        "ai"
+      ],
+      "core_skills": [
+        "hardware",
+        "engineering",
+        "manager"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "technical-services-p-google-89682913": {
+      "summary": "Owns outcomes and decision making for electrical infrastructure across commercial offices, research labs, and data centers, leading outsourced service providers to ensure reliability and efficiency.",
+      "key_skills": [
+        "technical services",
+        "program management",
+        "electrical"
+      ],
+      "core_skills": [
+        "strategic roadmap",
+        "performance goals"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "network-capacity-pla-google-89682913": {
+      "summary": "Manages complex cross-functional projects to ensure Google's network infrastructure capacity meets global demands through technical planning and stakeholder collaboration.",
+      "key_skills": [
+        "networking",
+        "capacity planning",
+        "cloud"
+      ],
+      "core_skills": [
+        "program management",
+        "technical leadership"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "robotics-automation--google-89682913": {
+      "summary": "Leads development, integration, and scaling of autonomous physical systems across global hyperscale data centers.",
+      "key_skills": [
+        "robotics",
+        "automation",
+        "infrastructure",
+        "platforms",
+        "technical",
+        "lead",
+        "manager"
+      ],
+      "core_skills": [
+        "robotics",
+        "automation",
+        "infrastructure"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-software-deve-google-89682913": {
+      "summary": "Develops high-performance video coding algorithms for Google's Open Codecs team, advancing media compression technology through open-source projects like VP9, AV1, AV2, WebP, AVIF, Lyra, and Draco.",
+      "key_skills": [
+        "machine learning",
+        "generative ai",
+        "video compression",
+        "video processing",
+        "video encoding",
+        "video decoding",
+        "computer vision",
+        "signal processing"
+      ],
+      "core_skills": [
+        "machine learning",
+        "generative ai",
+        "video compression"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "technical-program-ma-google-89682914": {
+      "summary": "Deploys and manages AI and machine learning systems on Google Cloud platforms",
+      "key_skills": [
+        "genai",
+        "google cloud",
+        "ai"
+      ],
+      "core_skills": [
+        "ai",
+        "cloud"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-product-marke-google-89682914": {
+      "summary": "Owns product marketing strategy for AI-driven products, integrating AI into marketing workflows to improve creative output and increase productivity while collaborating with cross-functional teams across sales, engineering, and product development.",
+      "key_skills": [
+        "product marketing",
+        "ai impact",
+        "google cloud"
+      ],
+      "core_skills": [
+        "strategic planning",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "program-manager-ii---google-89682914": {
+      "summary": "Program Manager II leads complex, multi-disciplinary projects from start to finish, coordinating cross-functional teams to plan requirements, manage schedules, identify risks, and ensure timely delivery of supply chain solutions.",
+      "key_skills": [
+        "program management",
+        "business process enablement",
+        "supply chain",
+        "erp systems",
+        "inventory management",
+        "procurement",
+        "financial reconciliation",
+        "cloud"
+      ],
+      "core_skills": [
+        "project management",
+        "cross-functional collaboration",
+        "risk management",
+        "stakeholder communication"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-engineer-ii-google-89682914": {
+      "summary": "Software engineer working on display ads platforms using AI/ML technologies",
+      "key_skills": [
+        "ai",
+        "ml",
+        "display_ads",
+        "google_cloud",
+        "c++",
+        "python",
+        "reinforcement_learning",
+        "model_deployment"
+      ],
+      "core_skills": [
+        "c++",
+        "python",
+        "reinforcement_learning",
+        "model_deployment"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-product-quali-google-89682914": {
+      "summary": "Senior Product Quality Engineer ensures the flawless operation of Google's AI infrastructure through quality initiatives and hardware testing.",
+      "key_skills": [
+        "product",
+        "quality",
+        "engineer",
+        "google",
+        "cloud",
+        "ai"
+      ],
+      "core_skills": [
+        "quality",
+        "engineering",
+        "testing",
+        "hardware"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-interaction-d-google-89682914": {
+      "summary": "Senior Interaction Designer at Google focuses on transforming complex tasks into intuitive user experiences for billions of people through user-centered design methods, collaborating with engineering and product management to create industry-leading products in the XR space.",
+      "key_skills": [
+        "interaction design",
+        "xr platform",
+        "user experience",
+        "android",
+        "privacy design",
+        "consumer electronics"
+      ],
+      "core_skills": [
+        "user-centered design",
+        "iterative design",
+        "cross-functional collaboration",
+        "strategic thinking"
       ],
       "seniority_signal": "senior",
       "role_type": "ic",

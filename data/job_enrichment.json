@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-05-26T08:59:53.168499+00:00",
-    "total_jobs": 2467,
-    "enriched": 172
+    "built_at": "2026-05-27T08:59:48.300448+00:00",
+    "total_jobs": 2525,
+    "enriched": 187
   },
   "jobs": {
     "applied-scientist--p-lyft-65682582": {
@@ -3506,6 +3506,48 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "pursuit-lead--west---google-89682913": {
+      "summary": "Drives customer transformations and acts as the growth engine for Google Cloud's customer transformations by partnering with Sales leadership.",
+      "key_skills": [
+        "pursuit",
+        "cloud",
+        "consulting",
+        "google"
+      ],
+      "core_skills": [
+        "customer",
+        "sales",
+        "strategy",
+        "management"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "hardware-system-arch-google-89682913": {
+      "summary": "Owning hardware architecture for wearable products to enable ambient and edge computing applications, balancing performance, power, and cost across hardware and software domains.",
+      "key_skills": [
+        "hardware",
+        "system",
+        "architect",
+        "pixel",
+        "watch",
+        "ai",
+        "edge",
+        "computing"
+      ],
+      "core_skills": [
+        "system_architecture",
+        "hardware_design",
+        "ai_accelerators",
+        "on_device_ai"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
     "senior-hardware-engi-google-89682913": {
       "summary": "Owning outcomes and decision making, solving ambiguous problems, and influencing stakeholders while deepening expertise in hardware systems design and AI infrastructure.",
       "key_skills": [
@@ -3556,6 +3598,29 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "supply-chain-clean-e-google-89682913": {
+      "summary": "Program Manager at Google leading complex, multi-disciplinary projects from start to finish, coordinating stakeholders to plan requirements, manage schedules, identify risks, and communicate with cross-functional partners across the company.",
+      "key_skills": [
+        "supply chain",
+        "clean energy",
+        "program management",
+        "project management",
+        "commodity management",
+        "contract negotiation",
+        "supplier development",
+        "financial modeling"
+      ],
+      "core_skills": [
+        "program management",
+        "project management",
+        "commodity management",
+        "contract negotiation"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
     },
     "robotics-automation--google-89682913": {
       "summary": "Leads development, integration, and scaling of autonomous physical systems across global hyperscale data centers.",
@@ -3719,6 +3784,254 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "senior-silicon-syste-google-89682914": {
+      "summary": "Senior Silicon System and Software Integration Engineer works on ASIC development, validation, software, tools, and methodologies to push the boundaries of chip development and hardware-software integration and validation for Google Cloud's TPU technology.",
+      "key_skills": [
+        "silicon",
+        "system",
+        "software",
+        "integration",
+        "engineer",
+        "google",
+        "cloud"
+      ],
+      "core_skills": [
+        "hardware",
+        "software",
+        "integration",
+        "validation"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-photonic-engi-google-89682914": {
+      "summary": "Designs low-cost high-speed optical transceivers for data center applications and develops optical systems to scale Tensor Processing Unit and Graphics Processing Unit superpods.",
+      "key_skills": [
+        "photonic",
+        "machine learning",
+        "optical",
+        "transceiver",
+        "data center",
+        "tensor processing unit",
+        "high-speed",
+        "digital signal processing"
+      ],
+      "core_skills": [
+        "photonic engineering",
+        "machine learning systems",
+        "optical interconnects",
+        "data center networking"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "customer-engineer--p-google-89682914": {
+      "summary": "Partners with technical sales teams to differentiate Google Cloud to customers and serves as the customer's primary technical partner.",
+      "key_skills": [
+        "cloud",
+        "ai",
+        "customer",
+        "engineering",
+        "platform",
+        "strategic",
+        "isv"
+      ],
+      "core_skills": [
+        "cloud engineering",
+        "technical sales",
+        "customer engagement"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "decarbonization-port-google-89682914": {
+      "summary": "Manages growing portfolio of carbon market instruments and owns analytics related to market instrument procurement across the portfolio.",
+      "key_skills": [
+        "decarbonization",
+        "portfolio",
+        "analytics",
+        "data_engineering",
+        "energy_markets",
+        "grid_infrastructure",
+        "sql",
+        "python"
+      ],
+      "core_skills": [
+        "project_management",
+        "data_analysis",
+        "energy_markets",
+        "grid_infrastructure"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-director--sec-google-89682914": {
+      "summary": "Builds and leads engineering teams to automate security, risk, and compliance platforms for Google Cloud.",
+      "key_skills": [
+        "security",
+        "risk",
+        "compliance",
+        "platform",
+        "cloud",
+        "ai"
+      ],
+      "core_skills": [
+        "leadership",
+        "engineering",
+        "architecture"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "platform-customer-en-google-89682914": {
+      "summary": "Owns outcomes and decision making for customer engineering in a startup environment, solving ambiguous problems and influencing stakeholders.",
+      "key_skills": [
+        "cloud",
+        "customer",
+        "engineering",
+        "startup"
+      ],
+      "core_skills": [
+        "cloud engineering",
+        "technical solutions"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-director--eng-google-89682914": {
+      "summary": "Senior Director leads engineering teams for Google Global Fleet, responsible for forecasting, planning, and allocating infrastructure capacity across Google's global operations using AI to optimize resource delivery.",
+      "key_skills": [
+        "engineering",
+        "google",
+        "global",
+        "fleet",
+        "forecasting",
+        "planning",
+        "allocation",
+        "infrastructure"
+      ],
+      "core_skills": [
+        "engineering",
+        "forecasting",
+        "planning",
+        "allocation"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "research-engineer--f-google-89682914": {
+      "summary": "Researches and implements safety mitigations for AI systems to prevent critical misuse in domains like cybersecurity and harmful manipulation.",
+      "key_skills": [
+        "research",
+        "safety",
+        "mitigations",
+        "ai",
+        "cybersecurity",
+        "anomaly",
+        "detection",
+        "classifiers"
+      ],
+      "core_skills": [
+        "research",
+        "safety",
+        "mitigations",
+        "ai"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "director--product-ma-google-89682914": {
+      "summary": "Directs product management for Google Cloud's Spanner database, focusing on enterprise AI-driven solutions and distributed data systems.",
+      "key_skills": [
+        "product management",
+        "databases",
+        "spanner"
+      ],
+      "core_skills": [
+        "product management leadership",
+        "enterprise market segment",
+        "ai-driven solutions"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "policy-enforcement-m-google-89682914": {
+      "summary": "Ensures YouTube is safe for users by enforcing child safety policies across millions of videos and surfaces globally.",
+      "key_skills": [
+        "policy enforcement",
+        "child safety",
+        "youtube trust and safety"
+      ],
+      "core_skills": [
+        "content policy",
+        "anti-abuse",
+        "content review"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "program-manager-iii--google-89682915": {
+      "summary": "Program Manager III leads complex industrial design projects across Google's platforms and devices, coordinating cross-functional teams to deliver consumer electronics products while integrating AI/ML solutions.",
+      "key_skills": [
+        "program management",
+        "industrial design",
+        "consumer electronics",
+        "user centered design",
+        "ai/ml integration",
+        "cross-functional collaboration",
+        "project planning",
+        "risk management"
+      ],
+      "core_skills": [
+        "program management",
+        "industrial design",
+        "consumer electronics",
+        "user centered design"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "networking-ai-techni-google-89682915": {
+      "summary": "Owning outcomes and decision making, solving ambiguous problems, and influencing stakeholders while leveraging deep expertise in domain-specific technologies.",
+      "key_skills": [
+        "networking",
+        "ai",
+        "technical",
+        "lead"
+      ],
+      "core_skills": [
+        "c++",
+        "distributed systems",
+        "ai products",
+        "technical leadership"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "remote"
     }
   }
 }

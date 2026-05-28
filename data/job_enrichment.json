@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-05-27T08:59:48.300448+00:00",
-    "total_jobs": 2525,
-    "enriched": 187
+    "built_at": "2026-05-28T09:31:25.377398+00:00",
+    "total_jobs": 4058,
+    "enriched": 202
   },
   "jobs": {
     "applied-scientist--p-lyft-65682582": {
@@ -4032,6 +4032,323 @@
       "role_type": "executive",
       "red_flags": [],
       "work_mode_derived": "remote"
+    },
+    "software-engineer--f-google-89682915": {
+      "summary": "Develops video codec pipeline for Pixel devices, optimizing compression efficiency, power consumption, and playback quality",
+      "key_skills": [
+        "firmware",
+        "pixel",
+        "video"
+      ],
+      "core_skills": [
+        "systems",
+        "embedded"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-signal-integr-google-89682915": {
+      "summary": "Designs and builds systems for Google's largest computing infrastructure, supporting data center machinery that affects millions of users",
+      "key_skills": [
+        "signal integrity",
+        "pcie",
+        "ddr",
+        "sata",
+        "ethernet",
+        "pcb",
+        "connector",
+        "cable"
+      ],
+      "core_skills": [
+        "signal integrity engineering",
+        "hardware design"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "forward-deployed-eng-google-89682915": {
+      "summary": "Manages a GenAI Forward Deployed Engineering team to bridge AI products and production-grade reality within customer environments, providing technical mentorship and balancing strategic alignment with product and engineering teams.",
+      "key_skills": [
+        "genai",
+        "google cloud",
+        "forward deployed engineering",
+        "ai"
+      ],
+      "core_skills": [
+        "technical mentorship",
+        "strategic alignment"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "program-manager-ii---google-89682915": {
+      "summary": "Program Manager II leads complex, multi-disciplinary projects from start to finish, coordinating cross-functional teams and stakeholders to plan requirements, manage schedules, identify risks, and ensure successful project delivery.",
+      "key_skills": [
+        "program management",
+        "customer relationship management",
+        "project management",
+        "cross-functional collaboration",
+        "risk mitigation",
+        "deployment planning",
+        "data center operations",
+        "technical integration"
+      ],
+      "core_skills": [
+        "program management",
+        "customer relationship management",
+        "project management",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "product-marketing-ma-google-89682915": {
+      "summary": "Product Marketing Manager develops and executes climate AI product strategies, translating technical breakthroughs into compelling narratives for sustainability leaders and decision-makers while collaborating with cross-functional teams.",
+      "key_skills": [
+        "product marketing",
+        "climate ai",
+        "sustainability",
+        "narrative development",
+        "cross-functional collaboration",
+        "technical messaging",
+        "brand trust",
+        "user-centric strategy"
+      ],
+      "core_skills": [
+        "cross-functional collaboration",
+        "technical messaging",
+        "narrative development",
+        "user-centric strategy"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "digital-strategy-lea-google-89682915": {
+      "summary": "Drives business growth and solution promotion for SMBs through digital strategy and advertising solutions",
+      "key_skills": [
+        "digital strategy",
+        "growth",
+        "sales",
+        "advertising",
+        "media",
+        "client relationships",
+        "business goals",
+        "ai"
+      ],
+      "core_skills": [
+        "sales",
+        "client relationships",
+        "business goals",
+        "ai"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "financial-analyst--p-google-89682915": {
+      "summary": "Drives financial success of the AMER region by owning end-to-end financial life-cycle of regional investments and acting as a trusted advisor to leadership.",
+      "key_skills": [
+        "financial analysis",
+        "budgeting",
+        "forecasting",
+        "variance analysis",
+        "modeling",
+        "sql",
+        "data infrastructure",
+        "reporting"
+      ],
+      "core_skills": [
+        "financial planning",
+        "data analysis",
+        "business strategy",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-embedded-soft-google-89682915": {
+      "summary": "Senior Embedded Software Engineer works on developing next-generation USB connectivity and charging solutions for Pixel devices, including Android stack development from Linux kernel to hardware.",
+      "key_skills": [
+        "embedded",
+        "software",
+        "engineer",
+        "pixel",
+        "core",
+        "usb"
+      ],
+      "core_skills": [
+        "embedded",
+        "linux"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "business-data-scient-google-89682915": {
+      "summary": "Drives data-driven solutions for business problems using machine learning and analytics, building and deploying scalable ML models to help small and midsize businesses grow.",
+      "key_skills": [
+        "applied machine learning",
+        "data science",
+        "google cloud"
+      ],
+      "core_skills": [
+        "machine learning",
+        "data analysis"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "staff-data-scientist-google-89682915": {
+      "summary": "Works on evaluation, metrics, and user insights for AI answers within Search Health, influencing product and engineering decisions through data-driven insights and applying advanced statistical, machine learning, and large language model methodologies to solve complex business problems.",
+      "key_skills": [
+        "data science",
+        "machine learning",
+        "statistical analysis",
+        "python",
+        "sql",
+        "large language models",
+        "llm",
+        "statistical modeling"
+      ],
+      "core_skills": [
+        "data analysis",
+        "problem solving",
+        "statistical modeling",
+        "machine learning"
+      ],
+      "seniority_signal": "staff",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "glasses-manufacturin-google-89682915": {
+      "summary": "Designs and prototypes mechanical components for XR hardware, collaborating with vendors to bring parts through manufacturing.",
+      "key_skills": [
+        "glasses",
+        "manufacturing",
+        "product",
+        "design",
+        "xr",
+        "hardware"
+      ],
+      "core_skills": [
+        "design",
+        "manufacturing",
+        "product",
+        "design"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-staff-thermal-google-89682915": {
+      "summary": "Designs and evaluates IT and data center thermal systems, identifies product requirements, and contributes to research and project planning for scalable thermal architectures.",
+      "key_skills": [
+        "thermal systems",
+        "data center",
+        "thermal analysis",
+        "modeling",
+        "characterization",
+        "cooling techniques",
+        "liquid cooling",
+        "thermal interface materials"
+      ],
+      "core_skills": [
+        "technical leadership",
+        "project planning",
+        "thermal design",
+        "analytical methodologies"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-engineer--i-google-89682915": {
+      "summary": "Builds and supports critical infrastructure components for Google Ads and Search Ads 360 platforms using generative AI and distributed systems.",
+      "key_skills": [
+        "software engineering",
+        "infrastructure",
+        "data ai",
+        "ads platform",
+        "generative ai",
+        "distributed systems",
+        "large language models",
+        "python"
+      ],
+      "core_skills": [
+        "distributed systems",
+        "generative ai",
+        "large language models",
+        "python"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-engineer--c-google-89682915": {
+      "summary": "Software engineer specializing in quantum AI, developing compilers and related systems for high-performance computing environments.",
+      "key_skills": [
+        "c++",
+        "python",
+        "compiler",
+        "quantum computing",
+        "hpc",
+        "real-time computing",
+        "concurrency",
+        "hardware acceleration"
+      ],
+      "core_skills": [
+        "c++",
+        "python",
+        "compiler",
+        "quantum computing"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "cloud-customer-engin-google-89682915": {
+      "summary": "Partners with technical sales teams to differentiate Google Cloud to customers, serves as the primary technical partner and trusted advisor, troubleshoots technical issues, engages in proofs of concepts and demos, and architects cross-pillar cloud solutions.",
+      "key_skills": [
+        "cloud engineering",
+        "on-premise engineering",
+        "virtualization",
+        "containerization",
+        "systems design",
+        "debugging",
+        "prototyping",
+        "demos"
+      ],
+      "core_skills": [
+        "cloud native architecture",
+        "technical sales",
+        "customer workshops",
+        "technical leadership"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
     }
   }
 }

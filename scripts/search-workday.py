@@ -27,7 +27,7 @@ from datetime import date, timedelta
 
 sys.path.insert(0, os.path.dirname(__file__))
 from _common import (
-    make_logger, acquire_lock, exa_search, load_existing_keys, write_job,
+    make_logger, acquire_lock, exa_search, load_existing_keys, load_existing_urls, write_job,
     TODAY, OUTPUT_FILE,
 )
 
@@ -41,79 +41,20 @@ log = make_logger(LOG_FILE)
 
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 
-SEED_TENANTS = [
-    # Big tech (CA presence)
-    ("salesforce.wd12.myworkdayjobs.com",   "salesforce",   "External_Career_Site",    "Salesforce"),
-    ("apple.wd5.myworkdayjobs.com",         "apple",        "corporate",               "Apple"),
-    ("visa.wd5.myworkdayjobs.com",          "visa",         "Visa",                    "Visa"),
-    ("oracle.wd1.myworkdayjobs.com",        "oracle",       "oracle",                  "Oracle"),
-    ("intel.wd1.myworkdayjobs.com",         "intel",        "External",                "Intel"),
-    ("qualcomm.wd5.myworkdayjobs.com",      "qualcomm",     "Qualcomm_Global_Careers", "Qualcomm"),
-    ("amd.wd1.myworkdayjobs.com",           "amd",          "Global",                  "AMD"),
-    ("servicenow.wd1.myworkdayjobs.com",    "servicenow",   "External",                "ServiceNow"),
-    ("workday.wd5.myworkdayjobs.com",       "workday",      "Workday_Professional",    "Workday"),
-    # Banking / financial services (CA HQ or major CA presence)
-    ("wellsfargo.wd5.myworkdayjobs.com",    "wellsfargo",   "WellsFargoJobsBilingual", "Wells Fargo"),
-    ("schwab.wd5.myworkdayjobs.com",        "schwab",       "Schwab",                  "Charles Schwab"),
-    ("levi.wd5.myworkdayjobs.com",          "levi",         "LeviStraussCo",           "Levi Strauss & Co."),
-    ("gap.wd5.myworkdayjobs.com",           "gap",          "Gap",                     "Gap Inc."),
-    ("pge.wd5.myworkdayjobs.com",           "pge",          "PGE_External",            "PG&E"),
-    # Healthcare / biotech
-    ("kp.wd5.myworkdayjobs.com",            "kp",           "KaiserPermanente",        "Kaiser Permanente"),
-    ("sutterhealth.wd5.myworkdayjobs.com",  "sutterhealth", "External",                "Sutter Health"),
-    ("genentech.wd1.myworkdayjobs.com",     "genentech",    "Genentech",               "Genentech (Roche)"),
-    ("gilead.wd5.myworkdayjobs.com",        "gilead",       "Gilead",                  "Gilead Sciences"),
-    ("biogen.wd1.myworkdayjobs.com",        "biogen",       "ClinicalBiostatistics",   "Biogen"),
-    ("abbvie.wd1.myworkdayjobs.com",        "abbvie",       "AbbVieCareers",           "AbbVie"),
-    # Entertainment / media
-    ("disney.wd5.myworkdayjobs.com",        "disney",       "disneycareer",            "The Walt Disney Company"),
-    ("nbcuni.wd1.myworkdayjobs.com",        "nbcuni",       "Careers",                 "NBCUniversal"),
-    ("paramount.wd1.myworkdayjobs.com",     "paramount",    "External",                "Paramount"),
-    ("warnermedia.wd5.myworkdayjobs.com",   "warnermedia",  "WarnerMedia",             "Warner Bros. Discovery"),
-    ("sonypictures.wd5.myworkdayjobs.com",  "sonypictures", "SonyPictures",            "Sony Pictures"),
-    # Retail / consumer
-    ("homedepot.wd5.myworkdayjobs.com",     "homedepot",    "External",                "Home Depot"),
-    ("target.wd5.myworkdayjobs.com",        "target",       "EXT",                     "Target"),
-    ("nike.wd1.myworkdayjobs.com",          "nike",         "ExternalCareerSite",      "Nike"),
-    # Professional services
-    ("accenture.wd3.myworkdayjobs.com",     "accenture",    "AccentureCareers",        "Accenture"),
-    ("deloitte.wd1.myworkdayjobs.com",      "deloitte",     "ExternalCareers",         "Deloitte"),
-    ("pwc.wd3.myworkdayjobs.com",           "pwc",          "Global_Experienced_Careers", "PwC"),
-    ("kpmg.wd5.myworkdayjobs.com",          "kpmg",         "KPMG_Careers",            "KPMG"),
-    # Aerospace / defense (Southern CA)
-    ("northropgrumman.wd5.myworkdayjobs.com","northropgrumman","NGC",                  "Northrop Grumman"),
-    ("spacex.wd5.myworkdayjobs.com",        "spacex",       "SpaceX",                  "SpaceX"),
-    ("jpl.wd5.myworkdayjobs.com",           "jpl",          "JPLExternalSite",         "NASA / JPL"),
-]
+# === Phase 4 seed loader (added 2026-05-27) ===
+sys.path.insert(0, os.path.expanduser('~/shared-scripts'))
+from hub_employer_seeds import load_workday_seeds
+SEED_TENANTS = load_workday_seeds('ca')
 
 
 KNOWN_COMPANY_OVERRIDES = {
-    "salesforce":       "Salesforce",
-    "apple":            "Apple",
-    "visa":             "Visa",
-    "oracle":           "Oracle",
-    "intel":            "Intel",
-    "qualcomm":         "Qualcomm",
-    "servicenow":       "ServiceNow",
-    "workday":          "Workday",
-    "wellsfargo":       "Wells Fargo",
-    "schwab":           "Charles Schwab",
-    "levi":             "Levi Strauss & Co.",
-    "gap":              "Gap Inc.",
-    "pge":              "PG&E",
-    "kp":               "Kaiser Permanente",
-    "sutterhealth":     "Sutter Health",
-    "genentech":        "Genentech (Roche)",
-    "gilead":           "Gilead Sciences",
-    "disney":           "The Walt Disney Company",
-    "nbcuni":           "NBCUniversal",
-    "warnermedia":      "Warner Bros. Discovery",
-    "sonypictures":     "Sony Pictures",
-    "northropgrumman":  "Northrop Grumman",
-    "spacex":           "SpaceX",
-    "accenture":        "Accenture",
-    "deloitte":         "Deloitte",
-    "pwc":              "PwC",
+    "salesforce":   "Salesforce",
+    "visa":         "Visa",
+    "intel":        "Intel",
+    "workday":      "Workday",
+    "disney":       "The Walt Disney Company",
+    "target":       "Target",
+    "pwc":          "PwC",
 }
 
 DISCOVERY_QUERIES = [
@@ -496,6 +437,7 @@ def main():
 
     existing_keys = load_existing_keys()
     seen_keys = set(existing_keys)
+    seen_urls = load_existing_urls()
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
     total_found = 0
@@ -565,6 +507,9 @@ def main():
             val_min, val_max = salary
             location = parse_location(locations, ext_path)
             source_url = f"https://{host}/en-US/{tenant}{ext_path}"
+
+            if source_url in seen_urls:
+                continue
             resolved_company = extract_company_from_html(text) or company_name
 
             posted = TODAY
@@ -584,6 +529,7 @@ def main():
             }
 
             seen_keys.add(key)
+            seen_urls.add(source_url)
             write_job(OUTPUT_FILE, job)
             total_found += 1
             log(f"    → FOUND: ${val_min:,}–${val_max:,} [{location}]")

@@ -26,6 +26,7 @@ from datetime import date, datetime, timedelta, timezone
 sys.path.insert(0, os.path.dirname(__file__))
 from _common import (
     make_logger, acquire_lock, exa_search, load_existing_keys,
+    load_existing_urls,
     write_job, TODAY, OUTPUT_FILE,
 )
 
@@ -39,173 +40,10 @@ log = make_logger(LOG_FILE)
 fetcher = Fetcher()
 
 # ── Seed slugs — CA-present Lever companies ───────────────────────────────────
-SEED_SLUGS = [
-    # Bay Area tech / SaaS
-    "airtable",         # Airtable SF HQ
-    "amplitude",        # Amplitude SF HQ
-    "asana",            # Asana SF HQ
-    "brex",             # Brex SF HQ
-    "calm",             # Calm SF HQ
-    "canva",            # Canva SF
-    "census",
-    "checkr",           # Checkr SF HQ
-    "chime",            # Chime SF HQ
-    "chord",
-    "clearbit",
-    "clipboard-health",
-    "cloudflare",       # Cloudflare SF HQ
-    "cohesity",         # Cohesity San Jose
-    "coinbase",         # Coinbase SF (remote-first but CA base)
-    "confluent",        # Confluent Mountain View
-    "databricks",       # Databricks SF HQ
-    "descript",         # Descript SF
-    "divvy",
-    "donut",
-    "figma",            # Figma SF HQ
-    "finix",
-    "gem",
-    "gladly",
-    "gusto",            # Gusto SF HQ
-    "heap",
-    "ironclad",         # Ironclad SF HQ
-    "kandji",           # Kandji San Diego
-    "karat",
-    "lattice",          # Lattice SF HQ
-    "lever",            # Lever SF (meta!)
-    "lob",
-    "loom",             # Loom SF HQ
-    "lyft",             # Lyft SF HQ
-    "mercury",          # Mercury SF HQ
-    "mixpanel",         # Mixpanel SF HQ
-    "modern-health",    # Modern Health SF
-    "navan",            # Navan Palo Alto
-    "notion",           # Notion SF HQ
-    "numeral",
-    "nuvemshop",
-    "openai",           # OpenAI SF (if on Lever)
-    "opendoor",
-    "openpath",
-    "pagerduty",        # PagerDuty SF HQ
-    "parse",
-    "pilot",            # Pilot SF HQ
-    "posthog",
-    "productboard",
-    "propel",
-    "ramp",
-    "replit",           # Replit SF HQ
-    "retool",           # Retool SF HQ
-    "rippling",         # Rippling SF HQ
-    "robinhood",        # Robinhood Menlo Park
-    "rocket-companies",
-    "scale",            # Scale AI SF
-    "segment",          # Segment (Twilio) SF
-    "sendbird",
-    "sentry",           # Sentry SF HQ
-    "shippo",           # Shippo SF HQ
-    "sigma",
-    "slack",            # Slack SF HQ
-    "smarthr",
-    "snorkel-ai",
-    "sourcegraph",
-    "speakeasy",
-    "stripe",           # Stripe SF HQ
-    "superhuman",       # Superhuman SF HQ
-    "tanium",           # Tanium Emeryville
-    "teleport",
-    "tipalti",          # Tipalti San Mateo
-    "toast",
-    "turo",             # Turo SF HQ
-    "twilio",           # Twilio SF HQ
-    "vanta",            # Vanta SF HQ
-    "vercel",
-    "verkada",          # Verkada San Mateo
-    "webflow",          # Webflow SF HQ
-    "whatnot",          # Whatnot LA
-    "workato",
-    "workiva",
-    "wrapbook",         # Wrapbook LA
-    "yelp",             # Yelp SF HQ
-    "zapier",
-    "zendesk",          # Zendesk SF HQ
-    "zestfinance",
-    "zscaler",          # Zscaler San Jose
-    # LA / Southern CA
-    "beachbody",
-    "bolt",
-    "clutter",
-    "fandango",
-    "grindr",           # Grindr LA
-    "headspace",        # Headspace LA
-    "hims-hers",        # Hims & Hers SF
-    "honeyfund",
-    "jukin",
-    "lasership",
-    "patreon",          # Patreon SF HQ
-    "pluto",            # Pluto TV LA
-    "primary",
-    "servicetitan",     # ServiceTitan Glendale
-    "snap",             # Snap LA HQ
-    "sweetgreen",       # Sweetgreen LA HQ
-    "tastemade",
-    "thrive-market",    # Thrive Market LA
-    "ticketmaster",     # Ticketmaster Beverly Hills
-    "tinder",           # Tinder LA
-    "tubi",             # Tubi SF HQ
-    "verizondigitalmedia",
-    "veteransunited",
-    "wishabi",
-    "wonderschool",
-    # Biotech / life sciences (Bay Area)
-    "10x-genomics",     # 10x Genomics Pleasanton
-    "arcus-biosciences",
-    "caribou-biosciences",
-    "crispr",
-    "editas",
-    "fifthgen",
-    "forty-seven",
-    "gritstone-bio",
-    "guardant",
-    "insitro",
-    "invivyd",
-    "kezar",
-    "lyell",
-    "maze",
-    "merus",
-    "nuvation-bio",
-    "recursion",
-    "relay",
-    "revolution-medicines",
-    "rime",
-    "tenax",
-    "vividion",
-    # Fintech
-    "affinity",
-    "alloy",
-    "bloomerang",
-    "braintree",
-    "clearco",
-    "climb",
-    "current",
-    "deserve",
-    "divvy",
-    "fundbox",
-    "jeeves",
-    "lithic",
-    "mix",
-    "novo",
-    "nuvei",
-    "payoneer",
-    "pinwheel",
-    "plasticbank",
-    "pledgeling",
-    "pomelo",
-    "sila",
-    "socure",
-    "synctera",
-    "tillful",
-    "unit",
-    "wayflyer",
-]
+# === Phase 4 seed loader (added 2026-05-27) ===
+sys.path.insert(0, os.path.expanduser('~/shared-scripts'))
+from hub_employer_seeds import load_lever_seeds
+SEED_SLUGS = load_lever_seeds('ca')
 
 DISCOVERY_QUERIES = [
     'site:jobs.lever.co "San Francisco" OR "SF" salary 2026',
@@ -370,6 +208,7 @@ def main():
 
     existing_keys = load_existing_keys()
     seen_keys = set(existing_keys)
+    seen_urls = load_existing_urls()
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
 
     total_found = 0
@@ -420,6 +259,8 @@ def main():
             vmin, vmax = salary
             job_id = job.get("id", "")
             abs_url = f"https://jobs.lever.co/{slug}/{job_id}" if job_id else ""
+            if abs_url and abs_url in seen_urls:
+                continue
 
             posted = TODAY
             created_ms = job.get("createdAt")
@@ -444,6 +285,7 @@ def main():
 
             write_job(OUTPUT_FILE, job_out)
             seen_keys.add(key)
+            seen_urls.add(abs_url)
             total_found += 1
             found_this += 1
             log(f"  FOUND: {title[:50]} | ${vmin:,}–${vmax:,} [{loc_name}]")

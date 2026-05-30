@@ -20,6 +20,7 @@ from datetime import date, timedelta
 sys.path.insert(0, os.path.dirname(__file__))
 from _common import (
     make_logger, acquire_lock, load_existing_keys,
+    load_existing_urls,
     write_job, TODAY, OUTPUT_FILE, CA_TERMS,
 )
 
@@ -32,90 +33,10 @@ LOOKBACK_DATE = (date.today() - timedelta(days=60)).isoformat() + "T00:00:00.000
 log = make_logger(LOG_FILE)
 fetcher = Fetcher()
 
-SEED_SLUGS = [
-    # ── SF / Bay Area Flagship Tech ───────────────────────────────────────────
-    ("google", None),              # Google, Mountain View HQ
-    ("meta", None),                # Meta, Menlo Park HQ
-    ("apple", None),               # Apple, Cupertino HQ
-    ("salesforce", None),          # Salesforce, SF HQ
-    ("airbnb", None),              # Airbnb, SF HQ
-    ("lyft", None),                # Lyft, SF HQ
-    ("uber", None),                # Uber, SF HQ
-    ("doordash", None),            # DoorDash, SF HQ
-    ("dropbox", None),             # Dropbox, SF HQ
-    ("github", None),              # GitHub, SF HQ
-    ("stripe", None),              # Stripe, SF HQ
-    ("square", None),              # Block/Square, SF HQ
-    ("databricks", None),          # Databricks, SF HQ
-    ("figma", None),               # Figma, SF HQ
-    ("asana", None),               # Asana, SF HQ
-    ("zendesk", None),             # Zendesk, SF HQ
-    ("twilio", None),              # Twilio, SF HQ
-    ("okta", None),                # Okta, SF HQ
-    ("cloudflare", None),          # Cloudflare, SF HQ
-    ("splunk", None),              # Splunk, SF HQ
-    ("pagerduty", None),           # PagerDuty, SF HQ
-    ("mixpanel", None),            # Mixpanel, SF HQ
-    ("amplitude", None),           # Amplitude, SF HQ
-    # ── Silicon Valley ────────────────────────────────────────────────────────
-    ("nvidia", None),              # NVIDIA, Santa Clara HQ
-    ("intel", None),               # Intel, Santa Clara HQ
-    ("adobe", None),               # Adobe, San Jose HQ
-    ("zoom", None),                # Zoom, San Jose HQ
-    ("servicenow", None),          # ServiceNow, Santa Clara
-    ("paloaltonetworks", None),    # Palo Alto Networks, Santa Clara
-    ("fortinet", None),            # Fortinet, Sunnyvale
-    ("linkedin", None),            # LinkedIn, Sunnyvale HQ
-    ("intuit", None),              # Intuit, Mountain View
-    ("hp", None),                  # HP, Palo Alto
-    ("vmware", None),              # VMware, Palo Alto
-    ("arista", None),              # Arista Networks, Santa Clara
-    # ── LA / Southern California ──────────────────────────────────────────────
-    ("snap", None),                # Snap Inc., Santa Monica HQ
-    ("tiktok", None),              # TikTok, Culver City
-    ("riotgames", None),           # Riot Games, LA HQ
-    ("activision", None),          # Activision, Santa Monica
-    ("hulu", None),                # Hulu, Santa Monica HQ
-    ("netsuite", None),            # NetSuite (Oracle), LA
-    ("hawkeyeinnovations", None),  # Hawkeye, LA
-    # ── Startups / Growth ─────────────────────────────────────────────────────
-    ("anthropic", None),           # Anthropic, SF HQ
-    ("openai", None),              # OpenAI, SF HQ
-    ("scale", None),               # Scale AI, SF HQ
-    ("brex", None),                # Brex, SF HQ
-    ("gusto", None),               # Gusto, SF HQ
-    ("rippling", None),            # Rippling, SF HQ
-    ("lattice", None),             # Lattice, SF HQ
-    ("notion", None),              # Notion, SF HQ
-    ("airtable", None),            # Airtable, SF HQ
-    ("retool", None),              # Retool, SF HQ
-    ("linear", None),              # Linear, SF HQ
-    ("vercel", None),              # Vercel, SF HQ
-    ("loom", None),                # Loom, SF HQ
-    ("mercury", None),             # Mercury, SF HQ
-    ("ramp", None),                # Ramp, SF office
-    # ── Healthcare / Biotech ──────────────────────────────────────────────────
-    ("genentech", None),           # Genentech, South SF
-    ("gilead", None),              # Gilead Sciences, Foster City
-    ("illumina", None),            # Illumina, San Diego
-    ("qualcomm", None),            # Qualcomm, San Diego
-    ("gen", None),                 # Gen Digital (Norton), Tempe/CA
-    # ── E-commerce / Consumer ─────────────────────────────────────────────────
-    ("netflix", None),             # Netflix, Los Gatos HQ
-    ("shopify", None),             # Shopify, remote/CA
-    ("pinterest", None),           # Pinterest, SF HQ
-    ("yelp", None),                # Yelp, SF HQ
-    ("eventbrite", None),          # Eventbrite, SF HQ
-    ("stitch-fix", None),          # Stitch Fix, SF HQ
-    # ── Infrastructure / DevOps ───────────────────────────────────────────────
-    ("hashicorp", None),           # HashiCorp, SF HQ
-    ("docker", None),              # Docker, San Mateo
-    ("confluent", None),           # Confluent, Mountain View
-    ("snowflake", None),           # Snowflake, San Mateo
-    ("datadog", None),             # Datadog, SF
-    ("newrelic", None),            # New Relic, SF HQ
-    ("dynatrace", None),           # Dynatrace, Waltham/CA
-]
+# === Phase 4 seed loader (added 2026-05-27) ===
+sys.path.insert(0, os.path.expanduser('~/shared-scripts'))
+from hub_employer_seeds import load_greenhouse_seeds
+SEED_SLUGS = load_greenhouse_seeds('ca')
 
 
 SALARY_PATTERNS = [
@@ -237,6 +158,7 @@ def main():
 
     log("=== CA Greenhouse scraper started ===")
     existing = load_existing_keys()
+    existing_urls = load_existing_urls()
     log(f"Existing dedup keys: {len(existing)}")
 
     new_count = 0
@@ -244,11 +166,14 @@ def main():
         log(f"[{slug}] fetching...")
         jobs = fetch_company_jobs(slug, name_override)
         for job in jobs:
+            if job.get("source_url") in existing_urls:
+                continue
             key = f"{job['role'].lower().strip()}|{job['company'].lower().strip()}"
             if key in existing:
                 continue
             write_job(OUTPUT_FILE, job)
             existing.add(key)
+            existing_urls.add(job.get("source_url", ""))
             new_count += 1
             log(f"  + {job['role']} @ {job['company']} | ${job['min']:,}–${job['max']:,} | {job['location']}")
         time.sleep(0.5)

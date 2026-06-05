@@ -1,10 +1,33 @@
 {
   "meta": {
-    "built_at": "2026-06-04T09:02:41.320030+00:00",
-    "total_jobs": 4798,
-    "enriched": 2604
+    "built_at": "2026-06-05T09:11:39.840516+00:00",
+    "total_jobs": 4879,
+    "enriched": 2830
   },
   "jobs": {
+    "analytics-lead--mark-lyft-65682582": {
+      "summary": "Analytics Lead drives deep dive business & product analyses and communicates key trends in data to senior leadership through strategic insights and actionable recommendations.",
+      "key_skills": [
+        "sql",
+        "data_analysis",
+        "business_strategy",
+        "marketplace_trends",
+        "data_visualization",
+        "data_storytelling",
+        "cross_functional_communication",
+        "analytical_problem_solving"
+      ],
+      "core_skills": [
+        "sql",
+        "data_analysis",
+        "business_strategy",
+        "marketplace_trends"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
     "applied-scientist--p-lyft-65682582": {
       "summary": "Designs and implements pricing algorithms to optimize revenue and user experience",
       "key_skills": [
@@ -16714,6 +16737,31 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "remote"
+    },
+    "senior-principal-ana-google-89682911": {
+      "summary": "Senior Principal Analyst works with Engineering, Product, Legal, Policy, and Scaled Operations teams to identify and solve user safety issues across Google products like Search, Maps, Gmail, and Google Ads.",
+      "key_skills": [
+        "data analytics",
+        "trust and safety",
+        "policy",
+        "cybersecurity",
+        "business strategy",
+        "machine learning",
+        "sql",
+        "dashboards"
+      ],
+      "core_skills": [
+        "problem-solving",
+        "critical thinking",
+        "problem-solving",
+        "critical thinking",
+        "cross-functional collaboration",
+        "strategic planning"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
     },
     "display-mechanical-e-google-89682911": {
       "summary": "Conducts mechanical analysis and validation for display modules in smartphone and wearable products, leveraging expertise in simulation tools and material science to ensure product reliability and performance.",
@@ -38253,6 +38301,29 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
+    "sr--supply-planner---elfbeauty-60313810": {
+      "summary": "The Senior Supply Planner develops and maintains short- and mid-term supply plans aligned to demand forecasts and production capacity, monitors inventory levels to prevent stockouts and excess inventory, executes replenishment planning to support service level targets, identifies supply risks, and collaborates with cross-functional teams to ensure efficient supply chain operations.",
+      "key_skills": [
+        "supply planning",
+        "inventory management",
+        "demand forecasting",
+        "production scheduling",
+        "replenishment planning",
+        "purchase orders",
+        "ERP/MRP systems",
+        "analytical skills"
+      ],
+      "core_skills": [
+        "supply planning",
+        "inventory management",
+        "demand forecasting",
+        "production scheduling"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
     "1-51-robotics-autono-field-ai-60313810": {
       "summary": "Designs and deploys reinforcement learning-based locomotion controllers for legged and humanoid robots, integrating physics-based simulation with real-world hardware validation.",
       "key_skills": [
@@ -39302,6 +39373,28 @@
       "red_flags": [],
       "work_mode_derived": "onsite"
     },
+    "hr-generalist-hermeus-60313810": {
+      "summary": "Provides on-site People Operations support for employee relations, investigations, onboarding, and terminations in the Los Angeles office",
+      "key_skills": [
+        "hr",
+        "employee_relations",
+        "investigations",
+        "onboarding",
+        "terminations",
+        "risk_management",
+        "compliance"
+      ],
+      "core_skills": [
+        "employee_relations",
+        "investigations",
+        "onboarding",
+        "terminations"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
     "l-d-associate-hermeus-60313810": {
       "summary": "Supports learning initiatives end-to-end by managing LMS administration, content creation, training coordination, facilitation, and evaluation of training effectiveness.",
       "key_skills": [
@@ -39694,6 +39787,29 @@
       "red_flags": [],
       "work_mode_derived": "unknown"
     },
+    "senior-structures-en-hermeus-60313811": {
+      "summary": "Senior Structures Engineer designs, builds, tests next-gen aircraft aerostructures while leading hardware upgrades and mentoring junior engineers to achieve rapid iterations.",
+      "key_skills": [
+        "aerospace",
+        "structural",
+        "design",
+        "analysis",
+        "testing",
+        "manufacturing",
+        "cad",
+        "nx"
+      ],
+      "core_skills": [
+        "structural analysis",
+        "design for manufacturing",
+        "rapid prototyping",
+        "hardware iteration"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
     "software-engineer-hi-hermeus-60313811": {
       "summary": "Designs, develops, and maintains Hardware-in-the-Loop (HIL) testbeds for hypersonic aircraft avionics systems, collaborating with cross-functional teams to validate embedded control software and ensure product reliability.",
       "key_skills": [
@@ -39780,6 +39896,29 @@
         "tooling design",
         "structural assemblies",
         "hands-on engineering"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "test-engineer-hermeus-60313811": {
+      "summary": "Test Engineer develops, builds, analyzes, and operates test assets for hypersonic vehicles, including hydraulic and fluid systems, while collaborating with cross-functional teams to ensure testing requirements are met.",
+      "key_skills": [
+        "test engineering",
+        "hypersonic vehicles",
+        "fluid mechanics",
+        "heat transfer",
+        "mechanics of materials",
+        "mechanical design",
+        "test fixtures",
+        "test rigs"
+      ],
+      "core_skills": [
+        "fluid mechanics",
+        "heat transfer",
+        "me:mechanics of materials",
+        "mechanical design"
       ],
       "seniority_signal": "mid",
       "role_type": "ic",
@@ -39941,6 +40080,29 @@
         "c",
         "linux",
         "embedded"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "staff-backend-softwa-lumafield-60313811": {
+      "summary": "Builds and maintains scalable backend systems for cloud platforms handling X-Ray and CT image data using Python, Django, Celery, and AWS services.",
+      "key_skills": [
+        "python",
+        "djang",
+        "celery",
+        "aws",
+        "postgresql",
+        "sagemaker",
+        "kubernetes",
+        "docker"
+      ],
+      "core_skills": [
+        "python",
+        "aws",
+        "kubernetes",
+        "postgresql"
       ],
       "seniority_signal": "senior",
       "role_type": "ic",
@@ -43405,6 +43567,29 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "ai-systems-engineer--openai-60313812": {
+      "summary": "Builds and maintains the core agent harness that enables Codex agents to safely execute tasks in production environments",
+      "key_skills": [
+        "rust",
+        "systems",
+        "ml",
+        "inference",
+        "sandboxing",
+        "orchestration",
+        "debugging",
+        "performance"
+      ],
+      "core_skills": [
+        "systems",
+        "ml",
+        "inference",
+        "sandboxing"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
     "analytics-engineer-openai-60313812": {
       "summary": "Builds data-centric culture and drives strategic initiatives through analytics by developing canonical data sources, dashboards, and scalable pipelines for revenue, pricing, and usage metrics.",
       "key_skills": [
@@ -44453,6 +44638,29 @@
         "production-grade code"
       ],
       "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "forward-deployed-sof-openai-60313813": {
+      "summary": "Builds custom software using OpenAI's APIs to solve customer problems through iterative development and close collaboration with customer teams.",
+      "key_skills": [
+        "full-stack",
+        "api",
+        "customer-focused",
+        "experiment-driven",
+        "iterative",
+        "scalable",
+        "abstractions",
+        "relational databases"
+      ],
+      "core_skills": [
+        "full-stack",
+        "api",
+        "customer-focused",
+        "experiment-driven"
+      ],
+      "seniority_signal": "mid",
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
@@ -45821,6 +46029,29 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
+    "principal-software-e-openai-60313813": {
+      "summary": "Owns architecture and roadmap for core security services like authentication, authorization, and key management systems at scale.",
+      "key_skills": [
+        "kubernetes",
+        "cloud",
+        "security",
+        "infrastructure",
+        "authentication",
+        "authorization",
+        "key_management",
+        "encryption"
+      ],
+      "core_skills": [
+        "kubernetes",
+        "cloud",
+        "security",
+        "infrastructure"
+      ],
+      "seniority_signal": "principal",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
     "procurement-enableme-openai-60313813": {
       "summary": "Partners across Procurement, Finance, Legal, Security, Privacy, and Enterprise Technology to simplify procurement workflows and improve employee experiences through process design, automation, and AI-driven solutions.",
       "key_skills": [
@@ -47160,6 +47391,26 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
+    "senior-legal-program-openai-60313814": {
+      "summary": "Leads global compliance for hardware launches and regulatory requirements across jurisdictions, ensuring products meet legal obligations and manage cross-functional initiatives for AI governance and risk management.",
+      "key_skills": [
+        "program management",
+        "regulatory compliance",
+        "ai governance",
+        "risk management",
+        "transparency",
+        "privacy",
+        "model compliance"
+      ],
+      "core_skills": [
+        "program management",
+        "reg. compliance"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
     "senior-manager--fina-openai-60313814": {
       "summary": "Owns end-to-end financial statements and disclosures, drives audit readiness, and modernizes reporting workflows through AI integration in a high-growth tech environment.",
       "key_skills": [
@@ -47272,6 +47523,21 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "senior-staff-backend-openai-60313814": {
+      "summary": "Works on backend software engineering tasks for OpenAI's systems",
+      "key_skills": [
+        "backend",
+        "software",
+        "engineer"
+      ],
+      "core_skills": [
+        "backend"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
     },
     "senior-support-engin-openai-60313814": {
       "summary": "Senior Support Engineer designs and runs operational processes to monitor strategic customers and ensures high reliability of AI solutions through proactive incident management and automation.",
@@ -50240,6 +50506,29 @@
       "red_flags": [],
       "work_mode_derived": "remote"
     },
+    "analyst--dtc-strateg-disney-entertai-60313816": {
+      "summary": "Analyst, DTC Strategy works with stakeholders to provide market intelligence and actionable strategies for Disney's streaming businesses.",
+      "key_skills": [
+        "drc",
+        "strategy",
+        "market",
+        "intelligence",
+        "growth",
+        "innovation",
+        "collaboration",
+        "stakeholders"
+      ],
+      "core_skills": [
+        "market",
+        "intelligence",
+        "growth",
+        "innovation"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
     "director---manager-o-flex-60313816": {
       "summary": "Builds and scales FP&A function from scratch for an AI-native private bank using modern FP&A platforms and AI tools.",
       "key_skills": [
@@ -50279,6 +50568,27 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "onsite"
+    },
+    "senior-software-engi-not-specified-60313816": {
+      "summary": "Architects and leads design and implementation of key product capabilities while mentoring teammates and defining product engineering standards in a collaborative culture.",
+      "key_skills": [
+        "cloud-native",
+        "microservices",
+        "ai-assisted development",
+        "devops",
+        "github copilot",
+        "chatg.  "
+      ],
+      "core_skills": [
+        "system design",
+        "product mindset",
+        "technical leadership",
+        "ai ethics"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
     },
     "developer-sap-60313817": {
       "summary": "Develops and maintains product features through design, coding, testing, and quality assurance while resolving software issues and improving code efficiency.",
@@ -52524,6 +52834,29 @@
       "red_flags": [],
       "work_mode_derived": "onsite"
     },
+    "occupational-therapi-hightechhigh-46880393": {
+      "summary": "Occupational Therapist provides individualized assessments and interventions for students with disabilities to support their Individualized Education Plan goals.",
+      "key_skills": [
+        "occupational therapy",
+        "motor disabilities",
+        "individualized education plan",
+        "assessment",
+        "intervention plans",
+        "sensory motor",
+        "fine motor",
+        "gross motor skills"
+      ],
+      "core_skills": [
+        "assessment accuracy",
+        "treatment techniques",
+        "knowledge of intellectual development",
+        "knowledge of sensory development"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
     "science-teacher--hig-hightechhigh-46880393": {
       "summary": "Science teachers design project-based learning experiences that align with equity, personalization, authentic work, and collaborative design principles while managing daily classroom activities and student progress.",
       "key_skills": [
@@ -52563,6 +52896,29 @@
         "curriculum design",
         "student engagement",
         "lesson planning",
+        "classroom management"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "teacher---art-explor-hightechhigh-46880393": {
+      "summary": "Teacher prepares project-based lesson plans, grades assignments, and supports student learning in a high-tech charter school environment.",
+      "key_skills": [
+        "project-based curriculum",
+        "lesson planning",
+        "student engagement",
+        "classroom management",
+        "grading assignments",
+        "student support",
+        "critical thinking",
+        "diversity management"
+      ],
+      "core_skills": [
+        "project-based learning",
+        "lesson planning",
+        "student engagement",
         "classroom management"
       ],
       "seniority_signal": "entry",
@@ -52918,6 +53274,29 @@
       "red_flags": [],
       "work_mode_derived": "unknown"
     },
+    "director-of-developm-aisafety-46880393": {
+      "summary": "Directs strategic fundraising efforts, secures grants, cultivates donors and partners, and aligns initiatives with program goals to advance AI safety research.",
+      "key_skills": [
+        "fundraising",
+        "grant_writing",
+        "donor_cultivation",
+        "strategic_planning",
+        "stakeholder_engagement",
+        "partnership_development",
+        "program_alignment",
+        "communication"
+      ],
+      "core_skills": [
+        "strategic_planning",
+        "stakeholder_engagement",
+        "partnership_development",
+        "communication"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
     "newsletter-editor-aisafety-46880393": {
       "summary": "The Newsletter Editor owns the end-to-end publishing of the AI Safety Newsletter, selecting and drafting stories weekly while collaborating with the team to ensure clarity and timely distribution.",
       "key_skills": [
@@ -52940,6 +53319,29 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "operations-manager-aisafety-46880393": {
+      "summary": "The Operations Manager builds efficient systems from the ground up to support AI safety research and policy initiatives, managing internal operations, HR, and technical infrastructure while accelerating growth in a small, growing organization.",
+      "key_skills": [
+        "operations",
+        "policies",
+        "systems",
+        "technical",
+        "hr",
+        "compliance",
+        "recruiting",
+        "payroll"
+      ],
+      "core_skills": [
+        "systems",
+        "policies",
+        "technical",
+        "hr"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
     },
     "research-scientist-aisafety-46880393": {
       "summary": "Research Scientist leads high-impact AI safety research, designing and running experiments on large language models, building tooling for model training and evaluation, and publishing results to top conferences.",
@@ -53052,6 +53454,29 @@
         "de-escalation"
       ],
       "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "director-of-innovati-rocketship-46880394": {
+      "summary": "Designs and leads the launch of Rocketship's Innovation School, a lab school for piloting new instructional models, AI-enabled learning, and school structures while ensuring rigorous, joyful, and equitable student experiences.",
+      "key_skills": [
+        "design",
+        "innovation",
+        "instructional",
+        "ai",
+        "learning",
+        "model",
+        "scaling",
+        "program"
+      ],
+      "core_skills": [
+        "design",
+        "implementation",
+        "project_management",
+        "talent_strategy"
+      ],
+      "seniority_signal": "senior",
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "onsite"
@@ -53286,6 +53711,29 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
+    "transportation-creat-fehrandpeers-46880394": {
+      "summary": "Creative Studio Planners develop creative strategies for transportation projects and guide junior staff in implementing ideas.",
+      "key_skills": [
+        "transportation",
+        "creative",
+        "design",
+        "visualization",
+        "data",
+        "maps",
+        "planning",
+        "urban"
+      ],
+      "core_skills": [
+        "creative",
+        "design",
+        "data",
+        "visualization"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
     "transportation-engin-fehrandpeers-46880394": {
       "summary": "Transportation Engineer or Planner with 2-4 years of experience builds technical expertise and takes on project ownership while mentoring junior staff.",
       "key_skills": [
@@ -53418,6 +53866,29 @@
         "project_management",
         "content_creation",
         "communication_skills"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "marketing-and-outrea-headroyce-46880394": {
+      "summary": "The Marketing and Outreach Manager develops and implements integrated recruitment, marketing, and outreach strategies in partnership with the MarComm, Advancement, and Enrollment Management teams to strengthen family engagement and enrollment while ensuring mission-driven messaging.",
+      "key_skills": [
+        "marketing",
+        "outreach",
+        "admissions",
+        "advancement",
+        "content",
+        "strategic",
+        "communication",
+        "strategic_thinking"
+      ],
+      "core_skills": [
+        "strategic",
+        "communication",
+        "content",
+        "admissions"
       ],
       "seniority_signal": "mid",
       "role_type": "manager",
@@ -53608,6 +54079,25 @@
       "red_flags": [],
       "work_mode_derived": "onsite"
     },
+    "outside-sales-consul-windowsbyrba-46880394": {
+      "summary": "Design Consultants conduct in-home sales presentations for window and door replacements, providing same-day decisions based on value-based selling processes.",
+      "key_skills": [
+        "sales",
+        "consulting",
+        "customization",
+        "product_demonstration",
+        "value_based_selling",
+        "home_improvement"
+      ],
+      "core_skills": [
+        "sales",
+        "consulting"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
     "retail-and-events-su-windowsbyrba-46880394": {
       "summary": "Leads and coaches a team to maximize lead generation at retail stores, events, and trade shows while ensuring smooth operations.",
       "key_skills": [
@@ -53699,6 +54189,29 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
+    },
+    "backend-engineer-doss-46880394": {
+      "summary": "Designs and builds scalable EAV data models, schema-as-code platforms, and AI-assisted tooling for real-time operational workflows in enterprise settings",
+      "key_skills": [
+        "eav",
+        "schema-as-code",
+        "git-style-version-control",
+        "migration-engine",
+        "ai-assisted-tooling",
+        "data-warehouse",
+        "terraform-like-apis",
+        "observability"
+      ],
+      "core_skills": [
+        "database-architecture",
+        "cloud-deployment",
+        "graph-architectures",
+        "technical-decision-making"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
     },
     "brand-designer-doss-46880394": {
       "summary": "Owns the full brand visual identity, design system, and marketing assets for DOSS, creating campaign creative and sales collateral across paid channels and customer touchpoints.",
@@ -53857,6 +54370,28 @@
         "ai-native"
       ],
       "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "staff-frontend-engin-doss-46880394": {
+      "summary": "Architects and builds core frontend for collaborative cloud platform while owning technical roadmap of customer-facing features and creating scalable infrastructure components",
+      "key_skills": [
+        "typescript",
+        "react",
+        "nextjs",
+        "tailwind",
+        "graphql",
+        "postgres",
+        "node",
+        "express"
+      ],
+      "core_skills": [
+        "typescript",
+        "react",
+        "nextjs"
+      ],
+      "seniority_signal": "mid",
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "onsite"
@@ -54088,6 +54623,29 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
+    "deals--office-of-the-sfcompute-46880394": {
+      "summary": "Designs and runs new GPU offtake deals by coordinating multiple parties, preparing contracts, and ensuring deal completion.",
+      "key_skills": [
+        "deals",
+        "finance",
+        "coordination",
+        "contracts",
+        "term_sheets",
+        "lois",
+        "offtake",
+        "gpu"
+      ],
+      "core_skills": [
+        "coordination",
+        "contracts",
+        "finance",
+        "deals"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
     "hpc--gpu-cluster-arc-sfcompute-46880394": {
       "summary": "Architects and deploys GPU clusters globally while maintaining high availability through automation and on-call support.",
       "key_skills": [
@@ -54317,6 +54875,29 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "remote"
+    },
+    "director-of-engineer-harvey-46880394": {
+      "summary": "Leads the development of Harvey's agentic platform for legal knowledge work, overseeing the transition from individual tools to a unified AI-native platform.",
+      "key_skills": [
+        "ai",
+        "product",
+        "engineering",
+        "scaling",
+        "genai",
+        "agentic",
+        "platform",
+        "architecture"
+      ],
+      "core_skills": [
+        "product",
+        "engineering",
+        "scaling",
+        "genai"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
     },
     "director--product-de-harvey-46880394": {
       "summary": "Directs product design strategy for AI-powered legal copilot platform, ensuring cohesive end-to-end user experiences across complex workflows while leading a team of product designers.",
@@ -55031,48 +55612,48 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
-    "web-lead-langchain-46880394": {
-      "summary": "Owns the strategy, quality, and evolution of LangChain's web properties across marketing, product, and education, leading conversion and SEO initiatives while coordinating cross-functional teams.",
+    "deal-desk-lead--clou-openai-46880395": {
+      "summary": "Serves as the Deal Desk subject matter expert, partnering cross-functionally to structure and execute complex AWS Marketplace and partner-led enterprise transactions while establishing governance and guardrails for partner-led deals.",
       "key_skills": [
-        "web",
-        "cms",
-        "seo",
-        "conversion",
-        "optimization",
-        "content",
-        "governance",
-        "technical"
+        "deal desk",
+        "cloud marketplace",
+        "aws",
+        "commercial operations",
+        "quote-to-cash",
+        "revenue recognition",
+        "billing",
+        "revenue operations"
       ],
       "core_skills": [
-        "web_ownership",
-        "cross_functional_coordination",
-        "conversion_rate_optimization",
-        "technical_seo"
+        "quote-to-cash",
+        "revenue recognition",
+        "billing",
+        "commercial operations"
       ],
       "seniority_signal": "lead",
-      "role_type": "executive",
+      "role_type": "ic",
       "red_flags": [],
-      "work_mode_derived": "remote"
+      "work_mode_derived": "hybrid"
     },
-    "senior-rf-systems-en-northwoodspace-46880394": {
-      "summary": "Architects and defines advanced RF communication systems for satellite and ground networks, translating customer requirements into scalable RF architectures and hardware specifications while guiding products through development and deployment cycles.",
+    "global-food-operatio-openai-46880395": {
+      "summary": "Supports day-to-day operations of OpenAI’s global food program across multiple offices and regions, coordinating vendor performance, managing operational reporting, and improving workflows through AI and automation.",
       "key_skills": [
-        "rf systems engineering",
-        "communication systems",
-        "system architecture",
-        "product definition",
-        "link budget modeling",
-        "rf front-end architectures",
-        "transceiver design",
-        "digital communication theory"
+        "systems",
+        "operations",
+        "vendor_management",
+        "reporting",
+        "kpi_tracking",
+        "process_improvement",
+        "ai_automation",
+        "hospitality"
       ],
       "core_skills": [
-        "system architecture",
-        "product definition",
-        "link budget modeling",
-        "rf front-end architectures"
+        "systems_mind",
+        "operational_execution",
+        "stakeholder_coordination",
+        "hospitality_mindset"
       ],
-      "seniority_signal": "senior",
+      "seniority_signal": "mid",
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
@@ -55793,52 +56374,6 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
-    "forward-deployed-dat-sap-46880395": {
-      "summary": "Designs, develops, and applies advanced data science and machine learning methods to solve complex business problems in embedded customer environments.",
-      "key_skills": [
-        "data science",
-        "machine learning",
-        "python",
-        "sql",
-        "statistical modeling",
-        "exploratory analysis",
-        "anomaly detection",
-        "causal analysis"
-      ],
-      "core_skills": [
-        "machine learning",
-        "python",
-        "sql",
-        "statistical modeling"
-      ],
-      "seniority_signal": "expert",
-      "role_type": "ic",
-      "red_flags": [],
-      "work_mode_derived": "onsite"
-    },
-    "forward-deployed-app-sap-46880395": {
-      "summary": "Designs, builds, and operates production-grade cloud-native enterprise applications integrating AI capabilities like large language models, RAG, and agentic workflows while owning end-to-end delivery from prototyping to deployment.",
-      "key_skills": [
-        "cloud-native",
-        "ai-native",
-        "ml-engineering",
-        "agentic-ai",
-        "python",
-        "mlops",
-        "vector-databases",
-        "rag"
-      ],
-      "core_skills": [
-        "ai-native-applications",
-        "cloud-architecture",
-        "mlops",
-        "agentic-systems"
-      ],
-      "seniority_signal": "senior",
-      "role_type": "ic",
-      "red_flags": [],
-      "work_mode_derived": "onsite"
-    },
     "data---ai-solution-a-sap-46880395": {
       "summary": "Guides enterprises through complex Data & AI transformation initiatives, particularly in post-merger integration and platform modernization, by translating technical challenges into strategic SAP Data & AI solutions.",
       "key_skills": [
@@ -56495,6 +57030,29 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
+    "product-manager--dev-benchling-32978113": {
+      "summary": "Owns end-to-end roadmap for Benchling's developer-facing products including APIs, SDKs, and developer experience to enable AI-driven biotech R&D workflows",
+      "key_skills": [
+        "ai",
+        "product_management",
+        "developer_platform",
+        "api_design",
+        "developer_experience",
+        "mcp",
+        "agentic_workflows",
+        "life_sciences"
+      ],
+      "core_skills": [
+        "product_management",
+        "technical_fluency",
+        "developer_empathy",
+        "communication"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
     "customer-engineer-bland-32978113": {
       "summary": "Serves as primary point of contact for enterprise customers and developers, triages and resolves technical issues, collaborates with engineering teams, builds internal dashboards, and maintains documentation to ensure seamless user experiences.",
       "key_skills": [
@@ -56517,6 +57075,4520 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "onsite"
+    },
+    "enterprise-account-e-bland-32978113": {
+      "summary": "Owns complex enterprise deals from start to finish using MEDDPICC and value-led selling to close multi-threaded deals with technical and economic buyers across $100k to $1M+ ACV ranges.",
+      "key_skills": [
+        "meddpicc",
+        "enterprise_sales",
+        "value_led_selling",
+        "ai_platform_sales",
+        "technical_validation",
+        "roi_framing",
+        "business_case_development",
+        "customer_stakeholder_management"
+      ],
+      "core_skills": [
+        "meddpicc",
+        "enterprise_sales",
+        "value_led_selling",
+        "ai_platform_sales"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "machine-learning-res-bland-32978113": {
+      "summary": "Builds and deploys industry-leading multimodal LLM systems that power conversational AI agents for real-time customer interactions, integrating speech, text, tools, and dynamic context.",
+      "key_skills": [
+        "multimodal llms",
+        "llm fine-tuning",
+        "prompt engineering",
+        "neural audio codecs",
+        "real-time reasoning",
+        "tool execution",
+        "conversational ai",
+        "speech-language systems"
+      ],
+      "core_skills": [
+        "prompt engineering",
+        "neural audio codecs",
+        "real-time reasoning",
+        "tool execution"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "advanced-packaging-s-etched-32978113": {
+      "summary": "Signal & Power Integrity Engineer designs and optimizes electrical performance for AI accelerator platforms across silicon, package, and board levels, focusing on high-speed signaling and power delivery for transformer-purposed silicon.",
+      "key_skills": [
+        "signal_integrity",
+        "power_integrity",
+        "high_speed_signaling",
+        "high_power_package_design",
+        "board_design",
+        "interposer_design",
+        "substrate_design",
+        "decoupling_strategy"
+      ],
+      "core_skills": [
+        "signal_integrity_analysis",
+        "power_delivery_network_design",
+        "high_speed_routing",
+        "dynamic_impedance_management"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "asic-architect-etched-32978113": {
+      "summary": "Computer Architect designs and optimizes next-generation AI accelerators for transformer workloads, focusing on performance, efficiency, and cross-functional collaboration.",
+      "key_skills": [
+        "computer architecture",
+        "ai accelerators",
+        "transformer workloads",
+        "performance modeling",
+        "power efficiency",
+        "cycle-accurate simulation",
+        "rtl design",
+        "verilog"
+      ],
+      "core_skills": [
+        "computer architecture",
+        "ai accelerators",
+        "transformer workloads"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "design-verification--etched-32978113": {
+      "summary": "Design Verification Engineer ensures custom IPs powering Sohu are robust, high-performance, and silicon-ready through collaboration with architects, RTL designers, and SW/FW teams.",
+      "key_skills": [
+        "systemverilog",
+        "python",
+        "performance_verification",
+        "rtl",
+        "performance_modeling",
+        "memory_hierarchies",
+        "pipelines",
+        "interconnects"
+      ],
+      "core_skills": [
+        "performance_verification",
+        "systemverilog",
+        "python",
+        "rtl"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "dft--design-for-test-etched-32978113": {
+      "summary": "Design For Testability Engineer ensures robust testability of integrated circuits from design to production, enhancing test coverage and debug capabilities.",
+      "key_skills": [
+        "design for testability",
+        "dft",
+        "asic",
+        "soc",
+        "system verilog",
+        "eda tools",
+        "python",
+        "tcl"
+      ],
+      "core_skills": [
+        "digital design",
+        "verification methodologies",
+        "dft implementation"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "electrical-engineer--etched-32978113": {
+      "summary": "Hardware system engineer responsible for schematic design of accelerator modules, collaborating with cross-functional teams to solve system-level design challenges and ensure AI server requirements are met.",
+      "key_skills": [
+        "schematic design",
+        "signal integrity",
+        "pcb",
+        "mezzanine card",
+        "base board",
+        "odm",
+        "oem",
+        "bringup"
+      ],
+      "core_skills": [
+        "server design",
+        "ethernet",
+        "pcie gen5",
+        "i2c",
+        "spi",
+        "uart",
+        "datacenter",
+        "ai architecture"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "fp-a-analyst-etched-32978113": {
+      "summary": "Owns internal financial planning engine, runs end-to-end budgeting and planning cycles, builds financial models, and communicates with senior leadership to drive financial decisions.",
+      "key_skills": [
+        "financial planning",
+        "budgeting",
+        "financial modeling",
+        "excel",
+        "data analysis",
+        "stakeholder communication",
+        "process building",
+        "high-urgency execution"
+      ],
+      "core_skills": [
+        "financial modeling",
+        "excel",
+        "stakeholder communication",
+        "process building"
+      ],
+      "seniority_signal": "associate",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "head-of-manufacturin-etched-32978114": {
+      "summary": "Head of Manufacturing Design Program Manager leads technical manufacturing readiness for AI systems across NPI and mass production, partnering with design, test, and operations teams to ensure smooth production ramp and yield optimization.",
+      "key_skills": [
+        "ai",
+        "manufacturing",
+        "design",
+        "program",
+        "management",
+        "npi",
+        "smt",
+        "test"
+      ],
+      "core_skills": [
+        "manufacturing",
+        "program",
+        "npi",
+        "smt",
+        "test"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "head-of-performance--etched-32978114": {
+      "summary": "Head of Performance Visibility defines how performance is understood across next-generation AI accelerator systems by establishing metrics that connect hardware signals to distributed workload context, ML cluster dynamics, and emergent bottlenecks.",
+      "key_skills": [
+        "ai",
+        "performance",
+        "telemetry",
+        "distributed",
+        "hardware",
+        "software",
+        "systems",
+        "observability"
+      ],
+      "core_skills": [
+        "distributed",
+        "systems",
+        "hardware",
+        "software"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "inference-software-e-etched-32978114": {
+      "summary": "Supports porting state-of-the-art models to their AI inference architecture, builds and scales the Sohu runtime for distributed inference, and optimizes communication layers for high-performance AI applications.",
+      "key_skills": [
+        "c++",
+        "rust",
+        "distributed systems",
+        "performance optimization",
+        "pytorch",
+        "jax",
+        "hardware acceleration",
+        "transformer architectures"
+      ],
+      "core_skills": [
+        "distributed systems",
+        "performance optimization",
+        "c++",
+        "rust"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "infrastructure-softw-etched-32978114": {
+      "summary": "Builds and scales hybrid high-performance compute clusters and observability systems for AI infrastructure development",
+      "key_skills": [
+        "systems",
+        "infrastructure",
+        "orchestration",
+        "observability",
+        "ci/cd",
+        "distributed_systems",
+        "cloud",
+        "hybrid_computing"
+      ],
+      "core_skills": [
+        "systems",
+        "infrastructure",
+        "orchestration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "it-engineer-etched-32978114": {
+      "summary": "IT Engineer ensures seamless IT operations and infrastructure for high-performance engineering teams, enabling AI innovation with focus on security, automation, and scalability.",
+      "key_skills": [
+        "ai",
+        "infrastructure",
+        "networking",
+        "security",
+        "automation",
+        "operational-excellence",
+        "endpoint-management",
+        "mdm"
+      ],
+      "core_skills": [
+        "networking",
+        "security",
+        "automation",
+        "operational-excellence"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "kernel-driver-softwa-etched-32978114": {
+      "summary": "Designs and maintains kernel-mode drivers for AI accelerators, optimizing performance and reliability while collaborating with hardware teams on device virtualization and memory management.",
+      "key_skills": [
+        "c",
+        "c++",
+        "kernel",
+        "linux",
+        "memory_management",
+        "pci_express",
+        "virtualization",
+        "synchronization"
+      ],
+      "core_skills": [
+        "kernel_driver_development",
+        "hardware_software_interface",
+        "memory_management",
+        "pci_express"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "l10-l11-integration--etched-32978114": {
+      "summary": "Integration Manufacturing Engineer owns manufacturing integration for AI systems at L10/L11 level, ensuring seamless product introduction from prototype through high-volume deployment.",
+      "key_skills": [
+        "ai",
+        "manufacturing",
+        "integration",
+        "mechanical",
+        "system",
+        "design",
+        "dfm",
+        "thermal"
+      ],
+      "core_skills": [
+        "mechanical",
+        "system",
+        "integration",
+        "dfm"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "mechanical-dfm-engin-etched-32978114": {
+      "summary": "This role leads manufacturing processes for complex mechanical components, partnering with suppliers to develop, qualify, and scale robust production across CNC machining, die casting, sheet metal, stamping, and sub-assemblies while ensuring quality, cost, and delivery targets.",
+      "key_skills": [
+        "cnc machining",
+        "die casting",
+        "sheet metal",
+        "stamping",
+        "sub-assemblies",
+        "dfm",
+        "doe",
+        "process validation"
+      ],
+      "core_skills": [
+        "supplier management",
+        "process optimization",
+        "quality assurance",
+        "continuous improvement"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "mechanical-engineer-etched-32978114": {
+      "summary": "Mechanical Engineer designs high-power data center products from concept to production, ensuring reliability and manufacturability through collaboration with design teams and JDM partners.",
+      "key_skills": [
+        "mechanical engineering",
+        "data center chassis",
+        "high-power systems",
+        "cooling efficiency",
+        "manufacturing",
+        "tooling",
+        "dfm",
+        "vibration testing"
+      ],
+      "core_skills": [
+        "mechanical design",
+        "data center products",
+        "high-power systems",
+        "cooling efficiency"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "pcb-layout-engineer-etched-32978114": {
+      "summary": "Designs and optimizes high-speed PCB layouts for data center products using Cadence Allegro, focusing on 100G signaling, power distribution, and HDI stack-ups.",
+      "key_skills": [
+        "pcb layout",
+        "cadence allegro",
+        "high-speed signaling",
+        "power distribution",
+        "hdi stack-ups",
+        "impedance matching",
+        "trace routing",
+        "crosstalk mitigation"
+      ],
+      "core_skills": [
+        "pcb layout",
+        "cadence allegro",
+        "high-speed signaling",
+        "power distribution"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "people-operations--d-etched-32978114": {
+      "summary": "Owns how data informs decisions about talent, performance, and org design by building data pipelines, dashboards, and operational systems to drive evidence-based talent and org decisions.",
+      "key_skills": [
+        "sql",
+        "python",
+        "r",
+        "bi_tools",
+        "data_pipelines",
+        "hris",
+        "recruiting_ops",
+        "analytics"
+      ],
+      "core_skills": [
+        "data_driven_decision_making",
+        "operational_execution",
+        "cross_functional_stakeholder_management",
+        "ambiguity_resolution"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "performance-modeling-etched-32978114": {
+      "summary": "Develops performance models and analyzes deep learning workloads on accelerators to optimize transformer-specific architectures for high-performance inference systems",
+      "key_skills": [
+        "performance modeling",
+        "computer architecture",
+        "micro-architecture",
+        "deep learning workloads",
+        "hardware/software co-optimization",
+        "regression testing",
+        "architectural analysis",
+        "transformer models"
+      ],
+      "core_skills": [
+        "performance modeling",
+        "computer architecture",
+        "micro-architecture",
+        "deep learning workloads"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "platform-validation--etched-32978114": {
+      "summary": "Validates system hardware and PCB functionality to ensure robust power and signal margins across interfaces, collecting lab data for performance verification and supporting post-silicon characterization.",
+      "key_skills": [
+        "hardware validation",
+        "pcb debugging",
+        "signal integrity",
+        "power integrity",
+        "pcie",
+        "i2c",
+        "root cause analysis",
+        "doe experiments"
+      ],
+      "core_skills": [
+        "power integrity",
+        "signal integrity",
+        "pcie",
+        "i2c"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "post-silicon-validat-etched-32978114": {
+      "summary": "Post-silicon validation engineer responsible for bringing up, validating, and characterizing ASICs from first silicon through production ramp to ensure functional correctness, performance, and reliability of AI/ML accelerator hardware.",
+      "key_skills": [
+        "post-silicon validation",
+        "asic",
+        "debug",
+        "functional verification",
+        "performance validation",
+        "stress testing",
+        "corner case analysis",
+        "test automation"
+      ],
+      "core_skills": [
+        "post-silicon validation",
+        "asic",
+        "debug",
+        "functional verification"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "product-quality-engi-etched-32978114": {
+      "summary": "Quality Engineer ensures robust quality systems across suppliers, contract manufacturers, and integration partners for AI hardware production, driving inspection strategies and resolving systemic issues to maintain high performance and reliability standards.",
+      "key_skills": [
+        "quality engineering",
+        "supplier quality",
+        "manufacturing quality",
+        "system-level testing",
+        "failure analysis",
+        "root-cause investigation",
+        "corrective actions",
+        "reliability engineering"
+      ],
+      "core_skills": [
+        "quality tools",
+        "fmea",
+        "spc",
+        "control plans"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "product-test-enginee-etched-32978114": {
+      "summary": "Senior Product Test Engineer owns electrical debug and engineering for AI systems, ensuring seamless product introduction from NPI through high-volume ramp by collaborating with hardware, ASIC, diagnostics, test, and reliability engineering teams.",
+      "key_skills": [
+        "electrical engineering",
+        "pcb design",
+        "test equipment",
+        "debugging",
+        "yield improvement",
+        "manufacturing",
+        "component selection",
+        "reliability engineering"
+      ],
+      "core_skills": [
+        "electrical engineering",
+        "pcb design",
+        "test equipment",
+        "debugging"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "recruiter--g-a-gtm--etched-32978114": {
+      "summary": "Recruiter (G&A/GTM) owns full-cycle recruiting process for technical talent in fast-paced AI infrastructure company, ensuring high-quality hires through data-driven sourcing and partnership with hiring managers.",
+      "key_skills": [
+        "recruiting",
+        "talent",
+        "sourcing",
+        "candidate",
+        "hiring",
+        "process",
+        "full-cycle",
+        "quality"
+      ],
+      "core_skills": [
+        "recruiting",
+        "talent",
+        "sourcing",
+        "candidate"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-engineer----etched-32978114": {
+      "summary": "Designs and develops performance analysis tools for custom ML accelerators to identify bottlenecks and optimize hardware performance.",
+      "key_skills": [
+        "c++",
+        "rust",
+        "computer_architecture",
+        "memory_hierarchies",
+        "interconnects",
+        "performance_analysis",
+        "profiling",
+        "bottleneck_identification"
+      ],
+      "core_skills": [
+        "c++",
+        "computer_architecture",
+        "performance_analysis"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "supercomputing-engin-etched-32978114": {
+      "summary": "Designs, develops, and executes automated burn-in test suites for high-performance server hardware and software to ensure reliability and stability.",
+      "key_skills": [
+        "python",
+        "go",
+        "bash",
+        "linux",
+        "system_administration",
+        "performance_engineering",
+        "hardware_reliability",
+        "test_frameworks"
+      ],
+      "core_skills": [
+        "scripting",
+        "testing",
+        "linux",
+        "hardware_reliability"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "technical-recruiter-etched-32978114": {
+      "summary": "Owns full-cycle recruiting process for technical talent in AI and semiconductor fields, building pipelines through unconventional channels and ensuring high-quality hires.",
+      "key_skills": [
+        "ai",
+        "recruiting",
+        "technical",
+        "talent",
+        "sourcing",
+        "data-driven",
+        "hiring",
+        "candidate"
+      ],
+      "core_skills": [
+        "technical_recruiting",
+        "sourcing",
+        "hiring",
+        "candidate_experience"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "technical-recruiter--etched-32978114": {
+      "summary": "Owns full-cycle recruiting for technical talent in AI and supercomputing, focusing on unconventional sourcing channels and high-signal decision-making",
+      "key_skills": [
+        "technical recruiting",
+        "ai",
+        "machine learning",
+        "supercomputing",
+        "sourcing",
+        "candidate experience",
+        "hiring",
+        "interviewing"
+      ],
+      "core_skills": [
+        "technical recruiting",
+        "ai",
+        "machine learning",
+        "supercomputing"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "design-engineer-firecrawl-32978114": {
+      "summary": "Builds beautiful, fast UIs using Next.js, Tailwind, and Framer Motion to create and optimize product pages and interactive playgrounds for Firecrawl's platform.",
+      "key_skills": [
+        "nextjs",
+        "tailwind",
+        "framer motion"
+      ],
+      "core_skills": [
+        "nextjs",
+        "tailwind"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "forward-deployed-eng-firecrawl-32978114": {
+      "summary": "Owns technical integration delivery for priority customers, writing TypeScript/Node.js code to build and debug integrations with payments systems, cloud platforms, and third-party APIs while translating customer friction into product insights.",
+      "key_skills": [
+        "typescript",
+        "nodejs",
+        "api integration",
+        "cloud platforms",
+        "payments systems",
+        "data fundamentals",
+        "security patterns",
+        "debugging"
+      ],
+      "core_skills": [
+        "api integration",
+        "cloud platforms",
+        "payments systems",
+        "debugging"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "in-house-technical-w-firecrawl-32978114": {
+      "summary": "Owns end-to-end documentation for developer tools including API references, SDK guides, tutorials, and cookbooks while collaborating with engineering and growth teams to ensure technical content aligns with product features and user needs.",
+      "key_skills": [
+        "technical writing",
+        "developer documentation",
+        "api reference",
+        "sdk guides",
+        "tutorials",
+        "cookbooks",
+        "content strategy",
+        "product documentation"
+      ],
+      "core_skills": [
+        "technical writing",
+        "developer documentation",
+        "api reference",
+        "sdk guides"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "off-page-seo-special-firecrawl-32978114": {
+      "summary": "Owns end-to-end off-page SEO, digital PR, and GEO strategy to build Firecrawl's authority across backlinks, brand mentions, and LLM citations while measuring impact on referral traffic and brand visibility.",
+      "key_skills": [
+        "off-page seo",
+        "digital pr",
+        "backlink acquisition",
+        "geos",
+        "llm citations",
+        "citation tracking",
+        "referral traffic",
+        "data analysis"
+      ],
+      "core_skills": [
+        "off-page seo",
+        "digital pr",
+        "backlink acquisition",
+        "geos"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "product-engineer---s-firecrawl-32978114": {
+      "summary": "Owns developer-facing search experience at Firecrawl by shipping retrieval and ranking improvements from research into production systems.",
+      "key_skills": [
+        "applied_rl",
+        "ml_engineering",
+        "model_training",
+        "search_engineering",
+        "retrieval",
+        "ranking",
+        "developer_experience",
+        "product_engineering"
+      ],
+      "core_skills": [
+        "search_engineering",
+        "retrieval",
+        "ranking",
+        "developer_experience"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "product-researcher-firecrawl-32978114": {
+      "summary": "Product researcher who conducts in-depth customer conversations to uncover insights and drive product prioritization for a technical product.",
+      "key_skills": [
+        "product research",
+        "customer discovery",
+        "technical pm",
+        "founder"
+      ],
+      "core_skills": [
+        "customer discovery",
+        "technical understanding"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "revenue-operations-l-firecrawl-32978114": {
+      "summary": "Owns the billing lifecycle end to end, builds revenue dashboards, runs procurement and vendor operations, and ensures operational compliance for enterprise deals.",
+      "key_skills": [
+        "revenue operations",
+        "billing lifecycle",
+        "revenue dashboards",
+        "procurement",
+        "collections",
+        "compliance workflows",
+        "enterprise deals",
+        "ai automation"
+      ],
+      "core_skills": [
+        "operational relentless",
+        "build dashboards from raw data",
+        "operate compliance at operational level",
+        "use ai daily"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-growth-engine-firecrawl-32978114": {
+      "summary": "Senior full-stack engineer who owns growth projects end-to-end, builds conversion features, and ships production code across React, TypeScript, Next.js, and Node.",
+      "key_skills": [
+        "full-stack",
+        "react",
+        "typescript",
+        "nextjs",
+        "node",
+        "python",
+        "sql"
+      ],
+      "core_skills": [
+        "end-to-end",
+        "product-minded",
+        "growth-oriented",
+        "ai-native"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "technical-bdr-firecrawl-32978114": {
+      "summary": "Owns outbound pipeline for technical buyers by identifying and engaging engineering teams that need web data extraction solutions, combining technical fluency with relentless execution to qualify prospects and drive conversions.",
+      "key_skills": [
+        "technical",
+        "bdr",
+        "outbound",
+        "sales",
+        "engineering",
+        "data",
+        "ai",
+        "ml"
+      ],
+      "core_skills": [
+        "technical fluency",
+        "outbound execution",
+        "product intelligence",
+        "urgency"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "accounting-manager-northwoodspace-32978114": {
+      "summary": "Senior Accounting Manager responsible for leading month-end and cost accounting processes, ensuring accurate financial reporting, and driving operational excellence in accounting operations across global sites.",
+      "key_skills": [
+        "accounting",
+        "financial reporting",
+        "cost accounting",
+        "general ledger",
+        "ap",
+        "ar",
+        "revenue management",
+        "cash management"
+      ],
+      "core_skills": [
+        "us gaap",
+        "asc 606",
+        "net suite",
+        "multi-entity financial reporting"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "application-engineer-openai-32978114": {
+      "summary": "Senior Application Engineer leads design, implementation, and evolution of global supply chain systems using Oracle Fusion SCM, ensuring scalability, integration, and operational agility across planning to fulfillment.",
+      "key_skills": [
+        "oracle fusion scm",
+        "supply chain",
+        "cloud",
+        "integration",
+        "data architecture",
+        "automation",
+        "scm modules",
+        "process optimization"
+      ],
+      "core_skills": [
+        "oracle cloud scm",
+        "supply chain integration",
+        "solution architecture",
+        "process optimization"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "daq-station-engineer-openai-32978114": {
+      "summary": "Designs and develops physical hardware for OpenAI’s robotic data collection stations, including fixtures, mounts, and safety mechanisms, to ensure reliable daily operation.",
+      "key_skills": [
+        "daq",
+        "hardware",
+        "electromechanical",
+        "prototyping",
+        "design",
+        "validation",
+        "deployment",
+        "safety"
+      ],
+      "core_skills": [
+        "design",
+        "prototyping",
+        "validation",
+        "deployment"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "it-controls-data-eng-openai-32978114": {
+      "summary": "Builds data infrastructure for audit readiness and IT controls, creating automated evidence generation and control monitoring systems.",
+      "key_skills": [
+        "data engineering",
+        "analytics engineering",
+        "sql",
+        "python",
+        "data pipelines",
+        "data validation",
+        "data lineage",
+        "data quality"
+      ],
+      "core_skills": [
+        "data engineering",
+        "sql",
+        "python",
+        "data validation"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "producer--global-eve-openai-32978114": {
+      "summary": "Event Producer responsible for managing live event productions, stage operations, vendor coordination, and budget execution to deliver seamless experiences.",
+      "key_skills": [
+        "event production",
+        "stage management",
+        "vendor negotiation",
+        "budget management",
+        "risk management",
+        "project coordination",
+        "audio visual",
+        "stagecraft"
+      ],
+      "core_skills": [
+        "event production",
+        "stage management",
+        "vendor negotiation",
+        "budget management"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "re-rs--data-understa-openai-32978114": {
+      "summary": "Synthesizes multimodal data (images, audio, video) and builds high-quality datasets for OpenAI's large model training through research and production pipelines.",
+      "key_skills": [
+        "multimodal",
+        "data",
+        "synthesis",
+        "vq",
+        "tokenization",
+        "quality_control",
+        "filtering",
+        "deduplication"
+      ],
+      "core_skills": [
+        "research",
+        "data_curation",
+        "multimodal_learning",
+        "data_processing"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "account-executive-perplexity-32978114": {
+      "summary": "Drives new business growth and fosters strong relationships with potential clients through prospecting, pitching, and closing Perplexity Enterprise Pro solutions for large organizations.",
+      "key_skills": [
+        "sales",
+        "prospecting",
+        "pitching",
+        "closing",
+        "enterprise",
+        "solutions",
+        "client_relationships",
+        "rfp"
+      ],
+      "core_skills": [
+        "sales",
+        "prospecting",
+        "pitching",
+        "closing"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "business-development-perplexity-32978114": {
+      "summary": "Drives revenue by balancing inbound and outbound sales responsibilities, qualifying enterprise prospects using BANT criteria, executing targeted campaigns, and maintaining data hygiene in Salesforce.",
+      "key_skills": [
+        "sales",
+        "outbound",
+        "qualify",
+        "bant",
+        "enterprise",
+        "vertical",
+        "messaging",
+        "data"
+      ],
+      "core_skills": [
+        "communication",
+        "vertical_expertise",
+        "sales_acumen",
+        "technical_aptitude",
+        "self_starter",
+        "data_driven",
+        "intellectual_curiosity",
+        "thrive_fast_paced"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "demand-generation-le-perplexity-32978114": {
+      "summary": "Owns Perplexity’s end-to-end demand generation strategy for enterprise top of funnel growth and downstream conversion to revenue, building AI-native tools to generate qualified pipeline at scale.",
+      "key_skills": [
+        "ai",
+        "programmatic",
+        "personalization",
+        "experimentation",
+        "automation",
+        "outbound",
+        "segmentation",
+        "targeting"
+      ],
+      "core_skills": [
+        "ai-native",
+        "data-driven",
+        "experimentation",
+        "ownership"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "developer-relations--perplexity-32978114": {
+      "summary": "Owns Perplexity's API platform strategy, community engagement, and developer education to drive adoption across AI-native products.",
+      "key_skills": [
+        "api",
+        "developer",
+        "advocacy",
+        "devrel",
+        "community",
+        "workshops",
+        "hackathons",
+        "cookbook"
+      ],
+      "core_skills": [
+        "api",
+        "developer",
+        "advocacy",
+        "devrel"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "engineering-manager--perplexity-32978114": {
+      "summary": "Research Engineering Manager leads AI researchers and engineers to develop state-of-the-art models for conversational and agentic queries, leveraging supervised and reinforcement learning techniques to scale model performance.",
+      "key_skills": [
+        "research",
+        "engineering",
+        "ai",
+        "machine_learning",
+        "python",
+        "pytorch",
+        "large_language_models",
+        "transformers"
+      ],
+      "core_skills": [
+        "research_engineering",
+        "model_training",
+        "reinforcement_learning",
+        "model_alignment"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "enterprise-customer--perplexity-32978114": {
+      "summary": "Works directly with enterprise customers to diagnose and resolve complex technical issues using AI tools, while building support playbooks and documentation to scale world-class customer support.",
+      "key_skills": [
+        "ai",
+        "enterprise",
+        "customer_support",
+        "automation",
+        "llm",
+        "troubleshooting",
+        "documentation",
+        "kpi_tracking"
+      ],
+      "core_skills": [
+        "ai",
+        "enterprise",
+        "customer_support",
+        "troubleshooting"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "executive-communicat-perplexity-32978114": {
+      "summary": "Architects and amplifies executive voices to inspire teams through strategic communications, change management, and storytelling in high-growth tech environments.",
+      "key_skills": [
+        "executive communications",
+        "strategic communications",
+        "change management",
+        "writing",
+        "storytelling",
+        "AI communications",
+        "leadership",
+        "culture"
+      ],
+      "core_skills": [
+        "executive communications",
+        "change management",
+        "writing",
+        "storyt:ing"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "member-of-technical--perplexity-32978114": {
+      "summary": "Builds and evolves security tools and internal AI-driven agents to improve detection, response, vulnerability management, and overall security posture",
+      "key_skills": [
+        "python",
+        "go",
+        "typescript",
+        "cloud",
+        "security",
+        "automation",
+        "threat_modeling",
+        "ai_agents"
+      ],
+      "core_skills": [
+        "security",
+        "automation",
+        "threat_modeling",
+        "ai_agents"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "sales-systems-engine-perplexity-32978114": {
+      "summary": "Owns technical layer for enterprise sales motion including CPQ, account and lead scoring, data orchestration, and integrations between Salesforce, Snowflake, and other GTM tools.",
+      "key_skills": [
+        "snowflake",
+        "salesforce",
+        "cpq",
+        "sql",
+        "reverse_etl",
+        "workato",
+        "python",
+        "apex"
+      ],
+      "core_skills": [
+        "salesforce",
+        "cpq",
+        "sql",
+        "reverse_etl"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "product-engineer--us-supanote-32978114": {
+      "summary": "Builds and maintains the agentic operating system for healthcare benefits processing using AI and automation to replace manual tasks.",
+      "key_skills": [
+        "typescript",
+        "react",
+        "postgres",
+        "fastify",
+        "drizzle",
+        "nx",
+        "workos",
+        "agentic-ai"
+      ],
+      "core_skills": [
+        "typescript",
+        "react",
+        "postgres"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "product-manager--us--supanote-32978114": {
+      "summary": "Owns the entire product function including customer relationships, operations, product direction, project execution, onboarding, and feedback loops to drive company growth through AI-powered healthcare solutions.",
+      "key_skills": [
+        "product",
+        "agentic",
+        "ai",
+        "software",
+        "engineering",
+        "operations",
+        "customer",
+        "management"
+      ],
+      "core_skills": [
+        "product",
+        "customer",
+        "operations",
+        "technical"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-software-engi-google-32978114": {
+      "summary": "Drives progress, solves problems, and mentors junior team members while applying deep expertise in relevant areas",
+      "key_skills": [
+        "android",
+        "mobile",
+        "software_engineer",
+        "c++",
+        "java",
+        "kotlin",
+        "testing",
+        "architecture"
+      ],
+      "core_skills": [
+        "android",
+        "mobile",
+        "software_engineer"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-staff-softwar-google-32978114": {
+      "summary": "Owns outcomes and decision making, solves ambiguous problems, and influences stakeholders with deep expertise in domain.",
+      "key_skills": [
+        "software engineering",
+        "distributed systems",
+        "networking",
+        "cloud computing",
+        "data storage",
+        "security",
+        "ai",
+        "machine learning"
+      ],
+      "core_skills": [
+        "software engineering",
+        "distributed systems",
+        "networking"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "research-scientist---google-32978114": {
+      "summary": "Drives progress in efficient AI research by developing model optimization techniques and deploying scalable solutions for real-world problems.",
+      "key_skills": [
+        "research",
+        "ai",
+        "machine_learning",
+        "python",
+        "model_optimization",
+        "quantization",
+        "model_architecture",
+        "model_compression"
+      ],
+      "core_skills": [
+        "model_optimization",
+        "quantization",
+        "model_architecture",
+        "model_compression"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-engineer-ii-google-32978114": {
+      "summary": "Software engineer who develops iOS applications, diagnoses system health, and engineers software tests for Google's mobile products.",
+      "key_skills": [
+        "c++",
+        "objective-c",
+        "swift",
+        "ios",
+        "data structures",
+        "algorithms",
+        "performance",
+        "large scale systems"
+      ],
+      "core_skills": [
+        "ios application development",
+        "system health diagnosis",
+        "software test engineering"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "technical-program-ma-google-32978114": {
+      "summary": "Drives complex AI/ML data analysis projects from start to finish, evaluates Large Language Models (LLMs), and designs human evaluation systems for Reinforcement Learning models.",
+      "key_skills": [
+        "ai",
+        "ml",
+        "data",
+        "analysis",
+        "search",
+        "program",
+        "manager",
+        "technical"
+      ],
+      "core_skills": [
+        "program",
+        "management",
+        "ai",
+        "ml"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-engineering-google-32978114": {
+      "summary": "Software Engineer responsible for developing and testing AI agents using 2D/3D games and physics simulators, creating visualization tools, and building competitive leaderboards.",
+      "key_skills": [
+        "software engineering",
+        "full-stack web development",
+        "algorithm design",
+        "system architecture",
+        "people management",
+        "large-scale technical projects",
+        "prompt engineering",
+        "model evaluation"
+      ],
+      "core_skills": [
+        "software engineering",
+        "full-stack web development",
+        "algorithm design",
+        "system architecture"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "research-data-scient-google-32978114": {
+      "summary": "Research Data Scientist analyzes complex system logs to improve cloud product reliability and resource efficiency through statistical analysis and AI technologies.",
+      "key_skills": [
+        "research",
+        "data",
+        "science",
+        "cloud",
+        "product",
+        "analytics"
+      ],
+      "core_skills": [
+        "python",
+        "sql",
+        "statistical",
+        "analysis"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-engineer--s-google-32978114": {
+      "summary": "Designs and implements hardware-software interface systems for Google's flagship mobile devices, contributing to the security foundation and developing novel security features for millions of users.",
+      "key_skills": [
+        "embedded systems",
+        "performance modeling",
+        "os internals",
+        "android system architecture",
+        "linux kernel",
+        "system services",
+        "performance analysis",
+        "memory management"
+      ],
+      "core_skills": [
+        "embedded operating systems",
+        "performance analysis",
+        "python",
+        "system services"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "power-architect--pla-google-32978114": {
+      "summary": "Designs and builds power systems for Google's data centers, including circuit and system design, power converter development, and optimization of power delivery solutions.",
+      "key_skills": [
+        "power engineering",
+        "power converter design",
+        "data center power delivery",
+        "power electronics",
+        "power converter modeling",
+        "power conversion designs",
+        "circuit design",
+        "system design"
+      ],
+      "core_skills": [
+        "power engineering",
+        "power converter design",
+        "data center power delivery",
+        "power electronics"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "device-lead--pixel-c-google-32978114": {
+      "summary": "Owns outcomes and decision making for embedded systems and firmware development, solving ambiguous problems and influencing stakeholders.",
+      "key_skills": [
+        "embedded systems",
+        "firmware",
+        "device lead"
+      ],
+      "core_skills": [
+        "software development",
+        "testing",
+        "launching software products"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "principal-data-scien-google-32978114": {
+      "summary": "Manages complex cross-functional questions to define the future of Gemini by developing sophisticated incrementality models and understanding the interplay of Gemini App with other Google products.",
+      "key_skills": [
+        "data science",
+        "machine learning",
+        "ai",
+        "deep learning",
+        "statistical modeling",
+        "incrementality modeling",
+        "growth accounting",
+        "cross-functional leadership"
+      ],
+      "core_skills": [
+        "data science leadership",
+        "ai research",
+        "cross-functional collaboration",
+        "incrementality analysis"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "production-set-desig-google-32978114": {
+      "summary": "Architects and executes scene staging for robotic data collection, acting as the primary liaison between researchers, engineering teams, and production teams to ensure high-quality data capture with safe, efficient robotic operations.",
+      "key_skills": [
+        "production",
+        "staging",
+        "robotics",
+        "data",
+        "set design",
+        "engineering",
+        "logistics",
+        "inventory"
+      ],
+      "core_skills": [
+        "production management",
+        "multi-stream workflows",
+        "safety compliance",
+        "research and development"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "leadership-technical-google-32978114": {
+      "summary": "Owns complex software development projects for Pixel phones, managing cross-functional teams and technical stakeholders to deliver software subsystems from concept to launch.",
+      "key_skills": [
+        "program management",
+        "technical leadership",
+        "software development",
+        "project management",
+        "cross-functional collaboration",
+        "stakeholder management",
+        "risk management",
+        "software lifecycle"
+      ],
+      "core_skills": [
+        "program management",
+        "technical leadership",
+        "software development",
+        "project management"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "head-of-silicon-syst-google-32978114": {
+      "summary": "Owns outcomes and decision making for silicon systems and architecture, solving ambiguous problems and influencing stakeholders to define hardware foundations for next-gen headsets and glasses through silicon partnerships.",
+      "key_skills": [
+        "silicon engineering",
+        "system integration",
+        "hardware design",
+        "silicon definition",
+        "architecture",
+        "technical leadership",
+        "consumer electronics",
+        "shipping products"
+      ],
+      "core_skills": [
+        "technical leadership",
+        "silicon architecture",
+        "XR",
+        "GenAI"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "administrative-busin-google-32978114": {
+      "summary": "Schedules, maintains, and updates calendar events; prepares meetings for executives or teams; executes expense management; assesses office space needs; plans and organizes events and manages logistics.",
+      "key_skills": [
+        "administrative",
+        "business",
+        "partner",
+        "photos",
+        "google",
+        "one"
+      ],
+      "core_skills": [
+        "calendar",
+        "expense",
+        "management",
+        "event"
+      ],
+      "seniority_signal": "early",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-revenue-accou-google-32978114": {
+      "summary": "Drives end-to-end financial reporting for subscription offerings, develops accounting processes and policies, and ensures technical precision for high-growth revenue.",
+      "key_skills": [
+        "revenue accounting",
+        "cloud accounting",
+        "gaap",
+        "asc 606",
+        "process improvement",
+        "ai tools",
+        "cross-functional collaboration",
+        "financial reporting"
+      ],
+      "core_skills": [
+        "revenue accounting",
+        "gaap",
+        "asc 606",
+        "financial reporting"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-financial-ana-google-32978114": {
+      "summary": "Designs and implements cloud-based AI/ML solutions for federal civilian agencies and other clients",
+      "key_skills": [
+        "cloud",
+        "ai",
+        "machine learning",
+        "data science",
+        "software engineering",
+        "networking",
+        "cyber security",
+        "iot"
+      ],
+      "core_skills": [
+        "cloud computing",
+        "ai",
+        "machine learning",
+        "data science"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "product-quality-engi-google-32978114": {
+      "summary": "Product Quality Engineer leads quality initiatives for AI infrastructure, ensuring flawless operation through end-to-end product life-cycle management and cross-functional collaboration.",
+      "key_skills": [
+        "hardware",
+        "reliability",
+        "quality",
+        "engineering",
+        "ai",
+        "infrastructure"
+      ],
+      "core_skills": [
+        "problem_solving",
+        "cross_functional_collaboration",
+        "data_analysis"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "tpu-rtl-design-engin-google-32978114": {
+      "summary": "Designs and implements TPU hardware accelerators for AI/ML applications, collaborating with cross-functional teams to verify complex digital designs and optimize performance, power, and area.",
+      "key_skills": [
+        "rtl design",
+        "digital design",
+        "state machines",
+        "bus protocols",
+        "performance optimization",
+        "power optimization",
+        "area optimization",
+        "test plan execution"
+      ],
+      "core_skills": [
+        "rtl coding",
+        "computer architecture",
+        "digital logic design"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "real-estate-project--google-32978114": {
+      "summary": "Drives real estate construction project delivery from inception to completion, managing design oversight, construction, and stakeholder communications across global projects.",
+      "key_skills": [
+        "project management",
+        "stakeholder management",
+        "construction management",
+        "agreement administration",
+        "design oversight",
+        "executive communications",
+        "negotiations",
+        "team leadership"
+      ],
+      "core_skills": [
+        "project delivery",
+        "stakeholder management",
+        "construction management",
+        "agreement administration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-data-center-o-google-32978114": {
+      "summary": "Supports new product engineering within Google’s hardware research and development labs by designing, building, and maintaining data center-scale system testbeds.",
+      "key_skills": [
+        "data center operations",
+        "google cloud",
+        "networking",
+        "python",
+        "hardware",
+        "system testing",
+        "cloud infrastructure",
+        "ai infrastructure"
+      ],
+      "core_skills": [
+        "network design",
+        "computer systems",
+        "troubleshooting",
+        "scripting"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "forward-deployed-dat-sap-32978114": {
+      "summary": "Designs, builds, and maintains scalable data pipelines and data models to support analytics, reporting, and AI use cases while ensuring data quality, security, and compliance across customer environments.",
+      "key_skills": [
+        "data engineering",
+        "sql",
+        "python",
+        "pyspark",
+        "databricks",
+        "airflow",
+        "sap hana",
+        "parquet"
+      ],
+      "core_skills": [
+        "data pipelines",
+        "data modeling",
+        "cloud data platforms",
+        "data governance"
+      ],
+      "seniority_signal": "expert",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "forward-deployed-app-sap-32978114": {
+      "summary": "Designs, builds, and deploys AI-native data and application solutions embedded in customer environments while acting as chief technical authority for strategic leadership and delivery standards.",
+      "key_skills": [
+        "ai-native",
+        "cloud-native",
+        "agentic-ai",
+        "mlops",
+        "python",
+        "ai-engineering",
+        "large-language-models",
+        "vector-databases"
+      ],
+      "core_skills": [
+        "ai-native-application-engineering",
+        "cloud-architecture",
+        "agentic-systems",
+        "mlops"
+      ],
+      "seniority_signal": "executive",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "industry-ai---custom-sap-32978114": {
+      "summary": "Leads end-to-end delivery of complex AI initiatives for strategic customers, ensuring solutions meet technical and business requirements while managing risks and stakeholder expectations.",
+      "key_skills": [
+        "ai",
+        "project management",
+        "customer delivery",
+        "agile",
+        "data integration",
+        "compliance",
+        "model deployment",
+        "enterprise ai"
+      ],
+      "core_skills": [
+        "project management",
+        "customer delivery",
+        "agile",
+        "enterprise ai"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "outside-sales-repres-carvana-18154705": {
+      "summary": "Outside Sales Representative generates new business leads, closes deals, executes dealer sales strategy, and manages accounts to grow vehicle sales while maintaining strong customer relationships.",
+      "key_skills": [
+        "sales",
+        "b2b",
+        "prospecting",
+        "upselling",
+        "account_management",
+        "customer_relations",
+        "negotiation",
+        "sales_focus"
+      ],
+      "core_skills": [
+        "sales",
+        "b2b",
+        "prospecting",
+        "upselling"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "director--canada---m-elfbeauty-05065335": {
+      "summary": "Directs regional marketing strategy for Canada and Mexico, leading brand expansion and commercial execution for Naturium with focus on market relevance and retail performance.",
+      "key_skills": [
+        "brand marketing",
+        "go-to-market strategy",
+        "market expansion",
+        "commercial execution",
+        "retail performance",
+        "consumer engagement",
+        "launch excellence",
+        "cross-functional leadership"
+      ],
+      "core_skills": [
+        "strategic planning",
+        "market analysis",
+        "cross-functional collaboration",
+        "retail partnerships"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "director-of-product--brigit-05065335": {
+      "summary": "Directs product strategy for subscription activation, upgrades, and retention in a fintech company, optimizing user journeys and revenue through experimentation and analytics.",
+      "key_skills": [
+        "product_management",
+        "growth_strategy",
+        "retention",
+        "monetization",
+        "experimentation",
+        "analytics",
+        "mobile_product",
+        "fintech"
+      ],
+      "core_skills": [
+        "product_strategy",
+        "revenue_optimization",
+        "customer_lifetime_value",
+        "data_driven_decision_making"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "business-operations-cardless-05065335": {
+      "summary": "Business Operations generalist who works with COO on high-priority projects across product, ops, partnerships, finance, and compliance to scale the company's credit card and loyalty platform.",
+      "key_skills": [
+        "fintech",
+        "product",
+        "operations",
+        "compliance",
+        "partnerships",
+        "finance"
+      ],
+      "core_skills": [
+        "problem_solving",
+        "ownership"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "capital-market-opera-cardless-05065335": {
+      "summary": "Owns fund flow operations, lender and partner reporting, and borrowing base processes across Cardless and brand partners to ensure accuracy, compliance, and timely reporting in a high-volume transaction environment.",
+      "key_skills": [
+        "capital markets",
+        "fund flow",
+        "lender reporting",
+        "partner reporting",
+        "reconciliations",
+        "data reconciliation",
+        "automated reporting",
+        "process automation"
+      ],
+      "core_skills": [
+        "capital markets",
+        "fund flow",
+        "reconciliations",
+        "data reconciliation"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "credit-risk-strategy-cardless-05065335": {
+      "summary": "Owns credit strategy for managing risk across cardholder portfolios, including credit line adjustments, balance transfers, and portfolio performance optimization through data-driven decisioning.",
+      "key_skills": [
+        "credit risk strategy",
+        "portfolio management",
+        "credit line management",
+        "loss forecasting",
+        "behavioral data",
+        "bureau data",
+        "sql",
+        "credit risk models"
+      ],
+      "core_skills": [
+        "portfolio strategy",
+        "signal development",
+        "cross-functional partnership",
+        "data science integration"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "customer-support-lea-cardless-05065335": {
+      "summary": "Owns complex escalations with financial, legal, or regulatory implications, works cross-functionally to resolve issues and identify root causes, documents resolution paths, and reduces future escalations through systematic improvements.",
+      "key_skills": [
+        "customer support",
+        "escalation management",
+        "compliance",
+        "fraud investigation",
+        "root cause analysis",
+        "sop development",
+        "knowledge base management",
+        "cross-functional coordination"
+      ],
+      "core_skills": [
+        "root cause analysis",
+        "cross-functional coordination",
+        "sop development",
+        "knowledge base management"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "data-analyst-cardless-05065335": {
+      "summary": "Analyzes operational, product, and financial data to identify trends, diagnose issues, and surface actionable insights while building dashboards and reporting frameworks to improve system and business performance.",
+      "key_skills": [
+        "sql",
+        "excel",
+        "python",
+        "data_analysis",
+        "dashboards",
+        "ai_tools",
+        "fraud",
+        "risk"
+      ],
+      "core_skills": [
+        "data_analysis",
+        "sql",
+        "dashboards",
+        "ai_integration"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "finance-operations-l-cardless-05065335": {
+      "summary": "Owns fund flow operations, lender and partner reporting, and borrowing base processes across Cardless and brand partners in a high-volume transaction environment.",
+      "key_skills": [
+        "finance",
+        "ops",
+        "reporting",
+        "reconciliations",
+        "data",
+        "automation",
+        "controls",
+        "processes"
+      ],
+      "core_skills": [
+        "finance_ops",
+        "lender_reporting",
+        "fund_flow",
+        "reconciliation"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "fraud-strategy-manag-cardless-05065335": {
+      "summary": "Owns transaction-level fraud strategy to evaluate and respond to transactions across credit card portfolio, balancing fraud loss prevention with cardholder experience.",
+      "key_skills": [
+        "fraud strategy",
+        "transaction fraud",
+        "risk management",
+        "fraud detection",
+        "fraud prevention",
+        "decisioning",
+        "account takeover",
+        "pii change"
+      ],
+      "core_skills": [
+        "fraud strategy",
+        "transaction fraud",
+        "risk management",
+        "fraud detection"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "head-of-disputes-cardless-05065335": {
+      "summary": "Owns end-to-end disputes operations, audits BPO performance, implements automation, and ensures compliance with Reg E, Reg Z, and network rules across multiple card programs.",
+      "key_skills": [
+        "disputes",
+        "fraud",
+        "compliance",
+        "regulatory",
+        "ai",
+        "automation",
+        "engineering",
+        "networks"
+      ],
+      "core_skills": [
+        "end-to-end ownership",
+        "policy development",
+        "process optimization",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "head-of-fraud-operat-cardless-05065335": {
+      "summary": "Head of Fraud Operations leads manual review operations and fraud investigations, ensuring high-quality case handling, SLA adherence, and fraud risk mitigation through team development and cross-functional partnerships.",
+      "key_skills": [
+        "fraud operations",
+        "fraud analysis",
+        "fraud investigation",
+        "fraud strategy",
+        "fraud risk",
+        "fraud prevention",
+        "fraud detection",
+        "fraud management"
+      ],
+      "core_skills": [
+        "fraud operations",
+        "fraud analysis",
+        "fraud investigation",
+        "fraud strategy"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "head-of-recruiting-cardless-05065335": {
+      "summary": "Head of Talent owns full-cycle recruiting across engineering, operations, and GTM functions while building a lean recruiting team to scale hiring with high bar for talent and out-of-the-box closing methods.",
+      "key_skills": [
+        "recruiting",
+        "talent",
+        "hiring",
+        "engineering",
+        "operations",
+        "gtm"
+      ],
+      "core_skills": [
+        "hands-on",
+        "aggressive",
+        "creative",
+        "relentless"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "learning-and-develop-cardless-05065335": {
+      "summary": "Builds L&D systems from scratch to turn new hires into confident specialists, close skill gaps across the CS team, and ensure training keeps pace with fast-moving fintech.",
+      "key_skills": [
+        "l&D",
+        "onboarding",
+        "training",
+        "compliance",
+        "fintech",
+        "sop",
+        "performance coaching",
+        "knowledge management"
+      ],
+      "core_skills": [
+        "l&D",
+        "onboarding",
+        "training",
+        "compliance"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "marketing-compliance-cardless-05065335": {
+      "summary": "Reviews and approves marketing materials, disclosures, and application flows for compliance with regulations and partner bank requirements while collaborating with marketing, product, and operations teams to ensure customer-friendly and compliant product launches.",
+      "key_skills": [
+        "compliance",
+        "regulation z",
+        "regulation b",
+        "udaap",
+        "can-spam",
+        "tcpa",
+        "fcra",
+        "consumer protection"
+      ],
+      "core_skills": [
+        "regulatory compliance",
+        "cross-functional collaboration",
+        "marketing compliance",
+        "policy development"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "monitoring-and-testi-cardless-05065335": {
+      "summary": "Designs and executes ongoing compliance monitoring and testing programs to assess control effectiveness across credit card programs with multiple bank partners, identifying gaps and ensuring remediation.",
+      "key_skills": [
+        "compliance",
+        "monitoring",
+        "testing",
+        "risk_management",
+        "regulatory_compliance",
+        "bsa_aml",
+        "sanctions",
+        "marketing_compliance"
+      ],
+      "core_skills": [
+        "control_testing",
+        "risk_assessment",
+        "regulatory_requirements",
+        "cross_functional_collaboration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "payment-platform-man-cardless-05065335": {
+      "summary": "Owns the technical operations and configuration of Cardless' issuer processor platform, managing processor partner relationships, ensuring smooth transaction processing, and resolving platform issues across authorization, settlements, and billing.",
+      "key_skills": [
+        "sql",
+        "processor",
+        "payment",
+        "fintech",
+        "card",
+        "issuer",
+        "corecard",
+        "authorization"
+      ],
+      "core_skills": [
+        "technical",
+        "operational",
+        "compliance",
+        "process"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "payments-operations--cardless-05065335": {
+      "summary": "Operational manager who scales payment infrastructure for credit card programs, automates workflows, and partners with cross-functional teams to improve payment operations across fintech partners.",
+      "key_skills": [
+        "fintech",
+        "payments",
+        "operations",
+        "strategy",
+        "automation",
+        "card_operations",
+        "compliance",
+        "fraud"
+      ],
+      "core_skills": [
+        "operations",
+        "strategy",
+        "automation",
+        "compliance"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-engineer----cardless-05065335": {
+      "summary": "Designs, builds, and scales backend systems for a co-branded credit card platform while collaborating with cross-functional teams to deliver high-quality features.",
+      "key_skills": [
+        "distributed systems",
+        "backend",
+        "scalable systems",
+        "security",
+        "high-performance",
+        "api design",
+        "databases",
+        "infrastructure"
+      ],
+      "core_skills": [
+        "distributed systems",
+        "backend",
+        "scalable systems",
+        "security"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "developer-productivi-langchain-05065335": {
+      "summary": "Owns end-to-end test strategy across APIs, services, UI, data, and infrastructure for LangChain's developer platform, ensuring reliable and scalable deployments through CI/CD pipelines and observability practices.",
+      "key_skills": [
+        "python",
+        "kubernetes",
+        "terraform",
+        "helm",
+        "testing",
+        "ci_cd",
+        "api_testing",
+        "pytest"
+      ],
+      "core_skills": [
+        "kubernetes",
+        "terraform",
+        "testing",
+        "ci_cd"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "people-partner-langchain-05065335": {
+      "summary": "This person acts as a strategic co-pilot to EPD, GTM, and Ops leaders, proactively anticipating organizational friction and designing people solutions that drive business results through an AI-first mindset.",
+      "key_skills": [
+        "ai",
+        "machine_learning",
+        "data_analysis",
+        "people_operations",
+        "strategic_influence",
+        "business_outcomes",
+        "organizational_architecture",
+        "data_driven"
+      ],
+      "core_skills": [
+        "strategic_influence",
+        "data_driven",
+        "ai_fluency",
+        "business_outcomes"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "python-oss-engineer-langchain-05065335": {
+      "summary": "Maintains and improves the LangChain Python ecosystem for building production-ready AI agents, resolves community issues, and enhances documentation.",
+      "key_skills": [
+        "python",
+        "machine_learning",
+        "open_source",
+        "software_engineering",
+        "ai_agents",
+        "langchain",
+        "langgraph",
+        "documentation"
+      ],
+      "core_skills": [
+        "python",
+        "software_engineering",
+        "ai_agents",
+        "open_source"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-backend-softw-langchain-05065335": {
+      "summary": "Builds backend services for LangChain's observability and evaluation platform, optimizing performance and reliability for high-volume AI data.",
+      "key_skills": [
+        "python",
+        "go",
+        "database",
+        "api",
+        "performance",
+        "reliability",
+        "observability",
+        "evaluation"
+      ],
+      "core_skills": [
+        "backend",
+        "api_design",
+        "high_throughput_systems"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-fullstack-eng-langchain-05065335": {
+      "summary": "Builds foundational product features and integrations for user acquisition, rapid experimentation, and self-serve expansion in LangChain's growth systems",
+      "key_skills": [
+        "react",
+        "typescript",
+        "go",
+        "python",
+        "postgre",
+        "redis",
+        "llm",
+        "genai"
+      ],
+      "core_skills": [
+        "fullstack",
+        "experimentation",
+        "monetization",
+        "growth"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "founding-gtm-enginee-retell-ai-05065335": {
+      "summary": "Builds and owns end-to-end GTM workflows and systems that power sales and revenue generation through automation and data integration.",
+      "key_skills": [
+        "python",
+        "sql",
+        "javascript",
+        "guru",
+        "data",
+        "automation",
+        "sales",
+        "revenue"
+      ],
+      "core_skills": [
+        "guru",
+        "data",
+        "automation",
+        "sales"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "agent-experience-des-sierra-05065335": {
+      "summary": "Improves voice quality across global AI agents, accelerates multilingual readiness, and designs repeatable evaluation frameworks to ensure high-quality human-like interactions.",
+      "key_skills": [
+        "ai",
+        "voice",
+        "multilingual",
+        "systems",
+        "design",
+        "evaluation",
+        "conversational_agents",
+        "linguistics"
+      ],
+      "core_skills": [
+        "systems_thinking",
+        "evaluation_frameworks",
+        "cross_functional_collaboration",
+        "communication"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "communications-manag-sierra-05065335": {
+      "summary": "Sets the standard for great comms in a hyper growth, founder-led company by working with marketing to define brand and raise awareness as a generational company, category defining product, best AI partner for businesses, and great place to work while managing PR agency day-to-day and contributing to the Marcomms team.",
+      "key_skills": [
+        "comms",
+        "press",
+        "social_media",
+        "blog",
+        "pr",
+        "marketing"
+      ],
+      "core_skills": [
+        "entrepreneurial",
+        "scrappy"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "corporate-security-e-sierra-05065335": {
+      "summary": "The Corporate Security Engineer, Lead owns the centralized risk register and drives remediation across SaaS applications, integrations, endpoints, identity, and access paths to secure the company's digital infrastructure.",
+      "key_skills": [
+        "corporate security",
+        "it security",
+        "security engineering",
+        "identity and access management",
+        "saaS security",
+        "endpoint management",
+        "detection and response",
+        "zero trust"
+      ],
+      "core_skills": [
+        "security engineering",
+        "saaS security",
+        "identity and access management",
+        "endpoint management"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "developer-relations--sierra-05065335": {
+      "summary": "Writes playbooks for onboarding customers onto Sierra's AI platform, leads developer training programs, builds scalable technical documentation and sample repositories, and develops AI Agents as a software engineer.",
+      "key_skills": [
+        "ai",
+        "developer",
+        "training",
+        "documentation",
+        "sdk",
+        "agent",
+        "software",
+        "engineering"
+      ],
+      "core_skills": [
+        "software_engineering",
+        "developer_relations",
+        "technical_training",
+        "community_building"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "global-benefits-mana-sierra-05065335": {
+      "summary": "Designs and implements global benefits programs across regions while partnering with cross-functional teams to ensure compliance, cost efficiency, and employee satisfaction.",
+      "key_skills": [
+        "global benefits",
+        "benefits management",
+        "vendor management",
+        "compliance"
+      ],
+      "core_skills": [
+        "global benefits strategy",
+        "cross-functional collaboration",
+        "regulatory compliance"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "gtm-strategy---opera-sierra-05065335": {
+      "summary": "Owns end-to-end territory strategy and operations including territory design, bi-weekly carve processes, analytics, and stakeholder communication to optimize sales performance and alignment across teams.",
+      "key_skills": [
+        "revenue operations",
+        "sales operations",
+        "territory planning",
+        "account segmentation",
+        "quota design",
+        "data analysis",
+        "stakeholder management",
+        "sales leadership"
+      ],
+      "core_skills": [
+        "analytical skills",
+        "process ownership",
+        "stakeholder communication",
+        "operational rigor"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "operations-manager---sierra-05065335": {
+      "summary": "Owns product and engineering operating cadence including planning cycles, roadmap workflows, and cross-functional initiatives to drive alignment and execution in a high-growth AI company",
+      "key_skills": [
+        "product_operations",
+        "business_operations",
+        "program_management",
+        "operational_processes",
+        "roadmap_management",
+        "sprint_planning",
+        "cross_functional_coordination",
+        "okr_frameworks"
+      ],
+      "core_skills": [
+        "operational_rigor",
+        "process_optimization",
+        "stakeholder_communication",
+        "data_analysis"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "people-operations-sierra-05065335": {
+      "summary": "Manages full employee lifecycle, designs and optimizes people processes, implements performance management systems, and ensures compliance for a growing AI company.",
+      "key_skills": [
+        "human resources",
+        "people operations",
+        "process design",
+        "performance management",
+        "employee engagement",
+        "systems management",
+        "compliance",
+        "hr analytics"
+      ],
+      "core_skills": [
+        "project management",
+        "systems thinking",
+        "collaboration",
+        "self-driven operation"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "product-designer-sierra-05065335": {
+      "summary": "Designs and builds AI-driven customer experiences with end-to-end ownership of the design process from concept to execution, collaborating with cross-functional teams to iterate based on customer feedback and usability testing.",
+      "key_skills": [
+        "ui",
+        "ux",
+        "design",
+        "prototyping",
+        "figma",
+        "react",
+        "typescript",
+        "research"
+      ],
+      "core_skills": [
+        "ui",
+        "ux",
+        "design",
+        "research"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "product-manager--gho-sierra-05065335": {
+      "summary": "Owns end-to-end product experience for Ghostwriter, an AI agent-building platform, defining how humans interact with software in the agent era through prompt-to-agent workflows.",
+      "key_skills": [
+        "product management",
+        "ai",
+        "agent development",
+        "ai products",
+        "llm",
+        "workflow design",
+        "human-in-the-loop",
+        "technical depth"
+      ],
+      "core_skills": [
+        "product management",
+        "ai",
+        "agent development"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "product-manager--voi-sierra-05065335": {
+      "summary": "Defines and shapes the core voice interaction model for real-time human-quality AI conversations, ensuring reliable performance across telephony systems and global customer interactions.",
+      "key_skills": [
+        "product management",
+        "real-time systems",
+        "voice ai",
+        "ai products",
+        "speech processing",
+        "latency optimization",
+        "model orchestration",
+        "telephony integration"
+      ],
+      "core_skills": [
+        "product management",
+        "real-time systems",
+        "voice ai",
+        "ai products"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "sales-engineer-sierra-05065335": {
+      "summary": "Designs and demos Sierra's Agent product to solve customer needs, works cross-functionally with Sales and Product teams to improve solutions, and leads customer interactions for enterprise clients.",
+      "key_skills": [
+        "sales engineering",
+        "technical solutions",
+        "customer-facing technical sales",
+        "demo building",
+        "presenting",
+        "relationship-building",
+        "enterprise sales",
+        "technical leadership"
+      ],
+      "core_skills": [
+        "sales engineering",
+        "technical solutions",
+        "customer-facing technical sales",
+        "demo building"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "security-technical-p-sierra-05065335": {
+      "summary": "Drives high-impact security and infrastructure initiatives end-to-end, owns execution and planning for critical security programs, shapes security strategy, and builds durable security foundations in fast-growing SaaS environments.",
+      "key_skills": [
+        "cloud",
+        "security",
+        "infrastructure",
+        "iam",
+        "observability",
+        "ci_cd",
+        "incident_response",
+        "program_management"
+      ],
+      "core_skills": [
+        "technical_program_management",
+        "cloud_infrastructure",
+        "security_risk_management",
+        "cross_functional_alignment"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-engineer--a-sierra-05065335": {
+      "summary": "Builds core systems for AI agents including SDKs, agentic loops, retrieval, and evaluation systems",
+      "key_skills": [
+        "ai",
+        "software_engineering",
+        "production_systems",
+        "agent_frameworks",
+        "retrieval_systems",
+        "evaluation_systems",
+        "go",
+        "typescript"
+      ],
+      "core_skills": [
+        "software_engineering",
+        "production_systems"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-engineer--f-sierra-05065336": {
+      "summary": "Owns frontend development across product and marketing surfaces, leads design system and UI components, crafts pixel-perfect user experiences, champions frontend excellence, and ensures high standards for performance and accessibility.",
+      "key_skills": [
+        "react",
+        "typescript",
+        "html",
+        "css",
+        "tailwind",
+        "graphql",
+        "go",
+        "gqlgen"
+      ],
+      "core_skills": [
+        "frontend",
+        "design_system",
+        "ui_components",
+        "pixel_perfect"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-engineer--i-sierra-05065336": {
+      "summary": "Builds intelligence layer systems to analyze agent interactions and generate insights for improved customer experiences using AI.",
+      "key_skills": [
+        "ai",
+        "machine_learning",
+        "data_analysis",
+        "software_engineering",
+        "retrieval",
+        "ranking",
+        "personalization",
+        "feedback_loops"
+      ],
+      "core_skills": [
+        "software_engineering",
+        "data_systems",
+        "machine_learning",
+        "ai_products"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-engineer--m-sierra-05065336": {
+      "summary": "Owns mobile Experience SDKs for iOS and Android, leading architecture and implementation of native SDKs that embed Sierra's chat and voice agents into customer apps, while ensuring seamless integration with web frontend and high-quality user experiences.",
+      "key_skills": [
+        "ios",
+        "android",
+        "swift",
+        "kotlin",
+        "mobile",
+        "sdk",
+        "experience",
+        "architecture"
+      ],
+      "core_skills": [
+        "mobile engineering",
+        "sdk design",
+        "api design",
+        "cross-platform integration"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-engineer--s-sierra-05065336": {
+      "summary": "Owns Sierra’s observability stack and designs scalable, reliable cloud infrastructure for AI-driven systems, ensuring high availability and performance.",
+      "key_skills": [
+        "aws",
+        "terraform",
+        "observability",
+        "sre",
+        "cloud",
+        "devops",
+        "llm",
+        "infrastructure"
+      ],
+      "core_skills": [
+        "aws",
+        "terraform",
+        "observability",
+        "sre"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "software-engineer--v-sierra-05065336": {
+      "summary": "Builds AI-powered speech and audio processing systems for real-time customer interactions across multiple languages and scales infrastructure to handle millions of daily calls.",
+      "key_skills": [
+        "ai",
+        "speech-recognition",
+        "real-time-processing",
+        "full-stack-development",
+        "go",
+        "typescript",
+        "ai-products",
+        "developer-tooling"
+      ],
+      "core_skills": [
+        "ai-products",
+        "full-stack-development",
+        "real-time-processing",
+        "speech-recognition"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "strategist--agent-de-sierra-05065336": {
+      "summary": "Partners with healthcare customers and internal teams to design, build, and optimize HIPAA-compliant AI agents that handle sensitive healthcare conversations, improving patient experiences through conversational AI solutions.",
+      "key_skills": [
+        "ai",
+        "conversational design",
+        "healthcare",
+        "agent development",
+        "hipaa",
+        "product strategy",
+        "customer insight",
+        "conversational ai"
+      ],
+      "core_skills": [
+        "communication",
+        "problem-solving",
+        "analytical skills",
+        "technical expertise"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-product-manag-google-05065336": {
+      "summary": "Owns the product strategy and execution for immersive audio and soundscape experiences across Google's next-generation XR devices, including spatial audio, voice capture, and acoustic context features.",
+      "key_skills": [
+        "product management",
+        "audio",
+        "xr",
+        "spatial audio",
+        "voice capture",
+        "acoustic context",
+        "microphone beamforming",
+        "adaptive noise cancelling"
+      ],
+      "core_skills": [
+        "product management",
+        "audio engineering",
+        "xr development",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "director--strategic--google-05065336": {
+      "summary": "Directs strategic projects and public engagement initiatives to develop narrative assets and simulations for AI's future capabilities across domains like Robotics, Creativity, Economics, and Multi-Agent Systems.",
+      "key_skills": [
+        "strategic projects",
+        "public engagement",
+        "ai",
+        "generative ai",
+        "narrative assets",
+        "cross-functional teams",
+        "policymakers",
+        "journalists"
+      ],
+      "core_skills": [
+        "strategic foresight",
+        "creative execution",
+        "ai research"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "software-engineer-ii-walt-disney-05065336": {
+      "summary": "Software Engineer II supports Disney's content distribution and monetization platforms by maintaining scalable systems, resolving production issues, and implementing features across backend and frontend services.",
+      "key_skills": [
+        "aws",
+        "distributed systems",
+        "agile",
+        "microservices",
+        "sql",
+        "rest",
+        "monitoring",
+        "code review",
+        "unit testing"
+      ],
+      "core_skills": [
+        "distributed systems",
+        "agile",
+        "microservices",
+        "aws"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "staff-data-scientist-lyft-74785241": {
+      "summary": "Lyft Staff Data Scientist works on partnership, loyalty, and pay decisions using data science and machine learning models to improve customer experience and business outcomes.",
+      "key_skills": [
+        "data science",
+        "machine learning",
+        "python",
+        "sql",
+        "statistical analysis",
+        "data engineering",
+        "data visualization",
+        "tableau"
+      ],
+      "core_skills": [
+        "machine learning",
+        "python",
+        "sql"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-account-execu-mixpanel-74785241": {
+      "summary": "Senior Enterprise Account Executive helps tech companies understand Mixpanel's product analytics capabilities to drive customer adoption and retention through strategic sales cycles and cross-functional collaboration.",
+      "key_skills": [
+        "sales",
+        "enterprise",
+        "prospecting",
+        "solutions",
+        "analytics",
+        "customer",
+        "stakeholder"
+      ],
+      "core_skills": [
+        "sales",
+        "prospecting",
+        "enterprise",
+        "solutions"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "executive-assistant--brex-74785241": {
+      "summary": "Provides comprehensive high-leverage support to the CTO including managing calendars, prioritizing meetings, coordinating travel, and ensuring cross-functional alignment for engineering strategy and growth.",
+      "key_skills": [
+        "ai",
+        "executive_operations",
+        "calendaring",
+        "cross_functional_collaboration",
+        "calendar_management",
+        "strategic_planning",
+        ":",
+        "travel_coordination"
+      ],
+      "core_skills": [
+        "calendar_management",
+        "cross_functional_collaboration",
+        "strategic_planning",
+        "travel_coordination"
+      ],
+      "seniority_signal": "executive",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-technical-rec-brex-74785241": {
+      "summary": "Leads and coaches a team of Technical Recruiters and Sourcers focused on AI/ML, Specialized Tech, and Engineering Leadership hiring, setting team goals around pipeline quality, conversion rates, time-to-fill, and candidate experience.",
+      "key_skills": [
+        "technical recruiting",
+        "sourcing",
+        "ai/ml",
+        "specialized tech",
+        "engineering leadership",
+        "hiring strategy",
+        "pipeline management",
+        "candidate experience"
+      ],
+      "core_skills": [
+        "technical recruiting",
+        "sourcing",
+        "ai/ml",
+        "specialized tech"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "partner-success-mana-gusto-74785241": {
+      "summary": "Provides customer experience support and benefits services to clients through various channels including onboarding, retirement planning, and payroll solutions.",
+      "key_skills": [
+        "customer experience",
+        "benefits",
+        "retirement",
+        "payroll",
+        "data",
+        "ai",
+        "machine learning",
+        "engineering"
+      ],
+      "core_skills": [
+        "ai",
+        "machine learning",
+        "engineering",
+        "data"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "sr--commercial-couns-vercel-74785241": {
+      "summary": "Partners with cross-functional teams to negotiate commercial contracts and use AI tools to improve contracting processes and deal velocity.",
+      "key_skills": [
+        "ai",
+        "legal",
+        "contracts",
+        "negotiation",
+        "compliance",
+        "privacy"
+      ],
+      "core_skills": [
+        "negotiation",
+        "contracts"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-credit-busine-robinhood-74785241": {
+      "summary": "Senior Credit Business Analyst designs and optimizes credit policies, builds NPV valuation models, and conducts A/B testing to improve credit card customer performance while collaborating with cross-functional teams.",
+      "key_skills": [
+        "python",
+        "sql",
+        "credit_underwriting",
+        "npv_modeling",
+        "a_b_testing",
+        "statistical_analysis",
+        "credit_card_economics",
+        "credit_program_management"
+      ],
+      "core_skills": [
+        "credit_underwriting",
+        "npv_modeling",
+        "a_b_testing",
+        "statistical_analysis"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-machine-learn-robinhood-74785241": {
+      "summary": "Senior Machine Learning Engineer shapes core platforms and customer experiences by fine-tuning AI models for product use cases, optimizing agentic workflows, and productionizing fine-tuned models through collaboration with cross-functional teams.",
+      "key_skills": [
+        "machine learning",
+        "ai",
+        "large language models",
+        "reinforcement learning",
+        "data pipelines",
+        "model optimization",
+        "inference systems",
+        "vector indexes"
+      ],
+      "core_skills": [
+        "designing and deploying machine learning systems",
+        "implementing scalable data pipelines",
+        "building large language models",
+        "developing high-performance inference systems"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "software-engineer-robinhood-74785241": {
+      "summary": "Develops and maintains user-facing iOS application features using Swift/Kotlin, integrates with backend services, and collaborates with cross-functional teams to deliver high-impact mobile features.",
+      "key_skills": [
+        "swift",
+        "kotlin",
+        "mobile ui frameworks",
+        "restful apis",
+        "version control systems",
+        "unit testing frameworks"
+      ],
+      "core_skills": [
+        "mobile development",
+        "api integration",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "experienced-diesel-t-carvana-74785241": {
+      "summary": "Performs preventative maintenance, inspections, and component replacements on Class 8 trucks and trailers, utilizing diagnostic tools to troubleshoot engine, transmission, and electrical issues while ensuring DOT compliance.",
+      "key_skills": [
+        "diesel",
+        "trucks",
+        "trailer",
+        "diagnostics",
+        "aftertreatment",
+        "mig welding",
+        "engine",
+        "transmission"
+      ],
+      "core_skills": [
+        "diesel",
+        "trucks",
+        "trailer",
+        "diagnostics"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "principal-demo-engin-intercom-74785241": {
+      "summary": "Owns the platform and tooling that powers Fin demos, enabling Solutions Engineers to quickly deploy and reset AI-powered customer experience demos across multiple channels.",
+      "key_skills": [
+        "ai",
+        "demo",
+        "engineering",
+        "platform",
+        "solutions",
+        "se"
+      ],
+      "core_skills": [
+        "ai",
+        "engineering"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "system-administrator-veracyte-74785241": {
+      "summary": "Provides dedicated IT support for laboratory operations across multiple sites, ensuring lab systems and automation tools run smoothly while collaborating with lab teams to meet project deadlines.",
+      "key_skills": [
+        "system administration",
+        "lab operations",
+        "network management",
+        "server management",
+        "os management",
+        "automation tools",
+        "troubleshooting",
+        "performance monitoring"
+      ],
+      "core_skills": [
+        "system administration",
+        "network management",
+        "server management",
+        "troubleshooting"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "maintenance-manager-via-74785241": {
+      "summary": "Supervises and performs hands-on maintenance of transit equipment and property while managing driver schedules, payroll, and equipment repairs.",
+      "key_skills": [
+        "maintenance",
+        "technical",
+        "administrative",
+        "project_management",
+        "vehicle_repair",
+        "safety_compliance",
+        "budget_management",
+        "inventory_management"
+      ],
+      "core_skills": [
+        "project_management",
+        "vehicle_repair",
+        "safety_compliance",
+        "budget_management"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "business-operations--spacex-74785241": {
+      "summary": "The Business Operations Lead for Commercial Launch Sales at SpaceX leads market forecasting, competitive intelligence, and process automation while collaborating with engineering teams to shape product direction for customer needs.",
+      "key_skills": [
+        "python",
+        "sql",
+        "data_analysis",
+        "dashboard_development",
+        "competitive_intelligence",
+        "sales_metrics"
+      ],
+      "core_skills": [
+        "sales",
+        "data_pipeline_development",
+        "market_forecasting",
+        "competitive_intelligence"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "construction-project-spacex-74785241": {
+      "summary": "This Construction Project Engineer oversees global office construction projects, ensuring on-time and under-budget delivery while managing multi-discipline projects across international sites.",
+      "key_skills": [
+        "construction",
+        "project_management",
+        "global_office",
+        "facility_planning",
+        "real_estate",
+        "budget_control",
+        "design_conflict_resolution",
+        "international_regulations"
+      ],
+      "core_skills": [
+        "project_management",
+        "budget_control",
+        "design_conflict_resolution",
+        "international_regulations"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "manager--constructio-spacex-74785241": {
+      "summary": "Manages construction teams globally to design and build office spaces while coordinating projects and interfacing with senior leadership.",
+      "key_skills": [
+        "construction",
+        "project_management",
+        "team_leading",
+        "engineering"
+      ],
+      "core_skills": [
+        "project_management",
+        "team_leading",
+        "engineering"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "software-engineer--h-spacex-74785241": {
+      "summary": "Develops integrated operations and automation infrastructure for hardware-in-the-loop (HITL) testbeds and production floor to bring Starshield satellites to life, focusing on rapid development and accurate testing of hardware systems.",
+      "key_skills": [
+        "python",
+        "automation",
+        "hilt",
+        "embedded",
+        "linux",
+        "c",
+        "c++",
+        "signal_processing"
+      ],
+      "core_skills": [
+        "software_development",
+        "test_automation",
+        "hardware_integration",
+        "continuous_integration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "sr--industrial-hygie-spacex-74785241": {
+      "summary": "Owns business operations for industrial hygiene and ergonomics programs across SpaceX facilities, ensuring compliance with OSHA and Cal/OSHA regulations while integrating safety controls into new processes.",
+      "key_skills": [
+        "industrial hygiene",
+        "ergonomics",
+        "osha compliance",
+        "data analysis",
+        "ai/ml",
+        "aerospace",
+        "lean",
+        "six sigma"
+      ],
+      "core_skills": [
+        "industrial hygiene",
+        "ergonomics",
+        "osha compliance",
+        "data analysis"
+      ],
+      "seniority_signal": "sr",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "supplier-quality-spe-spacex-74785241": {
+      "summary": "Manages tactical supplier quality activities with operational rigor to eliminate vendor-caused defects and improve supplier quality processes for SpaceX's Starshield satellite constellation.",
+      "key_skills": [
+        "supply chain",
+        "quality management",
+        "supplier development",
+        "nonconformance management",
+        "corrective action",
+        "preventive action",
+        "process improvement",
+        "supplier quality"
+      ],
+      "core_skills": [
+        "quality management",
+        "supplier development",
+        "nonconformance management",
+        "process improvement"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [
+        "vague responsibilities",
+        "lack of specific metrics"
+      ],
+      "work_mode_derived": "hybrid"
+    },
+    "field-enablement-pro-contentful-74785241": {
+      "summary": "Builds and delivers enablement programs to empower Go-To-Market teams across Sales, Solution Engineering, Customer Experience and Partner Manager roles, driving field readiness through structured initiatives.",
+      "key_skills": [
+        "program management",
+        "enablement",
+        "sales",
+        "customer experience",
+        "training delivery",
+        "project management",
+        "stakeholder management",
+        "content management"
+      ],
+      "core_skills": [
+        "program management",
+        "enablement",
+        "sales",
+        "customer experience"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "senior-manager--it---launchdarkly-74785241": {
+      "summary": "Manages global IT service desk engineering operations for employee support, endpoint services, and hybrid workforce needs while improving service quality through AI and process automation.",
+      "key_skills": [
+        "it_service_desk_engineering",
+        "endpoint_management",
+        "ticketing_operations",
+        "service_request_fulfillment",
+        "ai_automation",
+        "knowledge_management",
+        "operational_processes",
+        "hybrid_workforce"
+      ],
+      "core_skills": [
+        "leadership",
+        "process_optimization",
+        "cross_functional_collaboration",
+        "metrics_driven_decision_making"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "english-learner--el--hightechhigh-74785241": {
+      "summary": "EL Teacher provides instructional support for English Learners in K-12 settings through co-teaching, small group instruction, and student progress monitoring.",
+      "key_skills": [
+        "english",
+        "language",
+        "learners",
+        "teaching",
+        "education",
+        "instruction",
+        "support",
+        "student"
+      ],
+      "core_skills": [
+        "spanish",
+        "data",
+        "technology",
+        "pedagogy"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "instructional-coach--hightechhigh-74785241": {
+      "summary": "Instructional coach supports teacher development through project-based learning, curriculum guidance, and data-driven instructional strategies to improve student outcomes.",
+      "key_skills": [
+        "instructional coaching",
+        "project-based learning",
+        "curriculum development",
+        "teacher support",
+        "differentiation",
+        "scaffolding",
+        "data analysis",
+        "collaborative learning"
+      ],
+      "core_skills": [
+        "project-based learning",
+        "curriculum development",
+        "teacher support",
+        "data analysis"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "business-operations--rocketship-74785241": {
+      "summary": "The Business Operations Manager (BOM) oversees daily operations including student meals, recess, arrival, dismissal, physical space, and safety at their campus, while coaching Operations Specialists in behavior management techniques and ensuring compliance with school policies.",
+      "key_skills": [
+        "behavior management",
+        "compliance",
+        "procurement",
+        "facilities maintenance",
+        "safety",
+        "food service",
+        "it support",
+        "student engagement"
+      ],
+      "core_skills": [
+        "behavior management",
+        "compliance",
+        "procurement",
+        "facilities maintenance"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "tax-manager-r4989--shieldai-74785241": {
+      "summary": "Lead and manage the quarterly and annual income tax provision process under ASC 740, including preparation and review of workpapers, journal entries, and disclosures.",
+      "key_skills": [
+        "asc",
+        "740",
+        "tax",
+        "provision",
+        "filing",
+        "compliance",
+        "auditing",
+        "financial"
+      ],
+      "core_skills": [
+        "tax",
+        "compliance",
+        "auditing",
+        "financial"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "robot-autonomy-engin-field-ai-74785241": {
+      "summary": "Robot Autonomy Engineer deploys, integrates, and maintains autonomous robotic systems in real-world environments, troubleshooting issues and collaborating with customers to ensure mission-critical operations.",
+      "key_skills": [
+        "robotics",
+        "autonomy",
+        "field-deployment",
+        "system-integration",
+        "python",
+        "c++",
+        "ros",
+        "linux"
+      ],
+      "core_skills": [
+        "field-deployment",
+        "system-integration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "warehouse-supply---i-windowsbyrba-74785241": {
+      "summary": "Manages inventory systems, procurement, and vendor relationships across two warehouse locations to ensure efficient material flow and supply chain operations.",
+      "key_skills": [
+        "inventory_management",
+        "procurement",
+        "vendor_management",
+        "supply_chain",
+        "warehouse_operations",
+        "inventory_audits",
+        "stock_control",
+        "material_disposal"
+      ],
+      "core_skills": [
+        "inventory_management",
+        "procurement",
+        "vendor_management",
+        "supply_chain"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "enterprise-customer--notion-74785241": {
+      "summary": "Drives AI adoption, renewal execution, and customer growth for enterprise clients through end-to-end customer success management and AI workflow implementation.",
+      "key_skills": [
+        "customer success",
+        "ai workflows",
+        "renewal execution",
+        "adoption growth",
+        "product strategy",
+        "cross-functional collaboration",
+        "value articulation",
+        "technical concepts"
+      ],
+      "core_skills": [
+        "customer journey",
+        "discovery skills",
+        "playbook development",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "external-job-post-notion-74785241": {
+      "summary": "Owns strategic partner strategy and execution for global partnerships, driving revenue through co-selling and market alignment with key partners in cloud, infrastructure, and AI ecosystems.",
+      "key_skills": [
+        "strategic_partner_management",
+        "global_partnerships",
+        "enterprise_saaS",
+        "cloud_partnerships",
+        "llm_partnerships",
+        "partner_gtm",
+        "co_selling",
+        "cross_functional_stakeholder_management"
+      ],
+      "core_skills": [
+        "strategic_planning",
+        "executive_engagement",
+        "operational_rigor",
+        "stakeholder_influence"
+      ],
+      "seniority_signal": "executive",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "international-tax-ma-notion-74785241": {
+      "summary": "Owns U.S. international tax provision calculations, leads compliance reporting, and drives tax planning for cross-border operations and expansions",
+      "key_skills": [
+        "international tax",
+        "us tax compliance",
+        "transfer pricing",
+        "financial reporting",
+        "tax planning",
+        "audit management",
+        "gilti",
+        "beats"
+      ],
+      "core_skills": [
+        "international tax experience",
+        "us tax rules",
+        "financial reporting",
+        "audit compliance"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "influencer-marketing-replit-74785241": {
+      "summary": "Owns end-to-end influencer and creator strategy to drive user acquisition and community trust through content that aligns with Replit's AI platform",
+      "key_skills": [
+        "influencer marketing",
+        "creator marketing",
+        "content strategy",
+        "community management",
+        "platform fluency",
+        "creative judgment",
+        "negotiation",
+        "ai-native"
+      ],
+      "core_skills": [
+        "influencer program management",
+        "creator roster recruitment",
+        "cross-functional coordination",
+        "rapid response crisis management"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "ai-search-and-discov-modern-treasury-74785241": {
+      "summary": "Owns AEO strategy across major AI search engines and optimizes Modern Treasury's presence in LLM-ingested ecosystems to improve AI-driven discoverability and citation weight.",
+      "key_skills": [
+        "seo",
+        "ai_search",
+        "content_strategy",
+        "technical_buyer_journeys",
+        "aio",
+        "payment_infrastructure",
+        "developer_tools",
+        "fintech"
+      ],
+      "core_skills": [
+        "seo",
+        "content_strategy",
+        "technical_buyer_journeys",
+        "aio"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-customer-succ-assorthealth-74785241": {
+      "summary": "Owns strategic customer relationships for leading healthcare organizations, partners with C-suite executives to drive AI adoption and measurable outcomes, and mentors mid-level customer success managers.",
+      "key_skills": [
+        "customer success",
+        "enterprise accounts",
+        "agentic ai",
+        "healthtech",
+        "saaS",
+        "data analysis",
+        "project management",
+        "executive communication"
+      ],
+      "core_skills": [
+        "enterprise account management",
+        "strategic advisory",
+        "customer health diagnostics",
+        "data-driven decision making"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "manager--compliance--harvey-74785241": {
+      "summary": "Builds and scales end-to-end compliance programs for regulated markets, ensuring security and regulatory adherence while collaborating with engineering, legal, and sales teams to meet customer requirements.",
+      "key_skills": [
+        "ai",
+        "compliance",
+        "security",
+        "regulatory",
+        "data",
+        "governance",
+        "risk",
+        "privacy"
+      ],
+      "core_skills": [
+        "compliance_programs",
+        "gap_analysis",
+        "third_party_management",
+        "cross_functional_influence"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "senior-manager--user-harvey-74785241": {
+      "summary": "Senior Manager leads User Operations for NAMER region, developing managers, owning performance KPIs, and collaborating with Support Operations to ensure operational excellence through AI-native process improvements.",
+      "key_skills": [
+        "ai",
+        "operations",
+        "user_operations",
+        "management",
+        "performance",
+        "kpi",
+        "sop",
+        "process"
+      ],
+      "core_skills": [
+        "ai_native",
+        "people_leadership",
+        "performance_ownership",
+        "cross_functional"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "staff-product-manage-harvey-74785241": {
+      "summary": "Owns product vision and execution for AI-driven legal platform integrations, prioritizing strategic bets to scale Harvey's ecosystem while ensuring customer value and competitive differentiation.",
+      "key_skills": [
+        "product_management",
+        "ai",
+        "legal_data",
+        "enterprise_solutions",
+        "integration",
+        "platform_development",
+        "data_pipelines",
+        "distributed_systems"
+      ],
+      "core_skills": [
+        "product_strategy",
+        "cross_functional_leadership",
+        "commercial_sense",
+        "measurement_iteration"
+      ],
+      "seniority_signal": "staff",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "technical-program-ma-harvey-74785241": {
+      "summary": "Owns end-to-end execution of strategic platform and infrastructure programs including cloud migrations, cost optimization, capacity planning, BYOC, and backend platform buildouts while coordinating cross-functional teams.",
+      "key_skills": [
+        "technical program management",
+        "cloud migration",
+        "infrastructure cost optimization",
+        "capacity planning",
+        "byoc",
+        "kubernetes",
+        "databases",
+        "observability"
+      ],
+      "core_skills": [
+        "technical program management",
+        "cloud migration",
+        "infrastructure cost optimization",
+        "capacity planning"
+      ],
+      "seniority_signal": "staff",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "trust-engineer-harvey-74785241": {
+      "summary": "Builds and owns compliance automation tooling, data infrastructure, and AI-powered workflows to ensure audit readiness and risk reporting for Harvey's trust and assurance programs.",
+      "key_skills": [
+        "ai",
+        "compliance",
+        "data",
+        "engineering",
+        "security",
+        "automation",
+        "snowflake",
+        "python"
+      ],
+      "core_skills": [
+        "compliance automation",
+        "data pipelines",
+        "ai agents",
+        "control testing"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "unknown"
+    },
+    "user-operations-mana-harvey-74785241": {
+      "summary": "Manages a high-performing user operations team to deliver exceptional customer support experiences while driving operational efficiency and scalability for enterprise and mid-market clients.",
+      "key_skills": [
+        "user operations",
+        "customer support",
+        "process optimization",
+        "team leadership",
+        "performance management",
+        "operational excellence",
+        "scalability",
+        "cross-functional collaboration"
+      ],
+      "core_skills": [
+        "team leadership",
+        "process optimization",
+        "performance management",
+        "operational excellence"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "emulation-engineer-etched-74785241": {
+      "summary": "Oversees SoC bring-up on emulation platforms, develops automated build and regression flows, and collaborates with cross-functional teams to ensure pre-silicon validation and software development.",
+      "key_skills": [
+        "c",
+        "c++",
+        "linux",
+        "systemverilog",
+        "verilog",
+        "python",
+        "git",
+        "uvm"
+      ],
+      "core_skills": [
+        "emulation",
+        "debugging",
+        "performance_tuning",
+        "ci_cd"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "controller-langchain-74785241": {
+      "summary": "The Financial Controller leads end-to-end accounting and financial reporting functions, ensuring accurate bookkeeping, timely close processes, and compliance with financial regulations for a fast-growing tech company.",
+      "key_skills": [
+        "financial_controller",
+        "accounting",
+        "financial_reporting",
+        "gaap",
+        "auditing",
+        "payroll",
+        "equity_administration",
+        "internal_controls"
+      ],
+      "core_skills": [
+        "gaap",
+        "auditing",
+        "financial_reporting",
+        "accounting"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "strategic-finance-le-notable-74785241": {
+      "summary": "Strategic Finance Lead partners with executive leaders to provide financial insights, lead budgeting and forecasting, and enhance KPI dashboards for healthcare AI platform growth.",
+      "key_skills": [
+        "strategic finance",
+        "financial modeling",
+        "budgeting",
+        "quarterly forecasting",
+        "kpi dashboard",
+        "investor relations",
+        "fundraising",
+        "m&a"
+      ],
+      "core_skills": [
+        "financial modeling",
+        "budgeting",
+        "quarterly forecasting",
+        "kpi dashboard"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "analytics---automati-openai-74785241": {
+      "summary": "Lead a senior technical operations team to build automation, analytics, and quality systems that improve safety and risk operations scalability and reliability.",
+      "key_skills": [
+        "sql",
+        "dashboards",
+        "data_quality",
+        "classification",
+        "workflow_automation",
+        "operational_health",
+        "quality_measurement",
+        "signal_enrichment"
+      ],
+      "core_skills": [
+        "technical_operations",
+        "prioritization",
+        "system_design",
+        "human_judgment"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "lead",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "audiovisual-design-e-openai-74785241": {
+      "summary": "Designs, implements, and maintains global conference room audiovisual and video conferencing infrastructure with focus on reliability and scalability.",
+      "key_skills": [
+        "av engineering",
+        "enterprise av systems",
+        "qsys programming",
+        "networking",
+        "cloud hosting",
+        "video conferencing",
+        "av monitoring",
+        "av scripting"
+      ],
+      "core_skills": [
+        "av design",
+        "enterprise networking",
+        "cloud hosting",
+        "av over ip"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "developer-education--openai-74785241": {
+      "summary": "Owns education strategy for OpenAI's product ecosystem to help developers and organizations understand and build with frontier AI products like Codex, ChatGPT, and GPT-5.5 through scalable learning programs and demos.",
+      "key_skills": [
+        "developer education",
+        "technical content",
+        "product strategy",
+        "instructional design",
+        "developer relations",
+        "ai education",
+        "learning strategy",
+        "curriculum design"
+      ],
+      "core_skills": [
+        "education strategy",
+        "content roadmap",
+        "learning journeys",
+        "stakeholder collaboration"
+      ],
+      "seniority_signal": "lead",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "head-of-insurance-an-openai-74785241": {
+      "summary": "Designs and implements global insurance programs covering cyber, D&O, E&O, property, and emerging AI risks while ensuring balance sheet protection and risk mitigation across technology and global operations.",
+      "key_skills": [
+        "insurance",
+        "risk_management",
+        "cyber",
+        "d&O",
+        "e&o",
+        "property",
+        "general_liability",
+        "international_programs"
+      ],
+      "core_skills": [
+        "insurance_programs",
+        "captive_insurance",
+        "risk_transfer",
+        "enterprise_risk"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "physical-security-sy-openai-74785241": {
+      "summary": "Troubleshoots physical security system issues, manages operational tickets, coordinates with vendors and integrators, and partners with IT teams to maintain secure infrastructure.",
+      "key_skills": [
+        "physical security systems",
+        "access control",
+        "video surveillance",
+        "gsoc workflows",
+        "system programming",
+        "networking",
+        "firewall policies",
+        "iot devices"
+      ],
+      "core_skills": [
+        "troubleshooting",
+        "ticket management",
+        "vendor coordination",
+        "stakeholder partnership"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "product-policy-biose-openai-74785241": {
+      "summary": "Provides biosecurity and life sciences policy advice to technical and product teams, evaluates bio-relevant product launches, and translates biological misuse risk into clear product requirements and enforcement standards.",
+      "key_skills": [
+        "biosecurity",
+        "biosafety",
+        "bioinformatics",
+        "molecular_biology",
+        "computational_biology",
+        "public_health",
+        "biodefense",
+        "biological_risk_management"
+      ],
+      "core_skills": [
+        "policy_advice",
+        "risk_evaluation",
+        "product_policy",
+        "stakeholder_partnership"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-manager--fina-openai-74785241": {
+      "summary": "Senior Manager leads risk and controls support across multiple finance-critical business domains, identifying and prioritizing high-risk areas for remediation while partnering with cross-functional teams to design practical, scalable controls.",
+      "key_skills": [
+        "financial risk management",
+        "internal controls",
+        "operational risk",
+        "sox",
+        "icfr",
+        "procurement",
+        "payments",
+        "strategic investments"
+      ],
+      "core_skills": [
+        "risk assessment",
+        "control design",
+        "cross-functional partnership",
+        "operational execution"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "software-engineer--m-openai-74785241": {
+      "summary": "Software engineer designs and builds ML infrastructure for OpenAI's monetization and ads systems, including data pipelines, model training, and real-time inference.",
+      "key_skills": [
+        "ml",
+        "distributed_systems",
+        "data_pipelines",
+        "model_serving",
+        "experimentation",
+        "feature_engineering",
+        "model_training",
+        "monitoring"
+      ],
+      "core_skills": [
+        "distributed_systems",
+        "data_pipelines",
+        "model_serving",
+        "experimentation"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "strategic-investment-openai-74785241": {
+      "summary": "Leads accounting, reporting, governance, and operational processes for strategic investments, consolidation matters, ownership structures, and complex transactions across OpenAI.",
+      "key_skills": [
+        "consolidation",
+        "investment accounting",
+        "complex transactions",
+        "accounting policy",
+        "financial reporting",
+        "process design",
+        "governance",
+        "technical accounting"
+      ],
+      "core_skills": [
+        "technical accounting",
+        "consolidation",
+        "investment accounting",
+        "complex transactions"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "member-of-creative-s-perplexity-74785241": {
+      "summary": "Owns end-to-end design of marketing and landing pages, creates and owns CMS design system for self-serve page creation, partners with Growth and Product Marketing to translate business goals into high-converting designs, and collaborates with front-end engineers to ship pages quickly.",
+      "key_skills": [
+        "web design",
+        "ui design",
+        "landing pages",
+        "cms design",
+        "branding",
+        "conversion optimization",
+        "responsive design",
+        "accessibility"
+      ],
+      "core_skills": [
+        "web design",
+        "ui design",
+        "landing pages",
+        "cms design"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "workplace-operations-perplexity-74785241": {
+      "summary": "Manages day-to-day workplace operations for San Francisco office and supports Palo Alto office through onsite presence, ensuring a welcoming, productive, safe, and engaging office environment for employees, candidates, customers, and visitors.",
+      "key_skills": [
+        "workplace operations",
+        "facilities management",
+        "office management",
+        "employee experience",
+        "vendor management",
+        "budget management",
+        "safety compliance",
+        "emergency preparedness"
+      ],
+      "core_skills": [
+        "workplace operations",
+        "fac: management",
+        "budget management",
+        "vendor management"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "customer-success-man-zip-74785241": {
+      "summary": "Manages customer portfolios across industries to drive adoption and satisfaction while advising on procurement transformation and platform best practices.",
+      "key_skills": [
+        "customer success",
+        "procurement",
+        "advisory",
+        "problem solving",
+        "project management",
+        "workflow efficiency",
+        "creative problem solving",
+        "business process"
+      ],
+      "core_skills": [
+        "customer success",
+        "procurement",
+        "advisory",
+        "problem solving"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
+    },
+    "senior-ios-ux-engine-google-74785241": {
+      "summary": "Senior iOS UX Engineer designs and prototypes user experiences for Google's Search products using Swift and motion design principles.",
+      "key_skills": [
+        "ios",
+        "ux",
+        "swift",
+        "motion_design",
+        "prototyping",
+        "technical_design"
+      ],
+      "core_skills": [
+        "technical_ux",
+        "ios_development",
+        "swift"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "software-engineer--c-google-74785241": {
+      "summary": "Drives progress, solves problems, and mentors junior team members while applying deep expertise in relevant areas",
+      "key_skills": [
+        "calibration",
+        "system test",
+        "software engineering"
+      ],
+      "core_skills": [
+        "distributed systems",
+        "networking"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "technical-lead-manag-google-74785241": {
+      "summary": "Owns outcomes and decision making, solves ambiguous problems, and influences stakeholders with deep expertise in networking and embedded systems.",
+      "key_skills": [
+        "networking",
+        "embedded systems",
+        "kernel drivers",
+        "c++",
+        "firmware",
+        "data structures",
+        "algorithms",
+        "software development"
+      ],
+      "core_skills": [
+        "technical leadership",
+        "project management",
+        "cross-functional collaboration",
+        "matrixed organizations"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "manager",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "vice-president--soft-google-74785241": {
+      "summary": "Drives growth of global software engineering teams responsible for developing, testing, and deploying new products and hardware to support Google's Platform Infrastructure.",
+      "key_skills": [
+        "software engineering",
+        "data center infrastructure",
+        "distributed systems",
+        "cloud computing",
+        "networking",
+        "testing",
+        "qa engineering",
+        "large-scale infrastructure"
+      ],
+      "core_skills": [
+        "software engineering",
+        "distributed systems",
+        "cloud computing",
+        "networking"
+      ],
+      "seniority_signal": "vp",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "principal-engineer---google-74785241": {
+      "summary": "Builds and maintains search user interfaces across Android and web platforms using AI capabilities like AI Overviews and generative UI to improve user experience.",
+      "key_skills": [
+        "android",
+        "applications",
+        "search",
+        "experience",
+        "ai",
+        "agents",
+        "ai-enabled",
+        "coding"
+      ],
+      "core_skills": [
+        "ai",
+        "agents",
+        "ai-enabled",
+        "coding"
+      ],
+      "seniority_signal": "principal",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "technical-program-ma-google-74785241": {
+      "summary": "Drives complex multi-disciplinary AI projects from start to finish, manages cross-functional teams, and balances technical risks with product delivery in agentic automation.",
+      "key_skills": [
+        "program management",
+        "generative ai",
+        "large language models",
+        "machine learning",
+        "ai agents",
+        "agentic automation"
+      ],
+      "core_skills": [
+        "project management",
+        "cross-functional collaboration",
+        "technical risk assessment",
+        "resource allocation"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "strategy-and-operati-google-74785241": {
+      "summary": "Drives business strategy and operations for Google's Chromebooks consumer marketing, collaborating with cross-functional teams to set global marketing strategies and initiatives.",
+      "key_skills": [
+        "strategy",
+        "operations",
+        "marketing"
+      ],
+      "core_skills": [
+        "business_strategy",
+        "cross_functional"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "customer-engineer--f-google-74785241": {
+      "summary": "Customer Engineer in Google Public Sector partners with technical Sales teams to differentiate Google Cloud to federal civilian agencies, assisting customers with cloud migration and technical problem-solving.",
+      "key_skills": [
+        "cloud engineering",
+        "cloud native architecture",
+        "genai",
+        "networking",
+        "virtualization",
+        "containerization",
+        "migrating applications",
+        "cloud platforms"
+      ],
+      "core_skills": [
+        "cloud engineering",
+        "cloud native architecture",
+        "genai",
+        "networking"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "head-of-gtm-innovati-google-74785241": {
+      "summary": "Owns strategic projects to redefine partnership service models and capabilities through AI-driven transformations, influencing stakeholders to enable deep change management and upskill teams.",
+      "key_skills": [
+        "gaming",
+        "ai",
+        "machine learning",
+        "cloud computing",
+        "data analysis",
+        "software engineering",
+        "product management",
+        "digital transformation"
+      ],
+      "core_skills": [
+        "strategic planning",
+        "stakeholder management",
+        "cross-functional collaboration",
+        "change management"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "executive",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "program-manager-iii--google-74785241": {
+      "summary": "Leads complex, multi-disciplinary projects from start to finish by planning requirements, managing schedules, identifying risks, and coordinating cross-functional partners across the company.",
+      "key_skills": [
+        "program management",
+        "supply chain operations",
+        "cloud networking"
+      ],
+      "core_skills": [
+        "project management",
+        "cross-functional collaboration"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "staff-ios-ux-enginee-google-74785241": {
+      "summary": "Staff iOS UX Engineer develops and launches innovative features by collaborating with Engineering and Product Management to create user-centric products using technical UX design and prototyping.",
+      "key_skills": [
+        "ios",
+        "swift",
+        "ux",
+        "prototyping",
+        "vibe coding",
+        "motion design",
+        "physics",
+        "patterns"
+      ],
+      "core_skills": [
+        "technical leadership",
+        "project management",
+        "user insights",
+        "full tech stacks"
+      ],
+      "seniority_signal": "staff",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "software-engineer-ii-google-74785241": {
+      "summary": "Drives progress, solves problems, and mentors junior team members with deeper expertise in distributed systems and database internals",
+      "key_skills": [
+        "c++",
+        "distributed databases",
+        "storage systems",
+        "performance analysis",
+        "debugging",
+        "optimization",
+        "concurrency",
+        "multithreading"
+      ],
+      "core_skills": [
+        "distributed computing",
+        "consensus algorithms"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-ux-researcher-google-74785241": {
+      "summary": "Senior UX Researcher conducts primary research including interviews, usability testing, and surveys to identify product opportunities for learners across Google's GenAI platforms.",
+      "key_skills": [
+        "ux research",
+        "user experience",
+        "research methods",
+        "user interviews",
+        "usability testing",
+        "surveys",
+        "data analysis",
+        "product development"
+      ],
+      "core_skills": [
+        "ux research",
+        "user experience",
+        "research methods",
+        "user interviews"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "software-engineer--a-google-74785241": {
+      "summary": "Software engineer working on Google Cloud's Andromeda SDN stack to develop next-generation networking solutions for cloud infrastructure.",
+      "key_skills": [
+        "software",
+        "networking",
+        "distributed",
+        "systems",
+        "cloud",
+        "ai",
+        "ml",
+        "infrastructure"
+      ],
+      "core_skills": [
+        "distributed",
+        "systems",
+        "cloud",
+        "networking"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-network-test--google-74785241": {
+      "summary": "Tests and ensures the reliability of Google's large-scale network infrastructure through hands-on experience with networking equipment and protocols.",
+      "key_skills": [
+        "networking",
+        "testing",
+        "python",
+        "c++",
+        "unix/linux"
+      ],
+      "core_skills": [
+        "network testing",
+        "network protocol troubleshooting"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "product-data-scienti-google-74785241": {
+      "summary": "Supports growth initiatives on Google's Discover Experiences product team by analyzing user data, interpreting product launches, and reporting on growth metrics.",
+      "key_skills": [
+        "python",
+        "sql",
+        "statistical_analysis",
+        "data_science",
+        "a_b_tests",
+        "growth_analysis"
+      ],
+      "core_skills": [
+        "data_analysis",
+        "experimentation"
+      ],
+      "seniority_signal": "mid",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "mobile-apps-account--google-74785241": {
+      "summary": "Manages onboarding of new mobile-first customers for Google's advertising business",
+      "key_skills": [
+        "mobile apps",
+        "onboarding",
+        "new business sales"
+      ],
+      "core_skills": [
+        "sales",
+        "customer success"
+      ],
+      "seniority_signal": "entry",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "hybrid"
+    },
+    "photos-mission-tech--google-74785241": {
+      "summary": "Owns outcomes and decision making for photo sharing and storage services, solving ambiguous problems and influencing stakeholders with deep expertise in applied AI and full-stack development.",
+      "key_skills": [
+        "full stack",
+        "generative ai",
+        "software engineering",
+        "ai agents",
+        "cloud computing",
+        "machine learning",
+        "computer vision",
+        "distributed systems"
+      ],
+      "core_skills": [
+        "full stack development",
+        "generative ai agents",
+        "software engineering",
+        "ai agents"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "senior-asic-design-e-google-74785241": {
+      "summary": "Designs and implements SoC-level RTL for next-generation AI/ML accelerators, focusing on TPU architecture and high-performance subsystems.",
+      "key_skills": [
+        "asic",
+        "design",
+        "engineer",
+        "verilog",
+        "systemverilog",
+        "rtl",
+        "soc",
+        "noct"
+      ],
+      "core_skills": [
+        "rtl",
+        "soc",
+        "design",
+        "verilog"
+      ],
+      "seniority_signal": "senior",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "onsite"
+    },
+    "staff-silicon-physic-google-74785241": {
+      "summary": "Owns digital RTL-to-GDS2 process for ASIC implementation, developing standard flows and leading external teams through the implementation process.",
+      "key_skills": [
+        "silicon",
+        "physical",
+        "design",
+        "engineer",
+        "asic",
+        "implementation",
+        "rtl",
+        "gds2"
+      ],
+      "core_skills": [
+        "asic",
+        "implementation",
+        "rtl",
+        "gds2"
+      ],
+      "seniority_signal": "staff",
+      "role_type": "ic",
+      "red_flags": [],
+      "work_mode_derived": "remote"
     }
   }
 }

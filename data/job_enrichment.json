@@ -1,8 +1,8 @@
 {
   "meta": {
-    "built_at": "2026-06-07T09:13:36.162993+00:00",
-    "total_jobs": 4936,
-    "enriched": 3246
+    "built_at": "2026-06-08T12:07:30.409154+00:00",
+    "total_jobs": 4937,
+    "enriched": 3238
   },
   "jobs": {
     "analytics-lead--mark-lyft-65682582": {
@@ -43932,29 +43932,6 @@
       "red_flags": [],
       "work_mode_derived": "hybrid"
     },
-    "fullstack-engineer---langchain-60313811": {
-      "summary": "Builds and implements key product features for LangSmith platform while collaborating with product, design, and enterprise customers to enhance the platform's functionality and user experience.",
-      "key_skills": [
-        "go",
-        "python",
-        "typescript",
-        "postgres",
-        "redis",
-        "api",
-        "ai",
-        "llm"
-      ],
-      "core_skills": [
-        "fullstack",
-        "database",
-        "api_design",
-        "scaling"
-      ],
-      "seniority_signal": "mid",
-      "role_type": "ic",
-      "red_flags": [],
-      "work_mode_derived": "unknown"
-    },
     "gtm-engineer-langchain-60313811": {
       "summary": "Builds production-grade AI agents to handle technical support, troubleshoot integrations, and guide users through onboarding flows for enterprise customers.",
       "key_skills": [
@@ -53583,29 +53560,6 @@
       "role_type": "ic",
       "red_flags": [],
       "work_mode_derived": "hybrid"
-    },
-    "principal-machine-le-sap-60313817": {
-      "summary": "Guides ML engineering teams to develop cutting-edge AI tools and Gen AI features for SAP applications, collaborating with data scientists and architects to implement scalable cloud solutions.",
-      "key_skills": [
-        "machine learning",
-        "kubernetes",
-        "docker",
-        "cloud",
-        "ai",
-        "gen ai",
-        "data science",
-        "microservices"
-      ],
-      "core_skills": [
-        "machine learning",
-        "kubernetes",
-        "docker",
-        "cloud"
-      ],
-      "seniority_signal": "senior",
-      "role_type": "ic",
-      "red_flags": [],
-      "work_mode_derived": "onsite"
     },
     "security-engineer--t-asana-46880392": {
       "summary": "Security Engineer, Threat Response leads security incident detection, analysis, and response efforts, ensuring timely remediation of security incidents and actively participates in on-call rotations.",
@@ -63498,52 +63452,6 @@
       "red_flags": [],
       "work_mode_derived": "onsite"
     },
-    "senior-security-engi-langchain-05065335": {
-      "summary": "Security lead embedded with core product teams to secure agentic workloads end-to-end from SDK through LangSmith/Graph services and customer integrations",
-      "key_skills": [
-        "python",
-        "go",
-        "typescript",
-        "kubernetes",
-        "security",
-        "infrastructure",
-        "application_security",
-        "cloud_security"
-      ],
-      "core_skills": [
-        "security_engineering",
-        "cloud_security",
-        "kubernetes",
-        "application_security"
-      ],
-      "seniority_signal": "mid",
-      "role_type": "ic",
-      "red_flags": [],
-      "work_mode_derived": "onsite"
-    },
-    "dsp-systems-engineer-northwoodspace-05065335": {
-      "summary": "Forward Deployed RF Engineer leads customer-facing RF integration, validation, and testing to ensure compatibility between Northwood’s RF systems and customer payloads, owning the process from initial requirements through on-site deployment and mission readiness.",
-      "key_skills": [
-        "rf",
-        "hardware-in-the-loop",
-        "integration",
-        "testing",
-        "signal-integrity",
-        "link-budget",
-        "interference",
-        "spectrum-analyzer"
-      ],
-      "core_skills": [
-        "rf-systems",
-        "hardware-integration",
-        "system-validation",
-        "debugging"
-      ],
-      "seniority_signal": "mid",
-      "role_type": "ic",
-      "red_flags": [],
-      "work_mode_derived": "onsite"
-    },
     "founding-gtm-enginee-retell-ai-05065335": {
       "summary": "Builds and owns end-to-end GTM workflows and systems that power sales and revenue generation through automation and data integration.",
       "key_skills": [
@@ -69445,29 +69353,6 @@
       "red_flags": [],
       "work_mode_derived": "unknown"
     },
-    "senior-machine-learn-sap-44292725": {
-      "summary": "Senior Machine Learning Engineer designs and implements GenAI projects, collaborates with data scientists and architects to develop AI solutions, and ensures robust ML lifecycle management.",
-      "key_skills": [
-        "machine learning",
-        "python",
-        "java",
-        "nodejs",
-        "kubernetes",
-        "docker",
-        "sql",
-        "postgres"
-      ],
-      "core_skills": [
-        "machine learning",
-        "python",
-        "java",
-        "kubernetes"
-      ],
-      "seniority_signal": "senior",
-      "role_type": "ic",
-      "red_flags": [],
-      "work_mode_derived": "onsite"
-    },
     "customer-marketing-m-brex-30697681": {
       "summary": "Designs scalable customer marketing programs to drive acquisition, retention, and expansion through customer storytelling, reference programs, and content development.",
       "key_skills": [
@@ -70542,73 +70427,6 @@
         "financial reporting",
         "sap",
         "sql"
-      ],
-      "seniority_signal": "senior",
-      "role_type": "ic",
-      "red_flags": [],
-      "work_mode_derived": "onsite"
-    },
-    "director--brand--can-elfbeauty-16927931": {
-      "summary": "Directs regional marketing strategy for Canada and Mexico, leading brand expansion and commercial execution for Naturium with focus on market relevance and retail performance.",
-      "key_skills": [
-        "brand marketing",
-        "go-to-market strategy",
-        "market expansion",
-        "commercial execution",
-        "retail performance",
-        "consumer engagement",
-        "launch excellence",
-        "cross-functional leadership"
-      ],
-      "core_skills": [
-        "strategic planning",
-        "market analysis",
-        "cross-functional collaboration",
-        "retail partnerships"
-      ],
-      "seniority_signal": "senior",
-      "role_type": "manager",
-      "red_flags": [],
-      "work_mode_derived": "hybrid"
-    },
-    "software-developer---google-16927931": {
-      "summary": "Develops next-generation Android applications with focus on glasses system UI, leveraging Kotlin and mobile development expertise.",
-      "key_skills": [
-        "kotlin",
-        "android",
-        "mobile",
-        "ui",
-        "nlp",
-        "llm"
-      ],
-      "core_skills": [
-        "kotlin",
-        "android",
-        "mobile",
-        "ui"
-      ],
-      "seniority_signal": "mid",
-      "role_type": "ic",
-      "red_flags": [],
-      "work_mode_derived": "hybrid"
-    },
-    "forward-deployed-app-sap-16927931": {
-      "summary": "Designs, builds, and operates production-grade cloud-native enterprise applications integrating AI capabilities like large language models and agentic workflows while owning end-to-end technical delivery from prototyping to deployment.",
-      "key_skills": [
-        "cloud-native",
-        "ai-native",
-        "ml-engineering",
-        "python",
-        "agentic-ai",
-        "rags",
-        "vector-databases",
-        "mlops"
-      ],
-      "core_skills": [
-        "ai-assisted-engineering",
-        "cloud-architecture",
-        "full-cycle-delivery",
-        "technical-ownership"
       ],
       "seniority_signal": "senior",
       "role_type": "ic",

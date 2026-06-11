@@ -1486,6 +1486,11 @@ footer a:hover { color: var(--accent); }
   font-size: var(--fs-xs); text-transform: uppercase;
   letter-spacing: .1em; color: var(--text3);
 }
+.sstat-sub {
+  display: block; margin-top: 2px;
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs); color: var(--text3); opacity: .75;
+}
 /* Live pulse dot */
 .live-dot {
   display: inline-block;
@@ -2252,7 +2257,8 @@ thead th,.results-header{background:#0a0e16 !important}
       <div class="sidebar-stats">
         <div class="sstat">
           <span class="sstat-num" id="statTotal">—</span>
-          <span class="sstat-label">Total Postings</span>
+          <span class="sstat-label">Active Postings</span>
+          <span class="sstat-sub" id="statTracked"></span>
         </div>
         <div class="sstat featured">
           <span class="sstat-num" id="statMedian">—</span>
@@ -2415,7 +2421,7 @@ thead th,.results-header{background:#0a0e16 !important}
               <th></th>
             </tr>
           </thead>
-          <tbody id="tableBody"><!-- SSR: newest active postings, replaced by JS on load --><tr><td>Counsel, Product &amp; Commercial (Rideshare &amp; Autonomous Vehicles)</td><td>Lyft</td><td>$176K–$220K</td><td>$198K</td><td>greenhouse</td><td>2026-06-09</td><td></td></tr><tr><td>Growth Marketing Manager, Programmatic</td><td>Lyft</td><td>$128K–$160K</td><td>$144K</td><td>greenhouse</td><td>2026-06-09</td><td></td></tr><tr><td>Software Engineer, People Technology</td><td>Gusto</td><td>$163K–$204K</td><td>$184K</td><td>greenhouse</td><td>2026-06-09</td><td></td></tr><tr><td>PDR Technician- 2nd Shift - $6,000 Bonus - Relocation Assistance</td><td>Carvana</td><td>$31K–$41K</td><td>$36K</td><td>greenhouse</td><td>2026-06-09</td><td></td></tr><tr><td>Senior Body Technician - 2nd Shift - $6,000 Bonus</td><td>Carvana</td><td>$31K–$39K</td><td>$35K</td><td>greenhouse</td><td>2026-06-09</td><td></td></tr><tr><td>Senior PDR Tech 2nd Shift - $6,000 Bonus</td><td>Carvana</td><td>$31K–$41K</td><td>$36K</td><td>greenhouse</td><td>2026-06-09</td><td></td></tr><tr><td>Enterprise Customer Success Manager</td><td>Intercom</td><td>$186K–$223K</td><td>$204K</td><td>greenhouse</td><td>2026-06-09</td><td></td></tr><tr><td>Sr. Embedded Software Engineer, Laser Mesh Routing (Starlink)</td><td>Spacex</td><td>$175K–$240K</td><td>$208K</td><td>greenhouse</td><td>2026-06-09</td><td></td></tr><tr><td>Sr. Software Engineer, Beam Planning (Starlink)</td><td>Spacex</td><td>$175K–$240K</td><td>$208K</td><td>greenhouse</td><td>2026-06-09</td><td></td></tr><tr><td>Sr. Software Engineer, High Performance Computing (Starlink)</td><td>Spacex</td><td>$175K–$240K</td><td>$208K</td><td>greenhouse</td><td>2026-06-09</td><td></td></tr><tr><td>Sr. Software Engineer, Low Latency Computing (Starlink)</td><td>Spacex</td><td>$175K–$240K</td><td>$208K</td><td>greenhouse</td><td>2026-06-09</td><td></td></tr><tr><td>Enterprise Account Director, Anchor</td><td>Bazaarvoice</td><td>$140K–$280K</td><td>$210K</td><td>lever</td><td>2026-06-09</td><td></td></tr><tr><td>Senior Associate, Extended Learning</td><td>Rocketship</td><td>$71K–$83K</td><td>$77K</td><td>lever</td><td>2023-08-24</td><td></td></tr><tr><td>Software Engineer, Security</td><td>Notion</td><td>$290K–$350K</td><td>$320K</td><td>ashby</td><td>2026-06-10</td><td></td></tr><tr><td>Senior Web Developer</td><td>Vanta</td><td>$116K–$137K</td><td>$126K</td><td>ashby</td><td>2026-06-10</td><td></td></tr><tr><td>Social Media Manager</td><td>Replit</td><td>$115K–$170K</td><td>$142K</td><td>ashby</td><td>2026-06-10</td><td></td></tr><tr><td>Manager, Customer Success Team</td><td>Assorthealth</td><td>$180K–$250K</td><td>$215K</td><td>ashby</td><td>2026-06-10</td><td></td></tr><tr><td>Customer Success Manager</td><td>Granola</td><td>$180K–$250K</td><td>$215K</td><td>ashby</td><td>2026-06-10</td><td></td></tr><tr><td>Head of Research Community and Operations</td><td>Harvey</td><td>$237K–$355K</td><td>$296K</td><td>ashby</td><td>2026-06-10</td><td></td></tr><tr><td>Senior Software Engineer, Spam and Abuse, AI/ML</td><td>Google</td><td>$174K–$253K</td><td>$214K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Senior Software Engineer, AI/ML GenAI, Google Cloud</td><td>Google</td><td>$174K–$253K</td><td>$214K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Program Manager III, Advertiser Safety, Google Ads</td><td>Google</td><td>$159K–$231K</td><td>$195K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Regulatory and Litigation Counsel, AI Safety</td><td>Google</td><td>$252K–$352K</td><td>$302K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Product Data Scientist, engEDU</td><td>Google</td><td>$138K–$198K</td><td>$168K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Spares and RMA Program Manager, Strategy</td><td>Google</td><td>$192K–$279K</td><td>$236K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Design Verification Engineer</td><td>Google</td><td>$163K–$237K</td><td>$200K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Technical Program Manager III, Supply Chain and AI/ML Automation, Google Cloud</td><td>Google</td><td>$163K–$237K</td><td>$200K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Robotics Hardware Industrialization Engineer, DeepMind</td><td>Google</td><td>$212K–$231K</td><td>$222K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Senior UX Engineer, Chrome AI Innovation, Disco</td><td>Google</td><td>$159K–$231K</td><td>$195K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Senior Engineering Director, AI Data Infrastructure</td><td>Google</td><td>$364K–$510K</td><td>$437K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>External Communications Manager, Cloud AI, Google Cloud</td><td>Google</td><td>$141K–$206K</td><td>$174K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>ISV Customer Engineer, Google Cloud</td><td>Google</td><td>$152K–$222K</td><td>$187K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Software Engineering Manager II, Infrastructure, Google Cloud AI</td><td>Google</td><td>$207K–$301K</td><td>$254K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>AI Deployment Engineer, Organizational Engineer, DeepMind</td><td>Google</td><td>$147K–$211K</td><td>$179K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Partner Solutions Engineer, Universal Commerce Protocol</td><td>Google</td><td>$127K–$183K</td><td>$155K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Business Planning and Pricing Principal, Google Cloud Monetization</td><td>Google</td><td>$176K–$257K</td><td>$216K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Software Engineer, Pixel Test Engineering/AI Application</td><td>Google</td><td>$147K–$211K</td><td>$179K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Senior Software Engineer, Eye Tracking, Core</td><td>Google</td><td>$174K–$253K</td><td>$214K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Research Engineer, Ads AI</td><td>Google</td><td>$174K–$253K</td><td>$214K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Administrative Business Partner, GeminiApp, DeepMind</td><td>Google</td><td>$128K–$138K</td><td>$133K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Senior UX Research Program Manager, Payments</td><td>Google</td><td>$159K–$231K</td><td>$195K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Senior Regulatory Counsel, Kids Content</td><td>Google</td><td>$252K–$352K</td><td>$302K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Vice President, Strategy and Operations, AI and Infrastructure</td><td>Google</td><td>$124K–$181K</td><td>$152K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>People Manager, UX Programs and Operations, Payments Platforms</td><td>Google</td><td>$188K–$275K</td><td>$232K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Program Manager II, NPI Operations, Cloud Supply Chain</td><td>Google</td><td>$132K–$190K</td><td>$161K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Business and Marketing Data Scientist, Applied Machine Learning</td><td>Google</td><td>$138K–$198K</td><td>$168K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Software Engineer III, Core ML Performance</td><td>Google</td><td>$147K–$211K</td><td>$179K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Staff Software Engineer, AI/ML, XR</td><td>Google</td><td>$207K–$301K</td><td>$254K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Global Labs Lead, YouTube</td><td>Google</td><td>$183K–$266K</td><td>$224K</td><td>google</td><td>2026-06-10</td><td></td></tr><tr><td>Financial Analyst, Supply Chain Finance</td><td>Google</td><td>$116K–$167K</td><td>$142K</td><td>google</td><td>2026-06-10</td><td></td></tr></tbody>
+          <tbody id="tableBody"><!-- SSR: newest active postings, replaced by JS on load --><tr><td>Senior Data Scientist, Causal Inference</td><td>Lyft</td><td>$148K–$185K</td><td>$166K</td><td>greenhouse</td><td>2026-06-10</td><td></td></tr><tr><td>Head of Channel, AMER</td><td>Asana</td><td>$238K–$322K</td><td>$280K</td><td>greenhouse</td><td>2026-06-10</td><td></td></tr><tr><td>Strategic Finance Manager, EPD</td><td>Vercel</td><td>$180K–$220K</td><td>$200K</td><td>greenhouse</td><td>2026-06-10</td><td></td></tr><tr><td>Sr. Director, Technology and Product UX</td><td>Veracyte</td><td>$246K–$285K</td><td>$266K</td><td>greenhouse</td><td>2026-06-10</td><td></td></tr><tr><td>Buyer I</td><td>Vast</td><td>$65K–$90K</td><td>$78K</td><td>greenhouse</td><td>2026-06-10</td><td></td></tr><tr><td>Buyer II</td><td>Vast</td><td>$84K–$118K</td><td>$101K</td><td>greenhouse</td><td>2026-06-10</td><td></td></tr><tr><td>Sr. RAN Software Engineer (Starlink Mobile)</td><td>Spacex</td><td>$175K–$240K</td><td>$208K</td><td>greenhouse</td><td>2026-06-10</td><td></td></tr><tr><td>Expanded Learning Opportunities Program Manager</td><td>Hightechhigh</td><td>$72K–$83K</td><td>$77K</td><td>lever</td><td>2026-06-10</td><td></td></tr><tr><td>Lead, Internal Audit and SOX Compliance</td><td>Notion</td><td>$185K–$220K</td><td>$202K</td><td>ashby</td><td>2026-06-11</td><td></td></tr><tr><td>Sales Partner Manager — North America</td><td>Notion</td><td>$260K–$300K</td><td>$280K</td><td>ashby</td><td>2026-06-11</td><td></td></tr><tr><td>Head of Forward Deployed Engineering</td><td>Replit</td><td>$300K–$400K</td><td>$350K</td><td>ashby</td><td>2026-06-11</td><td></td></tr><tr><td>Principal Customer Success Manager</td><td>Assorthealth</td><td>$200K–$260K</td><td>$230K</td><td>ashby</td><td>2026-06-11</td><td></td></tr><tr><td>Performance Marketing Manager, Paid Social</td><td>Harvey</td><td>$136K–$204K</td><td>$170K</td><td>ashby</td><td>2026-06-11</td><td></td></tr><tr><td>Staff Product Data Scientist, Workspace Collab</td><td>Google</td><td>$192K–$279K</td><td>$236K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Senior Leadership Technical Program Manager - GDC Systems, Tooling, Data, and AI Manager</td><td>Google</td><td>$240K–$334K</td><td>$287K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Senior CMOS Test and Validation Lead, Analog Mixed-Signal, Raxium</td><td>Google</td><td>$240K–$334K</td><td>$287K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Software Engineer III, Google Cloud Storage, Data Transfer Service</td><td>Google</td><td>$147K–$211K</td><td>$179K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Product Manager, AI, Gboard</td><td>Google</td><td>$163K–$237K</td><td>$200K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Software Engineer III, Android, Chrome OS</td><td>Google</td><td>$147K–$211K</td><td>$179K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>gTech Ads Engagement Manager</td><td>Google</td><td>$140K–$205K</td><td>$172K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Policy Development Lead, YouTube Trust and Safety</td><td>Google</td><td>$136K–$197K</td><td>$166K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Lead, Regulatory Compliance Operations and Creator Policy Experience</td><td>Google</td><td>$171K–$248K</td><td>$210K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Senior Research Data Scientist, Payments Platform</td><td>Google</td><td>$174K–$253K</td><td>$214K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Product Manager, Ads and Commerce, Try On You</td><td>Google</td><td>$192K–$279K</td><td>$236K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Technical Program Manager III, Infrastructure Storage Resources, Google Cloud</td><td>Google</td><td>$163K–$237K</td><td>$200K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Director of Research and Engineering, Health and Home</td><td>Google</td><td>$307K–$428K</td><td>$368K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Hardware Systems Engineer, Watches</td><td>Google</td><td>$132K–$190K</td><td>$161K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>AI Sales Specialist, Media and Entertainment, Google Cloud</td><td>Google</td><td>$138K–$201K</td><td>$170K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Senior Software Engineer, Recommendations, Search Intelligence</td><td>Google</td><td>$174K–$253K</td><td>$214K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Security Sales Specialist Manager III, Google Cloud</td><td>Google</td><td>$176K–$245K</td><td>$210K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Staff Hardware Systems Engineer, Watches</td><td>Google</td><td>$188K–$275K</td><td>$232K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Strategy and Operations Manager, GTM</td><td>Google</td><td>$186K–$270K</td><td>$228K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Principal Architect, Higher Education, Google Public Sector</td><td>Google</td><td>$152K–$222K</td><td>$187K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Customer Engineer III, Platform, Google Cloud, West</td><td>Google</td><td>$152K–$222K</td><td>$187K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Software Engineer, Ad Serving Infrastructure, YouTube Ads</td><td>Google</td><td>$174K–$253K</td><td>$214K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Staff Software Engineer, ML Fleet Systems</td><td>Google</td><td>$207K–$301K</td><td>$254K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Senior Staff Software Engineer, Agentic Commerce, Business Agent</td><td>Google</td><td>$262K–$365K</td><td>$314K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>People Manager, UX Programs and Operations, Payments</td><td>Google</td><td>$188K–$275K</td><td>$232K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Senior Software Engineering, Calibration and System Test</td><td>Google</td><td>$174K–$253K</td><td>$214K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Staff Software Engineer, Linux Kernel Memory Management</td><td>Google</td><td>$207K–$301K</td><td>$254K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Senior Software Engineer, Embedded, Pixel Graphics</td><td>Google</td><td>$174K–$253K</td><td>$214K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Senior Software Engineer, Open Source Engineering, Sashiko.dev</td><td>Google</td><td>$174K–$253K</td><td>$214K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Principal Product Manager, ASKIE</td><td>Google</td><td>$281K–$392K</td><td>$336K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Strategic Partner Development Lead, North America Apps, Play</td><td>Google</td><td>$140K–$204K</td><td>$172K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Technical Program Manager III, Software Engineering, YouTube</td><td>Google</td><td>$163K–$237K</td><td>$200K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Global Media Sales Director</td><td>Google</td><td>$272K–$379K</td><td>$326K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Senior Software Engineer, XR DevX Infra</td><td>Google</td><td>$174K–$253K</td><td>$214K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Software Engineer, AI/ML, Google Workspace</td><td>Google</td><td>$147K–$211K</td><td>$179K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Senior Design and Integration Engineer, Cloud TPU</td><td>Google</td><td>$163K–$237K</td><td>$200K</td><td>google</td><td>2026-06-11</td><td></td></tr><tr><td>Technical Program Manager III, AI/ML Intelligence, Search</td><td>Google</td><td>$163K–$237K</td><td>$200K</td><td>google</td><td>2026-06-11</td><td></td></tr></tbody>
         </table>
         <div class="empty" id="emptyState" style="display:none">No matching postings found. Try adjusting your filters.</div>
       </div>
@@ -2688,19 +2694,8 @@ function buildCategoryChips() {
     group.appendChild(btn);
   });
 }
-const FALLBACK_JOBS = [
-  {id:1,role:"Account Executive, Enterprise Sales",tag:"sales",company:"Hootsuite",min:85000,max:110000,location:"California",src:"https://careers.hootsuite.com/job/?gh_jid=7678717",date:"2026-05-01"},
-  {id:2,role:"Account Executive, Mid-Market Sales",tag:"sales",company:"Hootsuite",min:57700,max:75000,location:"San Francisco, CA",src:"https://careers.hootsuite.com/job/?gh_jid=7678795",date:"2026-05-01"},
-  {id:3,role:"Senior Account Executive, Enterprise Sales",tag:"sales",company:"Hootsuite",min:110000,max:130000,location:"California",src:"https://careers.hootsuite.com/job/?gh_jid=7678737",date:"2026-05-01"},
-  {id:4,role:"Solutions Architect",tag:"data",company:"Databricks",min:160000,max:214000,location:"California",src:"https://databricks.com/company/careers/open-positions/job?gh_jid=6679259002",date:"2026-04-22"},
-  {id:5,role:"Sales Manager, Mid-Market",tag:"sales",company:"Samsara",min:254000,max:279400,location:"California",src:"https://www.samsara.com/company/careers/roles/7560138?gh_jid=7560138",date:"2026-05-04"},
-  {id:6,role:"Senior/Principal Product Manager - Safety AI",tag:"pm",company:"Samsara",min:138550,max:179300,location:"California",src:"https://www.samsara.com/company/careers/roles/7736609?gh_jid=7736609",date:"2026-05-04"},
-  {id:7,role:"Sr. BT Support Specialist I",tag:"it",company:"Samsara",min:88825,max:114950,location:"San Francisco, CA",src:"https://www.samsara.com/company/careers/roles/7739096?gh_jid=7739096",date:"2026-05-04"},
-  {id:8,role:"Sr. Security Engineer - Enterprise Security",tag:"it",company:"Samsara",min:132600,max:171600,location:"San Francisco, CA",src:"https://www.samsara.com/company/careers/roles/7834975?gh_jid=7834975",date:"2026-05-04"},
-  {id:9,role:"Technical Support Engineer – Mobile Apps and Compliance",tag:"eng",company:"Samsara",min:86275,max:101500,location:"California",src:"https://www.samsara.com/company/careers/roles/7707091?gh_jid=7707091",date:"2026-05-04"},
-  {id:10,role:"Operations Enablement Lead",tag:"ops",company:"Affirm",min:102000,max:142000,location:"California",src:"https://job-boards.greenhouse.io/affirm/jobs/7685760003",date:"2026-04-08"},
-];
-let JOBS = FALLBACK_JOBS;
+// FALLBACK_JOBS removed 2026-06-10 — fake demo rows must never appear as real data.
+let JOBS = [];
 let SITE_META = null;
 let JOB_OVERRIDES = {};
 let ENRICHMENT = {}; // job_id (string) -> enrichment data
@@ -2758,8 +2753,7 @@ async function loadJobOverrides() {
 }
 
 async function loadData() {
-  // Normalize fallback data first (ensures .domain field exists)
-  JOBS = FALLBACK_JOBS.map(normalizeJob);
+  JOBS = [];
   await loadJobOverrides();
   try {
     const r = await fetch("./data/jobs.json?_=" + Date.now());
@@ -2777,7 +2771,14 @@ async function loadData() {
       }
     }
   } catch(e) {
-    console.log("Using embedded fallback data:", e.message);
+    window._dataOutage = true;
+    const es = document.getElementById("emptyState");
+    if (es) {
+      es.style.display = "block";
+      es.textContent = "Live data is temporarily unavailable — the rows shown are from the last successful refresh. Reload in a minute for filtering and full data.";
+    }
+    console.warn("jobs.json unavailable:", e.message);
+    return; // keep SSR-baked rows; do not render over them
   }
   JOBS = applyJobOverridesToList(JOBS);
   // Load enrichment data non-blocking (best-effort)
@@ -2877,8 +2878,10 @@ function wmBadge(wm){
 }
 function topCo(){
   const cnt={};
-  JOBS.forEach(j=>{cnt[j.company]=(cnt[j.company]||0)+1;});
-  return Object.entries(cnt).sort((a,b)=>b[1]-a[1])[0][0];
+  const base=JOBS.filter(j=>!isArchived(j));
+  (base.length?base:JOBS).forEach(j=>{cnt[j.company]=(cnt[j.company]||0)+1;});
+  const top=Object.entries(cnt).sort((a,b)=>b[1]-a[1])[0];
+  return top?top[0]:"—";
 }
 const MAJOR_EMPLOYERS = [
   { name: "RBC",                match: /\brbc\b|royal bank/i,                federal: false },
@@ -3029,7 +3032,7 @@ function renderDiscovery(){
   const heroMedian = document.getElementById("heroMedian");
   if(heroUpdated) heroUpdated.textContent = `Updated ${updatedText}`;
   if(heroCount) heroCount.textContent = String(JOBS.length);
-  if(heroNewToday) heroNewToday.textContent = SITE_META && SITE_META.new_today ? `${SITE_META.new_today} newly added today` : "Fresh roles available";
+  if(heroNewToday) heroNewToday.textContent = SITE_META && SITE_META.new_today ? `${SITE_META.new_today} newly added today` : "Refreshed daily";
   if(heroTopEmployer) heroTopEmployer.textContent = topCo();
   const mids = JOBS.map(mid).sort((a,b)=>a-b);
   const median = mids[Math.floor(mids.length/2)];
@@ -3855,11 +3858,18 @@ function _animateCount(el, target, formatFn) {
   })(start);
 }
 function updateStats(){
-  const mids=JOBS.map(mid).sort((a,b)=>a-b);
+  // Sidebar "Live Data" reflects ACTIVE postings (archived rows stay
+  // browsable in the table via the toggle, but don't inflate live stats).
+  const live=JOBS.filter(j=>!isArchived(j));
+  const base=live.length?live:JOBS;
+  const mids=base.map(mid).sort((a,b)=>a-b);
   const median=mids[Math.floor(mids.length/2)];
-  const maxSal=Math.max(...JOBS.map(j=>j.max));
-  const spread=Math.round(JOBS.reduce((a,j)=>a+(j.max-j.min),0)/JOBS.length);
-  _animateCount(document.getElementById("statTotal"), JOBS.length);
+  const maxSal=Math.max(...base.map(j=>j.max));
+  const spread=Math.round(base.reduce((a,j)=>a+(j.max-j.min),0)/base.length);
+  _animateCount(document.getElementById("statTotal"), base.length);
+  const stTracked=document.getElementById("statTracked");
+  if(stTracked) stTracked.textContent = JOBS.length>base.length
+    ? `of ${JOBS.length.toLocaleString()} tracked incl. archived` : "";
   document.getElementById("statMedian").textContent=fmt(median);
   document.getElementById("statTop").textContent=topCo();
   _animateCount(document.getElementById("statSpread"), spread, fmt);
